@@ -1,0 +1,352 @@
+.section {
+  background: var(--paper);
+  border-top: 1px solid var(--line);
+}
+.explorer {
+  scroll-margin-top: 120px;
+  display: grid;
+  grid-template-columns: 230px minmax(0, 1fr);
+  gap: 16px 24px;
+}
+.panel {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  overflow: hidden;
+  background: var(--paper);
+  min-height: 460px;
+}
+.bench {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 28px;
+  background: var(--mint);
+}
+.bench > span {
+  align-self: flex-start;
+  color: var(--green);
+}
+.photo {
+  width: 100%;
+  height: 320px;
+  position: relative;
+  padding: 12px;
+  background: var(--paper);
+}
+.photo::before,
+.photo::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+  border-color: var(--green);
+  border-style: solid;
+}
+.photo::before {
+  top: 0;
+  left: 0;
+  border-width: 1px 0 0 1px;
+}
+.photo::after {
+  right: 0;
+  bottom: 0;
+  border-width: 0 1px 1px 0;
+}
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.focus {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--forest);
+  font-size: 12px;
+  font-weight: 600;
+}
+.focus svg {
+  width: 18px;
+  height: 18px;
+}
+.detail {
+  padding: 32px 38px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.detailHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.detailHead > span {
+  font-size: 9px;
+}
+.controls {
+  display: flex;
+  gap: 8px;
+}
+.controls button {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  transition: background 180ms, border-color 180ms;
+}
+.controls button:hover {
+  background: var(--mint);
+  border-color: var(--green);
+}
+.controls svg {
+  width: 18px;
+  height: 18px;
+}
+.previous {
+  transform: rotate(180deg);
+}
+.detail h3 {
+  font-size: clamp(26px, 2.5vw, 36px);
+  margin-bottom: 16px;
+}
+.detail p {
+  font-size: 12px;
+  line-height: 1.8;
+}
+.detail ul {
+  margin-block: 22px;
+  font-size: 12px;
+}
+.detail .context {
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+  font-size: 10px;
+}
+.selectionHint {
+  margin: 0;
+  grid-column: 1 / -1;
+  font-size: 11px;
+}
+.tabs {
+  position: relative;
+  min-width: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-content: start;
+  gap: 10px;
+  max-height: 460px;
+  overflow-y: auto;
+  padding: 4px 6px 4px 4px;
+}
+.tabs button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  text-align: left;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.4;
+  transition: border-color 180ms, background 180ms;
+}
+.tabs button:hover {
+  border-color: var(--green);
+}
+.tabs button[aria-selected="true"] {
+  background: var(--mint);
+  border-color: var(--green);
+  box-shadow: inset 0 -2px var(--green);
+}
+.thumbnail {
+  width: 48px;
+  height: 56px;
+  flex-shrink: 0;
+  overflow: hidden;
+  background: white;
+  border-radius: 4px;
+}
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.catalog {
+  background: var(--pale);
+}
+.catalogGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+.catalogCard {
+  display: grid;
+  grid-template-columns: 140px minmax(0, 1fr);
+  align-items: start;
+  gap: 24px;
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--paper);
+}
+.catalogCard > img {
+  width: 140px;
+  height: 160px;
+  object-fit: contain;
+}
+.catalogCard h3 {
+  font-size: 23px;
+  margin: 9px 0 12px;
+}
+.catalogCard p {
+  font-size: 11px;
+  line-height: 1.8;
+}
+.catalogCard .catalogFocus {
+  color: var(--green);
+  font-weight: 600;
+  margin-top: 16px;
+}
+.catalogCard .context {
+  margin-top: 12px;
+  font-size: 10px;
+}
+.reportLink {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  margin-top: 36px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+}
+.reportLink p {
+  max-width: 660px;
+  font-size: 12px;
+}
+@media (max-width: 1150px) {
+  .explorer {
+    grid-template-columns: 190px minmax(0, 1fr);
+    gap: 16px;
+  }
+  .catalogCard {
+    grid-template-columns: 100px minmax(0, 1fr);
+    gap: 18px;
+    padding: 24px;
+  }
+  .catalogCard > img {
+    width: 100px;
+    height: 130px;
+  }
+}
+@media (max-width: 900px) {
+  .explorer {
+    display: block;
+  }
+  .selectionHint {
+    margin-bottom: 12px;
+  }
+  .tabs {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    max-height: none;
+    overflow: visible;
+    margin-bottom: 24px;
+  }
+  .tabs button {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .panel {
+    min-height: 0;
+  }
+  .detail {
+    padding: 24px;
+  }
+  .bench {
+    padding: 22px;
+  }
+  .photo {
+    height: 300px;
+  }
+  .detailHead {
+    flex-wrap: wrap;
+    margin-bottom: 18px;
+  }
+  .catalogGrid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 640px) {
+  .panel {
+    grid-template-columns: 1fr;
+    border-radius: 12px;
+  }
+  .bench {
+    padding: 20px;
+    gap: 12px;
+  }
+  .photo {
+    height: 230px;
+  }
+  .detail {
+    padding: 24px 20px;
+  }
+  .detailHead {
+    flex-wrap: nowrap;
+  }
+  .detail h3 {
+    font-size: 27px;
+  }
+  .detail ul,
+  .detail p {
+    font-size: 11px;
+  }
+  .tabs {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 6px 5px 12px;
+    margin-inline: -5px;
+    scroll-snap-type: x proximity;
+  }
+  .tabs button {
+    width: 138px;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+  }
+  .catalogCard {
+    grid-template-columns: 74px minmax(0, 1fr);
+    gap: 16px;
+    padding: 20px;
+  }
+  .catalogCard > img {
+    width: 74px;
+    height: 100px;
+  }
+  .catalogCard h3 {
+    font-size: 21px;
+  }
+  .reportLink {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .controls button,
+  .tabs button {
+    transition: none;
+  }
+  .tabs {
+    scroll-snap-type: none;
+  }
+}

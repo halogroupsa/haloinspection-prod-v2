@@ -1,0 +1,1386 @@
+{
+  "/images/apartment.webp": {
+    "width": 1536,
+    "height": 1024,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/business-insider.webp": {
+    "width": 480,
+    "height": 193,
+    "widths": [
+      320
+    ]
+  },
+  "/images/commercial.webp": {
+    "width": 1536,
+    "height": 1024,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/cpi.webp": {
+    "width": 432,
+    "height": 442,
+    "widths": [
+      320
+    ]
+  },
+  "/images/defects/1.webp": {
+    "width": 824,
+    "height": 380,
+    "widths": [
+      320,
+      480
+    ]
+  },
+  "/images/defects/11.webp": {
+    "width": 824,
+    "height": 380,
+    "widths": [
+      320,
+      480
+    ]
+  },
+  "/images/defects/12.webp": {
+    "width": 824,
+    "height": 380,
+    "widths": [
+      320,
+      480
+    ]
+  },
+  "/images/defects/13.webp": {
+    "width": 824,
+    "height": 380,
+    "widths": [
+      320,
+      480
+    ]
+  },
+  "/images/defects/14.webp": {
+    "width": 824,
+    "height": 380,
+    "widths": [
+      320,
+      480
+    ]
+  },
+  "/images/defects/15.webp": {
+    "width": 824,
+    "height": 380,
+    "widths": [
+      320,
+      480
+    ]
+  },
+  "/images/defects/16.webp": {
+    "width": 824,
+    "height": 380,
+    "widths": [
+      320,
+      480
+    ]
+  },
+  "/images/defects/17.webp": {
+    "width": 824,
+    "height": 380,
+    "widths": [
+      320,
+      480
+    ]
+  },
+  "/images/defects/19.webp": {
+    "width": 824,
+    "height": 380,
+    "widths": [
+      320,
+      480
+    ]
+  },
+  "/images/defects/2.webp": {
+    "width": 824,
+    "height": 380,
+    "widths": [
+      320,
+      480
+    ]
+  },
+  "/images/defects/20.webp": {
+    "width": 824,
+    "height": 380,
+    "widths": [
+      320,
+      480
+    ]
+  },
+  "/images/defects/21.webp": {
+    "width": 824,
+    "height": 380,
+    "widths": [
+      320,
+      480
+    ]
+  },
+  "/images/defects/22.webp": {
+    "width": 824,
+    "height": 380,
+    "widths": [
+      320,
+      480
+    ]
+  },
+  "/images/defects/23.webp": {
+    "width": 824,
+    "height": 380,
+    "widths": [
+      320,
+      480
+    ]
+  },
+  "/images/defects/3.webp": {
+    "width": 824,
+    "height": 380,
+    "widths": [
+      320,
+      480
+    ]
+  },
+  "/images/defects/5.webp": {
+    "width": 824,
+    "height": 380,
+    "widths": [
+      320,
+      480
+    ]
+  },
+  "/images/defects/6.webp": {
+    "width": 824,
+    "height": 380,
+    "widths": [
+      320,
+      480
+    ]
+  },
+  "/images/defects/7.webp": {
+    "width": 824,
+    "height": 380,
+    "widths": [
+      320,
+      480
+    ]
+  },
+  "/images/defects/8.webp": {
+    "width": 824,
+    "height": 380,
+    "widths": [
+      320,
+      480
+    ]
+  },
+  "/images/defects/9.webp": {
+    "width": 824,
+    "height": 380,
+    "widths": [
+      320,
+      480
+    ]
+  },
+  "/images/dubai.webp": {
+    "width": 1600,
+    "height": 1067,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/govt-of-dubai.webp": {
+    "width": 480,
+    "height": 480,
+    "widths": [
+      320
+    ]
+  },
+  "/images/gulf-news.webp": {
+    "width": 256,
+    "height": 49,
+    "widths": []
+  },
+  "/images/gulf-today.webp": {
+    "width": 1600,
+    "height": 404,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/hero-inspection-cutaway-mobile.webp": {
+    "width": 720,
+    "height": 540,
+    "widths": [
+      320,
+      480
+    ]
+  },
+  "/images/hero-inspection-cutaway.webp": {
+    "width": 1200,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/hero-property.webp": {
+    "width": 1600,
+    "height": 1067,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/inspection-detail.webp": {
+    "width": 1024,
+    "height": 768,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/inspection-report.webp": {
+    "width": 1024,
+    "height": 768,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/inspection/ai-powered-detection.webp": {
+    "width": 1024,
+    "height": 768,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/inspection/commercial-maintenance.webp": {
+    "width": 1536,
+    "height": 1024,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/inspection/comprehensive-review.webp": {
+    "width": 1024,
+    "height": 768,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/inspection/detailed-assesment-1.webp": {
+    "width": 1024,
+    "height": 768,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/inspection/developer.webp": {
+    "width": 1536,
+    "height": 1024,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/inspection/dlp-inspection.webp": {
+    "width": 1536,
+    "height": 1024,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/inspection/energy-efficiency.webp": {
+    "width": 1536,
+    "height": 1024,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/inspection/expert-analysis.webp": {
+    "width": 1024,
+    "height": 768,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/inspection/handover.webp": {
+    "width": 1536,
+    "height": 1024,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/inspection/hotel.webp": {
+    "width": 1536,
+    "height": 1024,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/inspection/living-and-dining-08.webp": {
+    "width": 1600,
+    "height": 1067,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/inspection/local-insights-1.webp": {
+    "width": 1024,
+    "height": 768,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/inspection/local-insights.webp": {
+    "width": 1024,
+    "height": 768,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/inspection/post-renovation.webp": {
+    "width": 1536,
+    "height": 1024,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/inspection/pre-listing.webp": {
+    "width": 1536,
+    "height": 1024,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/inspection/pre-move-in.webp": {
+    "width": 1536,
+    "height": 1024,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/inspection/pre-purchase.webp": {
+    "width": 1536,
+    "height": 1024,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/inspection/professional-inspection-1.webp": {
+    "width": 1024,
+    "height": 768,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/inspection/quality-inspection.webp": {
+    "width": 1024,
+    "height": 768,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/inspection/residential-handover.webp": {
+    "width": 1536,
+    "height": 1024,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/inspection/residential-pre-listing.webp": {
+    "width": 1536,
+    "height": 1024,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/inspection/residential-pre-purchase.webp": {
+    "width": 1536,
+    "height": 1024,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/inspection/same-day-reports.webp": {
+    "width": 1024,
+    "height": 768,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/inspection/secondary-inspection.webp": {
+    "width": 1536,
+    "height": 1024,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/inspection/snagging-defect.webp": {
+    "width": 1536,
+    "height": 1024,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/inspection/technical-testing.webp": {
+    "width": 1024,
+    "height": 768,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/inspection/villa.webp": {
+    "width": 1536,
+    "height": 1024,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/inspector-detail.webp": {
+    "width": 1440,
+    "height": 1080,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/inspector.webp": {
+    "width": 1440,
+    "height": 1080,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/khaleej-times.webp": {
+    "width": 256,
+    "height": 74,
+    "widths": []
+  },
+  "/images/land-department.webp": {
+    "width": 480,
+    "height": 337,
+    "widths": [
+      320
+    ]
+  },
+  "/images/logo-light.webp": {
+    "width": 640,
+    "height": 245,
+    "widths": [
+      320,
+      480
+    ]
+  },
+  "/images/logo.webp": {
+    "width": 640,
+    "height": 245,
+    "widths": [
+      320,
+      480
+    ]
+  },
+  "/images/official-vendor.webp": {
+    "width": 336,
+    "height": 327,
+    "widths": []
+  },
+  "/images/projects/d16/cover.webp": {
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/d16/gallery-1.webp": {
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/d16/gallery-2.webp": {
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/d16/gallery-3.webp": {
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/d16/gallery-4.webp": {
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/dh139/cover.webp": {
+    "width": 1800,
+    "height": 1350,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/dh139/gallery-1.webp": {
+    "width": 1800,
+    "height": 1350,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/dh139/gallery-2.webp": {
+    "width": 1800,
+    "height": 1350,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/dh139/gallery-3.webp": {
+    "width": 1800,
+    "height": 1350,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/dh139/gallery-4.webp": {
+    "width": 1800,
+    "height": 1350,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/dh139/gallery-5.webp": {
+    "width": 1800,
+    "height": 1350,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/jumeirah-new/cover.webp": {
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/jumeirah-new/gallery-1.webp": {
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/jumeirah-new/gallery-2.webp": {
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/jumeirah-new/gallery-3.webp": {
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/jumeirah-new/gallery-4.webp": {
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/mbr/cover.webp": {
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/mbr/gallery-1.webp": {
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/mbr/gallery-2.webp": {
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/mbr/gallery-3.webp": {
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/mbr/gallery-4.webp": {
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/mudon/cover.webp": {
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/mudon/gallery-1.webp": {
+    "width": 1800,
+    "height": 1350,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/mudon/gallery-2.webp": {
+    "width": 1800,
+    "height": 1350,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/mudon/gallery-3.webp": {
+    "width": 1800,
+    "height": 1350,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/mudon/gallery-4.webp": {
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/nad-al-sheba-191/cover.webp": {
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/nad-al-sheba-191/gallery-1.webp": {
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/nad-al-sheba-191/gallery-2.webp": {
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/nad-al-sheba-191/gallery-3.webp": {
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/nad-al-sheba-191/gallery-4.webp": {
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/nad-al-sheba-april/cover.webp": {
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/nad-al-sheba-april/gallery-1.webp": {
+    "width": 1800,
+    "height": 1350,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/nad-al-sheba-april/gallery-2.webp": {
+    "width": 1800,
+    "height": 1350,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/nad-al-sheba-april/gallery-3.webp": {
+    "width": 1350,
+    "height": 1800,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/nad-al-sheba-april/gallery-4.webp": {
+    "width": 1350,
+    "height": 1800,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/nas-gardens-186/cover.webp": {
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/nas-gardens-186/gallery-1.webp": {
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/nas-gardens-186/gallery-2.webp": {
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/nas-gardens-186/gallery-3.webp": {
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/nas-gardens-186/gallery-4.webp": {
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/nas-gardens-188/cover.webp": {
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/nas-gardens-188/gallery-1.webp": {
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/nas-gardens-188/gallery-2.webp": {
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/nas-gardens-188/gallery-3.webp": {
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/nas-gardens-188/gallery-4.webp": {
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/palm-jumeirah/cover.webp": {
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/palm-jumeirah/gallery-1.webp": {
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/palm-jumeirah/gallery-2.webp": {
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/palm-jumeirah/gallery-3.webp": {
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/projects/palm-jumeirah/gallery-4.webp": {
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/reports/1.webp": {
+    "width": 900,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/reports/11.webp": {
+    "width": 900,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/reports/12.webp": {
+    "width": 900,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/reports/13.webp": {
+    "width": 900,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/reports/14.webp": {
+    "width": 900,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/reports/15.webp": {
+    "width": 900,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/reports/16.webp": {
+    "width": 900,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/reports/17.webp": {
+    "width": 900,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/reports/19.webp": {
+    "width": 900,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/reports/2.webp": {
+    "width": 900,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/reports/20.webp": {
+    "width": 900,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/reports/21.webp": {
+    "width": 900,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/reports/22.webp": {
+    "width": 900,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/reports/23.webp": {
+    "width": 900,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/reports/3.webp": {
+    "width": 900,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/reports/5.webp": {
+    "width": 900,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/reports/6.webp": {
+    "width": 900,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/reports/7.webp": {
+    "width": 900,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/reports/8.webp": {
+    "width": 900,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/reports/9.webp": {
+    "width": 900,
+    "height": 900,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/thermal.webp": {
+    "width": 1024,
+    "height": 768,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/tools/digital-anemometer.webp": {
+    "width": 1000,
+    "height": 750,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/tools/endoscope-inspection-camera.webp": {
+    "width": 1000,
+    "height": 750,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/tools/hammer.webp": {
+    "width": 300,
+    "height": 300,
+    "widths": []
+  },
+  "/images/tools/handheld-tds-tester.webp": {
+    "width": 900,
+    "height": 1200,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/tools/mini-temperature-humidity-meter.webp": {
+    "width": 1000,
+    "height": 750,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/tools/mobile-application.webp": {
+    "width": 900,
+    "height": 628,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/tools/moisture-meter.webp": {
+    "width": 900,
+    "height": 1200,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/tools/socket-tester.webp": {
+    "width": 1100,
+    "height": 619,
+    "widths": [
+      320,
+      480,
+      768
+    ]
+  },
+  "/images/tools/torch.webp": {
+    "width": 333,
+    "height": 267,
+    "widths": []
+  },
+  "/images/tools/voltage-pen.webp": {
+    "width": 768,
+    "height": 768,
+    "widths": [
+      320,
+      480
+    ]
+  },
+  "/images/villa.webp": {
+    "width": 1600,
+    "height": 948,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/yahoo-news.webp": {
+    "width": 1600,
+    "height": 260,
+    "widths": [
+      320,
+      480,
+      768,
+      1200
+    ]
+  }
+}

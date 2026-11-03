@@ -1,0 +1,16 @@
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+.env*
+!.env.example
+.DS_Store
+.openai/*
+!.openai/hosting.json
+research/live-source/
+research/original-images/
+research/generated-images/
+design/hero-concepts/
+qa/
+raw-videos/
+.wrangler/

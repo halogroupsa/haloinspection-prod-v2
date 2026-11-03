@@ -1,0 +1,273 @@
+{
+  "retrievedAt": "2026-10-12",
+  "website": "https://haloinspection.ae/",
+  "evidenceSource": "Live deployed JS bundle https://haloinspection.ae/assets/index-D7Y_bsj1.js fetched 2026-10-12",
+  "business": {
+    "name": "Halo Property Inspection",
+    "legalEntity": "Halo Shield LLC (live footer)",
+    "phoneDisplay": "+971 50 514 3610",
+    "phoneE164": "+971505143610",
+    "whatsapp": "https://wa.me/971505143610",
+    "email": "info@haloinspection.ae",
+    "address": "46MH+G9J - Al Quoz - Dubai - United Arab Emirates",
+    "social": {
+      "instagram": "https://www.instagram.com/halo_property_inspection",
+      "facebook": "https://www.facebook.com/profile.php?id=61556260847766",
+      "linkedin": "https://www.linkedin.com/company/halo-interiors-llc/?originalSubdomain=ae"
+    },
+    "privacyPolicyLegalEntity": "Halo Interiors LLC (live privacy policy)"
+  },
+  "forms": {
+    "existingEmbeddedForm": {
+      "platform": "Elfsight",
+      "script": "https://static.elfsight.com/platform/platform.js",
+      "appClass": "elfsight-app-81206965-e89c-40d4-836a-3dfb5cf848c4",
+      "foundOn": [
+        "Homepage",
+        "Quote",
+        "Contact",
+        "Service heroes"
+      ],
+      "directPostEndpoint": "No direct form POST endpoint in deployed application bundle; hosted widget controls submission."
+    },
+    "legacyQuoteCalculator": {
+      "behavior": "Local 1500ms timeout, shows success toast and resets state; no fetch/POST present in submission handler. Do not reproduce fabricated confirmation."
+    }
+  },
+  "analytics": {
+    "googleTagManager": "GTM-W22N4NV4",
+    "source": "Live HTML"
+  },
+  "existingTrustSignals": {
+    "googleRating": 4.9,
+    "googleReviewCountLabel": "150+",
+    "trustpilotRating": 4.8,
+    "trustpilotReviewCountLabel": "100+",
+    "licensingClaim": "DED-licensed, RERA-approved, and InterNACHI-certified",
+    "badges": [
+      "Government of Dubai",
+      "InterNACHI CPI",
+      "Official Vendor",
+      "Land Department"
+    ],
+    "inspectionProcess": "300+ point systematic inspection with advanced equipment",
+    "aboutPageStats": {
+      "propertiesInspected": "1000+",
+      "yearsExperience": "10+",
+      "clientSatisfaction": "100%",
+      "issueDetection": "100%"
+    },
+    "mediaLogos": [
+      "Gulf Today",
+      "Gulf News",
+      "Khaleej Times",
+      "Yahoo News",
+      "Business Insider"
+    ],
+    "displayedCorporateLogos": [
+      "Dubai Hills",
+      "Majid Al Futtaim",
+      "TECOM",
+      "Siemens",
+      "Epitome",
+      "Nakheel",
+      "Emirates",
+      "One&Only",
+      "ISKCON",
+      "Emaar",
+      "Dubai Investments",
+      "Aldar",
+      "Al Tayer",
+      "Dubai Properties"
+    ]
+  },
+  "originalPricing": {
+    "prePurchaseAndHandover": {
+      "studioOr1BR": "From AED 1,500 (up to 1,000 sq ft)",
+      "familyHome": "From AED 2,800 (2\u20133BR apartments or villas)",
+      "premiumProperty": "From AED 4,500 (large villas / penthouses)"
+    },
+    "residentialFAQ": "AED 1,200 to AED 5,000 guideline; personalized quote required",
+    "mainFAQ": "AED 0.25 to AED 1.5 per sq ft, dependent on size, complexity and service"
+  },
+  "reportTiming": {
+    "primaryProcess": "Within 24 hours",
+    "servicePages": "Same-day reports for most properties; larger/complex properties up to 24 hours",
+    "mainFAQ": "Typically within 24 hours; complex commercial 48\u201372 hours",
+    "generalFAQ": "24\u201348 hours for standard residential; complex/commercial longer"
+  },
+  "cautions": [
+    "Facts are copied from original public website and have not been independently verified; no public review-profile link was in source. Avoid treating government logos as new endorsements.",
+    "Sibling halo-ae-next is Halo Interiors fitout website and uses different phone +971 55 969 3009; do not substitute its contact details.",
+    "Original certification page lists ISO 9001, RICS, ASTM, OHSAS, ISO 14001 and insurance providers but no certificate numbers or downloadable proof. Retain cautiously as original claims or omit unsubstantiated expansion.",
+    "Avoid reproducing absolute 100% issue detection or rank #1 claims without proof.",
+    "Report timing and pricing vary across original pages; confirm booking-specific scope and turnaround.",
+    "Live footer identifies Halo Property Inspection by Halo Shield LLC, but privacy policy names Halo Interiors LLC. Use footer business identity for implementation and have owner confirm/update legal pages before production."
+  ],
+  "claimEvidence": [
+    {
+      "claim": "4.9 on Google Reviews",
+      "sourceOffset": 385392,
+      "excerpt": "olor:\"white\"},className:\"text-xl font-medium drop-shadow-2xl text-shadow-lg text-gray-50\",children:\"4.9 on Google Reviews\"}),i.jsx(\"p\",{style:{color:\"white\"},className:\"drop-shadow-lg text-shadow-md text-slate-50\",children:\"Based on 150+ rev"
+    },
+    {
+      "claim": "Based on 150+ reviews",
+      "sourceOffset": 385516,
+      "excerpt": ",i.jsx(\"p\",{style:{color:\"white\"},className:\"drop-shadow-lg text-shadow-md text-slate-50\",children:\"Based on 150+ reviews\"})]}),i.jsxs(\"div\",{className:\"flex flex-col items-start\",children:[i.jsx(\"div\",{className:\"flex items-center gap-1 mb-"
+    },
+    {
+      "claim": "4.8 on Trustpilot",
+      "sourceOffset": 385901,
+      "excerpt": "lor:\"white\"},className:\"text-xl font-medium drop-shadow-2xl text-shadow-lg text-slate-50\",children:\"4.8 on Trustpilot\"}),i.jsx(\"p\",{style:{color:\"white\"},className:\"drop-shadow-lg text-shadow-md text-slate-50\",children:\"Based on 100+ rev"
+    },
+    {
+      "claim": "Based on 100+ reviews",
+      "sourceOffset": 386021,
+      "excerpt": ",i.jsx(\"p\",{style:{color:\"white\"},className:\"drop-shadow-lg text-shadow-md text-slate-50\",children:\"Based on 100+ reviews\"})]})]}),i.jsxs(\"div\",{className:\"mb-8\",children:[i.jsx(\"h3\",{style:{color:\"white\"},className:\"text-lg font-medium mb-4"
+    },
+    {
+      "claim": "We are a DED-licensed, RERA-approved, and InterNACHI-certified snagging company",
+      "sourceOffset": 453482,
+      "excerpt": ". Industry Approved.\"}),i.jsx(\"p\",{className:\"text-halo-neutral-300 text-lg text-inherit\",children:\"We are a DED-licensed, RERA-approved, and InterNACHI-certified snagging company, trusted across the UAE for thorough, accurate, and reliable inspections to the highest international standards.\"})]}),"
+    },
+    {
+      "claim": "300+ point systematic inspection with advanced equipment",
+      "sourceOffset": 411124,
+      "excerpt": "ctors\",impact:\"Risk of unreliable inspections and legal issues\"},{aspect:\"Inspection Process\",halo:\"300+ point systematic inspection with advanced equipment\",others:\"Basic visual inspection with limited tools\",impact:\"Missing critical defects and safety hazards\"},{aspect:\"Net"
+    },
+    {
+      "claim": "1000+",
+      "sourceOffset": 651519,
+      "excerpt": "n from property owners and investors\"},{icon:i.jsx(Fe,{className:\"h-8 w-8 text-halo-accent\"}),stat:\"1000+\",label:\"Properties Inspected\",description:\"Extensive experience across Dubai's diverse property market\"},{icon:i.jsx(y1"
+    },
+    {
+      "claim": "10+",
+      "sourceOffset": 651861,
+      "excerpt": "ons that catch critical issues early\"},{icon:i.jsx(Rn,{className:\"h-8 w-8 text-halo-accent\"}),stat:\"10+\",label:\"Years Experience\",description:\"Decade of expertise in Dubai property inspection services\"}];return i.jsx(\"secti"
+    },
+    {
+      "claim": "From AED 1,500",
+      "sourceOffset": 669676,
+      "excerpt": "ssName:\"mt-16 grid grid-cols-1 md:grid-cols-3 gap-8\",children:[{title:\"Studio/1BR Apartment\",price:\"From AED 1,500\",features:[\"Up to 1,000 sq ft\",\"Same-day report\",\"Digital documentation\",\"30-day follow-up support\"]},{title:\"Family Ho"
+    },
+    {
+      "claim": "From AED 2,800",
+      "sourceOffset": 669821,
+      "excerpt": ",\"Same-day report\",\"Digital documentation\",\"30-day follow-up support\"]},{title:\"Family Home\",price:\"From AED 2,800\",features:[\"Apartments 2-3BR or Villas\",\"Same-day report\",\"Digital documentation\",\"Developer meeting attendance\",\"60-da"
+    },
+    {
+      "claim": "From AED 4,500",
+      "sourceOffset": 670023,
+      "excerpt": "loper meeting attendance\",\"60-day follow-up support\"],featured:!0},{title:\"Premium Property\",price:\"From AED 4,500\",features:[\"Large villas/penthouses\",\"Same-day report\",\"Digital documentation\",\"Developer meeting attendance\",\"90-day f"
+    },
+    {
+      "claim": "Halo Property Inspection by Halo Shield LLC",
+      "sourceOffset": 379850,
+      "excerpt": "ext-body-sm text-halo-neutral-400 text-inherit\",children:[\"\u00a9 \",new Date().getFullYear(),\" Halo Property Inspection by Halo Shield LLC. All rights reserved.\"]}),i.jsxs(\"div\",{className:\"flex space-x-4 mt-4 md:mt-0\",children:[i.jsx(Y,{to:\"/privacy-policy\",classN"
+    }
+  ],
+  "existingTestimonials": [
+    {
+      "quote": "Halo's thorough inspection saved me from purchasing a property with significant hidden issues. Their detailed report helped me make an informed decision and negotiate a better price.",
+      "author": "Mohammed Al Falasi",
+      "role": "Property Investor",
+      "location": "Palm Jumeirah",
+      "propertyType": "Luxury Villa",
+      "date": "March 2024",
+      "rating": 5,
+      "verification": "Original website attribution only"
+    },
+    {
+      "quote": "As a real estate agent, I exclusively recommend Halo to my clients. Their professional approach and comprehensive reports have helped close numerous deals with complete confidence.",
+      "author": "Sarah Thompson",
+      "role": "Senior Real Estate Agent",
+      "location": "Dubai Marina",
+      "propertyType": "Premium Apartments",
+      "date": "February 2024",
+      "rating": 5,
+      "verification": "Original website attribution only"
+    },
+    {
+      "quote": "The team identified several critical issues during our villa's handover inspection. Their expertise and attention to detail ensured we received the property in perfect condition.",
+      "author": "Aisha Malik",
+      "role": "Homeowner",
+      "location": "Emirates Hills",
+      "propertyType": "Executive Villa",
+      "date": "April 2024",
+      "rating": 5,
+      "verification": "Original website attribution only"
+    }
+  ],
+  "existingCertificationPageClaims": [
+    {
+      "title": "ISO 9001:2015 Certification",
+      "description": "International standard for quality management systems, ensuring consistent service delivery.",
+      "year": "2024",
+      "authority": "Bureau Veritas",
+      "verification": "Original website claim; supporting proof not in public source"
+    },
+    {
+      "title": "RICS Membership",
+      "description": "Royal Institution of Chartered Surveyors professional membership, recognizing our expertise in property inspection.",
+      "year": "2023",
+      "authority": "RICS",
+      "verification": "Original website claim; supporting proof not in public source"
+    },
+    {
+      "title": "Dubai Municipality License",
+      "description": "Official authorization to conduct property inspections in Dubai.",
+      "year": "2023",
+      "authority": "Dubai Municipality",
+      "verification": "Original website claim; supporting proof not in public source"
+    },
+    {
+      "title": "ASTM Certification",
+      "description": "Compliance with American Society for Testing and Materials standards for inspection procedures.",
+      "year": "2023",
+      "authority": "ASTM International",
+      "verification": "Original website claim; supporting proof not in public source"
+    },
+    {
+      "title": "UAE Technical Inspection License",
+      "description": "Government-approved certification for technical inspection services.",
+      "year": "2024",
+      "authority": "UAE Government",
+      "verification": "Original website claim; supporting proof not in public source"
+    },
+    {
+      "title": "Health & Safety Certification",
+      "description": "OHSAS 18001 certification for occupational health and safety management.",
+      "year": "2023",
+      "authority": "BSI Group",
+      "verification": "Original website claim; supporting proof not in public source"
+    },
+    {
+      "title": "Environmental Management",
+      "description": "ISO 14001 certification for environmental management systems.",
+      "year": "2024",
+      "authority": "DNV GL",
+      "verification": "Original website claim; supporting proof not in public source"
+    },
+    {
+      "title": "Professional Indemnity Insurance",
+      "description": "Comprehensive insurance coverage for all inspection services.",
+      "year": "2024",
+      "authority": "AIG Insurance",
+      "verification": "Original website claim; supporting proof not in public source"
+    },
+    {
+      "title": "Quality Control Certification",
+      "description": "Internal quality control system certification.",
+      "year": "2023",
+      "authority": "T\u00dcV S\u00dcD",
+      "verification": "Original website claim; supporting proof not in public source"
+    },
+    {
+      "title": "Digital Inspection Tools Certification",
+      "description": "Certified proficiency in using advanced digital inspection tools and software.",
+      "year": "2024",
+      "authority": "International Institute of Building Enclosure Consultants",
+      "verification": "Original website claim; supporting proof not in public source"
+    }
+  ]
+}

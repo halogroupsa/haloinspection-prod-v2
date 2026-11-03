@@ -1,0 +1,157 @@
+[
+  {
+    "file": "/images/hero-property.webp",
+    "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property_inspection_dubai_r2/living_and_dining_08.webp",
+    "type": "optimized",
+    "width": 1600,
+    "height": 1067,
+    "bytes": 132208,
+    "suggestedUsage": "Main homepage hero: bright double-height contemporary living room"
+  },
+  {
+    "file": "/images/inspector.webp",
+    "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property_inspection_dubai_r2/quality-inspection.jpg",
+    "type": "optimized",
+    "width": 1024,
+    "height": 768,
+    "bytes": 42780,
+    "suggestedUsage": "Halo inspector using thermal camera at AC unit"
+  },
+  {
+    "file": "/images/inspection-detail.webp",
+    "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property_inspection_dubai_r2/professional-inspection-1.jpg",
+    "type": "optimized",
+    "width": 1024,
+    "height": 768,
+    "bytes": 37908,
+    "suggestedUsage": "Halo inspector testing plumbing below sink"
+  },
+  {
+    "file": "/images/thermal.webp",
+    "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property_inspection_dubai_r2/ai-powered-detection.jpg",
+    "type": "optimized",
+    "width": 1024,
+    "height": 768,
+    "bytes": 33986,
+    "suggestedUsage": "HVAC testing equipment at ceiling vent"
+  },
+  {
+    "file": "/images/villa.webp",
+    "source": "https://haloinspection.ae/lovable-uploads/villa1.jpeg",
+    "type": "optimized",
+    "width": 1600,
+    "height": 900,
+    "bytes": 182118,
+    "suggestedUsage": "Villa inspection service card"
+  },
+  {
+    "file": "/images/apartment.webp",
+    "source": "https://haloinspection.ae/lovable-uploads/dlpinspections.jpg",
+    "type": "optimized",
+    "width": 1600,
+    "height": 900,
+    "bytes": 91100,
+    "suggestedUsage": "Apartment interior overlooking Dubai skyline"
+  },
+  {
+    "file": "/images/dubai.webp",
+    "source": "https://haloinspection.ae/lovable-uploads/73501d53-53f4-4873-9627-94b528a1e899.png",
+    "type": "optimized",
+    "width": 1600,
+    "height": 1067,
+    "bytes": 273250,
+    "suggestedUsage": "Original site Dubai skyline hero"
+  },
+  {
+    "file": "/images/inspection-report.webp",
+    "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property_inspection_dubai_r2/same-day-reports.jpg",
+    "type": "optimized",
+    "width": 1024,
+    "height": 768,
+    "bytes": 18108,
+    "suggestedUsage": "Original Halo report cover on tablet"
+  },
+  {
+    "file": "/images/inspector-detail.webp",
+    "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property_inspection_dubai_r2/detailed assesment-1.jpg",
+    "type": "optimized",
+    "width": 1024,
+    "height": 768,
+    "bytes": 45350,
+    "suggestedUsage": "Halo inspector testing wall finish"
+  },
+  {
+    "file": "/images/govt-of-dubai.png",
+    "source": "https://haloinspection.ae/lovable-uploads/govt-of-dubai.png",
+    "type": "existing-website-copy"
+  },
+  {
+    "file": "/images/land-department.png",
+    "source": "https://haloinspection.ae/lovable-uploads/land-department.png",
+    "type": "existing-website-copy"
+  },
+  {
+    "file": "/images/cpi.png",
+    "source": "https://haloinspection.ae/lovable-uploads/cpi.png",
+    "type": "existing-website-copy"
+  },
+  {
+    "file": "/images/official-vendor.png",
+    "source": "https://haloinspection.ae/lovable-uploads/official-vendor.png",
+    "type": "existing-website-copy"
+  },
+  {
+    "file": "/images/gulf-news.webp",
+    "source": "https://haloinspection.ae/lovable-uploads/gulf-news.webp",
+    "type": "existing-website-copy"
+  },
+  {
+    "file": "/images/gulf-today.webp",
+    "source": "https://haloinspection.ae/lovable-uploads/gulf-today.webp",
+    "type": "existing-website-copy"
+  },
+  {
+    "file": "/images/khaleej-times.png",
+    "source": "https://haloinspection.ae/lovable-uploads/khaleej-times.png",
+    "type": "existing-website-copy"
+  },
+  {
+    "file": "/images/business-insider.png",
+    "source": "https://haloinspection.ae/lovable-uploads/business-insider.png",
+    "type": "existing-website-copy"
+  },
+  {
+    "file": "/images/yahoo-news.webp",
+    "source": "https://haloinspection.ae/lovable-uploads/yahoo-news.webp",
+    "type": "existing-website-copy"
+  },
+  {
+    "file": "/images/Emaar-Properties-Logo.jpg",
+    "source": "https://haloinspection.ae/lovable-uploads/Emaar-Properties-Logo.jpg",
+    "type": "existing-website-copy"
+  },
+  {
+    "file": "/images/download.png",
+    "source": "https://haloinspection.ae/lovable-uploads/download.png",
+    "type": "existing-website-copy"
+  },
+  {
+    "file": "/images/download-10.png",
+    "source": "https://haloinspection.ae/lovable-uploads/download-10.png",
+    "type": "existing-website-copy"
+  },
+  {
+    "file": "/images/TECOM.png",
+    "source": "https://haloinspection.ae/lovable-uploads/TECOM.png",
+    "type": "existing-website-copy"
+  },
+  {
+    "file": "/images/commercial.webp",
+    "source": "https://haloinspection.ae/lovable-uploads/commercial1.jpeg",
+    "type": "optimized",
+    "width": 1600,
+    "height": 900,
+    "bytes": 178500,
+    "suggestedUsage": "Commercial property inspection service card"
+  }
+]

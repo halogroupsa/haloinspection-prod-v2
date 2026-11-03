@@ -1,0 +1,618 @@
+/* Shared rhythm: brief responses, longer entrances, movement with a purpose. */
+:root {
+  --motion-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --motion-response: 220ms;
+  --motion-panel: 360ms;
+}
+
+.site-header {
+  transition:
+    box-shadow 300ms ease,
+    background-color 300ms ease,
+    border-color 300ms ease,
+    color 300ms ease;
+}
+.site-header::before,
+.brand img {
+  transition: opacity 300ms ease;
+}
+.desktop-nav > a,
+.nav-dropdown summary {
+  transition: color 300ms ease;
+}
+.site-header[data-elevated="true"] {
+  background: #fcfdfbfa;
+  box-shadow: 0 7px 24px #173f350b;
+}
+
+.button {
+  transition:
+    background-color var(--motion-response) ease,
+    color var(--motion-response) ease,
+    border-color var(--motion-response) ease,
+    box-shadow var(--motion-response) ease,
+    transform var(--motion-panel) var(--motion-ease);
+}
+.button:active {
+  transform: translateY(0) scale(0.98);
+}
+.button svg,
+.text-link svg,
+.cta-phone svg,
+.trust-more svg,
+.location-directory > a > svg,
+.nearby-links svg,
+.home-location-links svg,
+.contact-socials svg {
+  transition: transform var(--motion-panel) var(--motion-ease);
+}
+.button:is(:hover, :focus-visible) svg:last-child,
+.text-link:is(:hover, :focus-visible) svg:last-child,
+.trust-more:is(:hover, :focus-visible) svg,
+.location-directory > a:is(:hover, :focus-visible) > svg:last-child,
+.nearby-links a:is(:hover, :focus-visible) svg:last-child,
+.home-location-links a:is(:hover, :focus-visible) svg {
+  transform: translateX(4px);
+}
+
+.desktop-nav > a,
+.nav-dropdown summary {
+  position: relative;
+}
+.desktop-nav > a::after,
+.nav-dropdown summary::after {
+  content: "";
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: var(--green);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 280ms var(--motion-ease);
+}
+.desktop-nav > a:is(:hover, :focus-visible, [aria-current="page"])::after,
+.nav-dropdown:is(:hover, [open], [data-current]) summary::after {
+  transform: scaleX(1);
+}
+.nav-dropdown[open] .dropdown-panel {
+  animation: motion-menu-in 240ms var(--motion-ease) both;
+}
+.dropdown-panel a,
+.mobile-menu nav a,
+.mobile-menu summary {
+  transition:
+    background-color var(--motion-response) ease,
+    color var(--motion-response) ease;
+}
+.dropdown-panel a svg {
+  transition: transform var(--motion-response) var(--motion-ease);
+}
+.dropdown-panel a:is(:hover, :focus-visible) svg {
+  transform: translateX(3px);
+}
+.mobile-menu summary svg {
+  transition: transform 280ms var(--motion-ease);
+}
+.mobile-menu details[open] summary svg {
+  transform: rotate(180deg);
+}
+
+/* Native dialogs retain focus handling and can finish their exit in the top layer. */
+.mobile-menu {
+  opacity: 0;
+  transform: translateX(100%);
+  transition:
+    opacity 260ms ease,
+    transform 320ms var(--motion-ease);
+  transition:
+    opacity 260ms ease,
+    transform 320ms var(--motion-ease),
+    display 320ms allow-discrete,
+    overlay 320ms allow-discrete;
+}
+.finding-dialog {
+  opacity: 0;
+  transform: translateY(16px) scale(0.98);
+  transition:
+    opacity 220ms ease,
+    transform 300ms var(--motion-ease);
+  transition:
+    opacity 220ms ease,
+    transform 300ms var(--motion-ease),
+    display 300ms allow-discrete,
+    overlay 300ms allow-discrete;
+}
+.mobile-menu[open],
+.finding-dialog[open] {
+  opacity: 1;
+  transform: none;
+}
+.mobile-menu::backdrop,
+.finding-dialog::backdrop {
+  opacity: 0;
+  transition:
+    opacity 260ms ease,
+    display 320ms allow-discrete,
+    overlay 320ms allow-discrete;
+}
+.mobile-menu[open]::backdrop,
+.finding-dialog[open]::backdrop {
+  opacity: 1;
+}
+@starting-style {
+  .mobile-menu[open] {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  .finding-dialog[open] {
+    opacity: 0;
+    transform: translateY(16px) scale(0.98);
+  }
+  .mobile-menu[open]::backdrop,
+  .finding-dialog[open]::backdrop {
+    opacity: 0;
+  }
+}
+
+.service-card,
+.directory-card,
+.defect-card,
+.contact-cards > a,
+.location-directory > a,
+.nearby-links a,
+.home-location-links a,
+.testimonial,
+.credential-grid article,
+.checks-grid > div,
+.values-grid > div,
+.process-step,
+.scope-aside,
+.quote-form-card {
+  transition:
+    transform var(--motion-panel) var(--motion-ease),
+    background-color var(--motion-response) ease,
+    border-color var(--motion-response) ease,
+    box-shadow var(--motion-panel) ease;
+}
+.service-card h3,
+.defect-card h3,
+.directory-card h3 {
+  transition: color var(--motion-response) ease;
+}
+.service-card-photo img,
+.directory-card-photo img,
+.defect-card img,
+.why-photo > img,
+.location-feature-photo > img {
+  transition: transform 700ms var(--motion-ease);
+}
+.circle-arrow,
+.photo-zoom,
+.check-icon,
+.why-points > div > svg,
+.quote-benefits > div > svg,
+.contact-cards > a > svg:first-child,
+.contact-socials a {
+  transition:
+    transform var(--motion-panel) var(--motion-ease),
+    color var(--motion-response) ease,
+    background-color var(--motion-response) ease;
+}
+.circle-arrow svg {
+  transition: transform var(--motion-panel) var(--motion-ease);
+}
+.service-card:is(:hover, :focus-visible) .circle-arrow svg {
+  transform: rotate(0deg);
+}
+.defect-card:is(:hover, :focus-visible) .photo-zoom {
+  transform: scale(1.1);
+  background: var(--forest);
+  color: white;
+}
+
+.inspection-tabs button,
+.filter-pills button,
+.finder-options button,
+.property-type label,
+.form-progress > div > span,
+.radio-dot,
+.search-field,
+.form-field input,
+.form-field select,
+.form-field textarea,
+.mobile-action-bar a {
+  transition:
+    color var(--motion-response) ease,
+    background-color var(--motion-response) ease,
+    border-color var(--motion-response) ease,
+    box-shadow var(--motion-response) ease,
+    transform var(--motion-panel) var(--motion-ease);
+}
+.inspection-tabs button svg,
+.finder-options .radio-dot::after,
+.property-type svg,
+.form-progress svg {
+  transition:
+    transform var(--motion-panel) var(--motion-ease),
+    opacity var(--motion-response) ease;
+}
+.inspection-tabs button[aria-selected="true"] svg {
+  transform: translateX(4px);
+}
+.filter-pills button:active,
+.finder-options button:active,
+.mobile-action-bar a:active {
+  transform: scale(0.98);
+}
+.property-type label.selected svg {
+  transform: translateY(-2px);
+}
+.search-field:focus-within {
+  border-color: var(--green);
+  box-shadow: 0 0 0 4px #28634b0c;
+}
+.form-field :is(input, select, textarea):focus {
+  box-shadow: 0 0 0 4px #28634b0c;
+}
+
+/* Text: the end state is the resting style, so reduced motion keeps every detail. */
+.eyebrow-line {
+  transform-origin: left center;
+}
+#hero .eyebrow-line {
+  animation: motion-line-in 900ms var(--motion-ease) 200ms backwards;
+}
+#hero .stars {
+  animation: motion-stars-in 900ms cubic-bezier(0.65, 0, 0.35, 1) 700ms
+    backwards;
+}
+.hero-copy h1 > span {
+  background: linear-gradient(
+      transparent 64%,
+      color-mix(in srgb, var(--green) 13%, transparent) 64% 90%,
+      transparent 90%
+    )
+    no-repeat 0 0 / 100% 100%;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  animation: motion-highlight-in 1100ms var(--motion-ease) 750ms backwards;
+}
+.hero-band .hero-copy h1 > span {
+  background-image: linear-gradient(
+    transparent 64%,
+    color-mix(in srgb, #c4dcb2 16%, transparent) 64% 90%,
+    transparent 90%
+  );
+}
+
+/* Decoration reaches the words but never the icon, whatever its size. */
+.text-link {
+  text-decoration: underline 1px transparent;
+  text-underline-offset: 7px;
+  transition:
+    color var(--motion-response) ease,
+    text-decoration-color var(--motion-panel) ease,
+    text-underline-offset var(--motion-panel) var(--motion-ease);
+}
+.text-link:is(:hover, :focus-visible) {
+  text-decoration-color: currentColor;
+  text-underline-offset: 3px;
+}
+
+.motion-swap {
+  animation: motion-panel-in var(--motion-panel) var(--motion-ease) both;
+}
+.motion-swap :is(h3, .eyebrow) {
+  animation: motion-text-in 420ms var(--motion-ease) 60ms both;
+}
+.motion-swap .check-list > li {
+  animation: motion-item-in 420ms var(--motion-ease) both;
+}
+.motion-swap .check-list > li:nth-child(1) {
+  animation-delay: 120ms;
+}
+.motion-swap .check-list > li:nth-child(2) {
+  animation-delay: 170ms;
+}
+.motion-swap .check-list > li:nth-child(3) {
+  animation-delay: 220ms;
+}
+.motion-swap .check-list > li:nth-child(4) {
+  animation-delay: 270ms;
+}
+.motion-swap .check-list > li:nth-child(5) {
+  animation-delay: 320ms;
+}
+.motion-swap .check-list > li:nth-child(n + 6) {
+  animation-delay: 370ms;
+}
+
+.cta-orbit {
+  animation: motion-orbit-drift 14s ease-in-out infinite alternate;
+}
+.cta-orbit::before,
+.cta-orbit::after {
+  animation: motion-orbit-breathe 9s ease-in-out infinite alternate;
+}
+.cta-orbit::after {
+  animation-delay: -4.5s;
+}
+.motion-item {
+  animation: motion-panel-in 320ms var(--motion-ease) both;
+}
+.form-error,
+.empty-state {
+  animation: motion-panel-in 240ms var(--motion-ease) both;
+}
+.form-progress .current > span svg {
+  animation: motion-check-in 260ms var(--motion-ease) both;
+}
+
+.faq-item summary {
+  transition: color var(--motion-response) ease;
+}
+.faq-item summary:is(:hover, :focus-visible) {
+  color: var(--green);
+}
+.faq-item[open] > p,
+.mobile-menu details[open] > a {
+  animation: motion-panel-in 280ms var(--motion-ease) both;
+}
+@supports selector(::details-content) {
+  .faq-item::details-content,
+  .mobile-menu details::details-content,
+  .nav-dropdown::details-content {
+    opacity: 0;
+    transition:
+      opacity 260ms ease,
+      content-visibility 260ms allow-discrete;
+  }
+  .faq-item[open]::details-content,
+  .mobile-menu details[open]::details-content,
+  .nav-dropdown[open]::details-content {
+    opacity: 1;
+  }
+  @supports (interpolate-size: allow-keywords) {
+    .faq-item,
+    .mobile-menu details {
+      interpolate-size: allow-keywords;
+    }
+    .faq-item::details-content,
+    .mobile-menu details::details-content {
+      block-size: 0;
+      overflow: clip;
+      transition:
+        block-size 320ms var(--motion-ease),
+        opacity 240ms ease,
+        content-visibility 320ms allow-discrete;
+    }
+    .faq-item[open]::details-content,
+    .mobile-menu details[open]::details-content {
+      block-size: auto;
+    }
+  }
+}
+
+.footer-top a,
+.footer-bottom a,
+.footer-areas a,
+.contact-socials a,
+.cta-phone {
+  transition:
+    color var(--motion-response) ease,
+    background-color var(--motion-response) ease,
+    transform var(--motion-panel) var(--motion-ease);
+}
+.footer-top a:not(.brand):is(:hover, :focus-visible),
+.footer-areas a:is(:hover, :focus-visible) {
+  color: var(--green);
+  transform: translateX(3px);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .service-card:is(:hover, :focus-visible),
+  .defect-card:is(:hover, :focus-visible) {
+    transform: translateY(-4px);
+  }
+  .directory-card:is(:hover, :focus-visible),
+  .contact-cards > a:is(:hover, :focus-visible),
+  .location-directory > a:is(:hover, :focus-visible) {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px #173f3509;
+  }
+  .testimonial:hover,
+  .credential-grid article:hover,
+  .checks-grid > div:hover,
+  .values-grid > div:hover,
+  .process-step:hover {
+    transform: translateY(-3px);
+  }
+  .service-card:is(:hover, :focus-visible) img,
+  .directory-card:is(:hover, :focus-visible) img,
+  .defect-card:is(:hover, :focus-visible) img,
+  .why-photo:hover > img,
+  .location-feature-photo:hover > img {
+    transform: scale(1.035);
+  }
+  .service-card:is(:hover, :focus-visible) h3,
+  .defect-card:is(:hover, :focus-visible) h3,
+  .directory-card:is(:hover, :focus-visible) h3 {
+    color: var(--green);
+  }
+  .checks-grid > div:hover .check-icon,
+  .why-points > div:hover > svg,
+  .contact-cards > a:hover > svg:first-child {
+    transform: translateY(-3px);
+  }
+  .nearby-links a:hover,
+  .home-location-links a:hover {
+    transform: translateX(3px);
+  }
+}
+
+@keyframes motion-panel-in {
+  from {
+    opacity: 0.4;
+    transform: translateY(7px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes motion-menu-in {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes motion-text-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+}
+@keyframes motion-item-in {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+}
+@keyframes motion-line-in {
+  from {
+    transform: scaleX(0);
+  }
+}
+@keyframes motion-stars-in {
+  from {
+    clip-path: inset(-4px 100% -4px -4px);
+  }
+  to {
+    clip-path: inset(-4px -4px -4px -4px);
+  }
+}
+@keyframes motion-highlight-in {
+  from {
+    background-size: 0% 100%;
+  }
+}
+@keyframes motion-orbit-drift {
+  to {
+    transform: translate(-18px, 14px) rotate(8deg);
+  }
+}
+@keyframes motion-orbit-breathe {
+  to {
+    transform: scale(1.06);
+    opacity: 0.55;
+  }
+}
+@keyframes motion-check-in {
+  from {
+    opacity: 0.5;
+    transform: scale(0.7);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Page switch: a short branded cover. It rises fast and leaves slower, so the
+   new page is revealed rather than cut to. */
+.route-loader {
+  position: fixed;
+  inset: 0;
+  z-index: 950;
+  display: grid;
+  place-items: center;
+  background: var(--paper);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition:
+    opacity 420ms var(--motion-ease),
+    visibility 0s linear 420ms;
+}
+.route-loader[data-state="active"] {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transition:
+    opacity 160ms ease-out,
+    visibility 0s;
+}
+.route-loader-mark {
+  display: grid;
+  justify-items: center;
+  gap: 18px;
+  transform: translateY(6px) scale(0.98);
+  transition: transform 420ms var(--motion-ease);
+}
+.route-loader[data-state="active"] .route-loader-mark {
+  transform: none;
+  transition-duration: 260ms;
+}
+.route-loader-mark img {
+  width: 126px;
+  height: 48px;
+  object-fit: contain;
+}
+.route-loader-bar {
+  position: relative;
+  width: 112px;
+  height: 2px;
+  border-radius: 2px;
+  overflow: hidden;
+  background: var(--line);
+}
+.route-loader-bar::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 40%;
+  border-radius: inherit;
+  background: var(--green);
+  transform: translateX(-100%);
+}
+.route-loader[data-state="active"] .route-loader-bar::before {
+  animation: motion-route-sweep 900ms cubic-bezier(0.65, 0, 0.35, 1) infinite;
+}
+@keyframes motion-route-sweep {
+  to {
+    transform: translateX(250%);
+  }
+}
+
+/* Preference changes also cancel the JavaScript entrances immediately. */
+html[data-motion-mode="reduced"] *,
+html[data-motion-mode="reduced"] *::before,
+html[data-motion-mode="reduced"] *::after {
+  animation: none !important;
+  transition: none !important;
+}
+html[data-motion-mode="reduced"] {
+  scroll-behavior: auto;
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+@media print {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

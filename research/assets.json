@@ -1,0 +1,2601 @@
+{
+  "retrieved": "2026-10-12",
+  "assets": [
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/111.jpg",
+      "error": "cannot identify image file '/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-inspection-staging-v2/public/images/legacy/111.jpg'"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/2017903.jpg",
+      "type": "existing-website",
+      "bytes": 44096,
+      "width": 850,
+      "height": 1024,
+      "archiveFile": "research/original-images/2017903.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/4773fe4d-96b3-4da8-8c50-c27933bcdec6.png",
+      "type": "existing-website",
+      "bytes": 1270328,
+      "width": 1920,
+      "height": 1280,
+      "archiveFile": "research/original-images/4773fe4d-96b3-4da8-8c50-c27933bcdec6.png"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/73501d53-53f4-4873-9627-94b528a1e899.png",
+      "type": "existing-website",
+      "bytes": 1059281,
+      "width": 1920,
+      "height": 1280,
+      "archiveFile": "research/original-images/73501d53-53f4-4873-9627-94b528a1e899.png"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/ArabianRanches.jpg",
+      "type": "existing-website",
+      "bytes": 3927485,
+      "width": 2880,
+      "height": 3840,
+      "archiveFile": "research/original-images/ArabianRanches.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/Downtown.jpg",
+      "type": "existing-website",
+      "bytes": 2169266,
+      "width": 3584,
+      "height": 2016,
+      "archiveFile": "research/original-images/Downtown.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/EPITOME-Logo.png",
+      "type": "existing-website",
+      "bytes": 699134,
+      "width": 1920,
+      "height": 1100,
+      "archiveFile": "research/original-images/EPITOME-Logo.png"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/Emaar-Properties-Logo.jpg",
+      "type": "existing-website",
+      "bytes": 272096,
+      "width": 2000,
+      "height": 1124,
+      "archiveFile": "research/original-images/Emaar-Properties-Logo.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/Emirates-logo.png",
+      "type": "existing-website",
+      "bytes": 168266,
+      "width": 2560,
+      "height": 1774,
+      "archiveFile": "research/original-images/Emirates-logo.png"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/Fujairah.jpg",
+      "type": "existing-website",
+      "bytes": 3979284,
+      "width": 2880,
+      "height": 3840,
+      "archiveFile": "research/original-images/Fujairah.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/Handover-Inspection-2.webp",
+      "type": "existing-website",
+      "bytes": 45706,
+      "width": 2048,
+      "height": 1365,
+      "archiveFile": "research/original-images/Handover-Inspection-2.webp"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/IMG7815.jpg",
+      "type": "existing-website",
+      "bytes": 2818861,
+      "width": 5712,
+      "height": 4284,
+      "archiveFile": "research/original-images/IMG7815.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/IMG7857.jpg",
+      "type": "existing-website",
+      "bytes": 3854444,
+      "width": 5712,
+      "height": 4284,
+      "archiveFile": "research/original-images/IMG7857.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/IMG_7793.jpg",
+      "type": "existing-website",
+      "bytes": 2924461,
+      "width": 5712,
+      "height": 4284,
+      "archiveFile": "research/original-images/IMG_7793.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/IMG_7870.jpg",
+      "type": "existing-website",
+      "bytes": 2843646,
+      "width": 4284,
+      "height": 5712,
+      "archiveFile": "research/original-images/IMG_7870.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/Jumeirah.jpg",
+      "type": "existing-website",
+      "bytes": 2405177,
+      "width": 3584,
+      "height": 2016,
+      "archiveFile": "research/original-images/Jumeirah.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/LocalInsights.jpg",
+      "type": "existing-website",
+      "bytes": 1929235,
+      "width": 5712,
+      "height": 4284,
+      "archiveFile": "research/original-images/LocalInsights.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/One-And-Only.jpg",
+      "type": "existing-website",
+      "bytes": 52772,
+      "width": 700,
+      "height": 380,
+      "archiveFile": "research/original-images/One-And-Only.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/TECOM.png",
+      "type": "existing-website",
+      "bytes": 31101,
+      "width": 1592,
+      "height": 526,
+      "archiveFile": "research/original-images/TECOM.png"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/UmmAlQuwain.jpg",
+      "type": "existing-website",
+      "bytes": 3039057,
+      "width": 2880,
+      "height": 3840,
+      "archiveFile": "research/original-images/UmmAlQuwain.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/altayer-logo-final.png",
+      "type": "existing-website",
+      "bytes": 3024,
+      "width": 260,
+      "height": 160,
+      "archiveFile": "research/original-images/altayer-logo-final.png"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/apartment.jpg",
+      "type": "existing-website",
+      "bytes": 399272,
+      "width": 1024,
+      "height": 640,
+      "archiveFile": "research/original-images/apartment.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/business-insider.png",
+      "type": "existing-website",
+      "bytes": 87222,
+      "width": 2400,
+      "height": 965,
+      "archiveFile": "research/original-images/business-insider.png"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/cf98ad46-9909-4795-9170-37623cbe14e1.png",
+      "type": "existing-website",
+      "bytes": 157468,
+      "width": 1600,
+      "height": 612,
+      "archiveFile": "research/original-images/cf98ad46-9909-4795-9170-37623cbe14e1.png"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/commercial1.jpeg",
+      "type": "existing-website",
+      "bytes": 1924474,
+      "width": 3584,
+      "height": 2016,
+      "archiveFile": "research/original-images/commercial1.jpeg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/cpi.png",
+      "type": "existing-website",
+      "bytes": 66109,
+      "width": 432,
+      "height": 442,
+      "archiveFile": "research/original-images/cpi.png"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/developer.jpeg",
+      "type": "existing-website",
+      "bytes": 2100890,
+      "width": 3584,
+      "height": 2016,
+      "archiveFile": "research/original-images/developer.jpeg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/dlpinspections.jpg",
+      "type": "existing-website",
+      "bytes": 1279397,
+      "width": 3584,
+      "height": 2016,
+      "archiveFile": "research/original-images/dlpinspections.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/download-1.png",
+      "type": "existing-website",
+      "bytes": 2339,
+      "width": 225,
+      "height": 225,
+      "archiveFile": "research/original-images/download-1.png"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/download-10.png",
+      "type": "existing-website",
+      "bytes": 5311,
+      "width": 240,
+      "height": 210,
+      "archiveFile": "research/original-images/download-10.png"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/download-12.png",
+      "type": "existing-website",
+      "bytes": 4911,
+      "width": 313,
+      "height": 161,
+      "archiveFile": "research/original-images/download-12.png"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/download.png",
+      "type": "existing-website",
+      "bytes": 2298,
+      "width": 294,
+      "height": 171,
+      "archiveFile": "research/original-images/download.png"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/ee845adc-63b1-4b81-a979-78e7b866ea07.png",
+      "type": "existing-website",
+      "bytes": 2351840,
+      "width": 1280,
+      "height": 1920,
+      "archiveFile": "research/original-images/ee845adc-63b1-4b81-a979-78e7b866ea07.png"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/emirateshills.jpg",
+      "type": "existing-website",
+      "bytes": 4236962,
+      "width": 2880,
+      "height": 3840,
+      "archiveFile": "research/original-images/emirateshills.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/energy.jpg",
+      "type": "existing-website",
+      "bytes": 2650518,
+      "width": 3584,
+      "height": 2016,
+      "archiveFile": "research/original-images/energy.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/expert.jpg",
+      "type": "existing-website",
+      "bytes": 3321223,
+      "width": 4284,
+      "height": 5712,
+      "archiveFile": "research/original-images/expert.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/govt-of-dubai.png",
+      "type": "existing-website",
+      "bytes": 46170,
+      "width": 600,
+      "height": 600,
+      "archiveFile": "research/original-images/govt-of-dubai.png"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/gulf-news.webp",
+      "type": "existing-website",
+      "bytes": 3822,
+      "width": 256,
+      "height": 49,
+      "archiveFile": "research/original-images/gulf-news.webp"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/gulf-today.webp",
+      "type": "existing-website",
+      "bytes": 16512,
+      "width": 1600,
+      "height": 404,
+      "archiveFile": "research/original-images/gulf-today.webp"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/hotel1.jpeg",
+      "type": "existing-website",
+      "bytes": 2038521,
+      "width": 3584,
+      "height": 2016,
+      "archiveFile": "research/original-images/hotel1.jpeg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/images.png",
+      "type": "existing-website",
+      "bytes": 2387,
+      "width": 225,
+      "height": 225,
+      "archiveFile": "research/original-images/images.png"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/iskcon.png",
+      "type": "existing-website",
+      "bytes": 6582,
+      "width": 243,
+      "height": 208,
+      "archiveFile": "research/original-images/iskcon.png"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/jbr.jpg",
+      "type": "existing-website",
+      "bytes": 3271203,
+      "width": 2880,
+      "height": 3840,
+      "archiveFile": "research/original-images/jbr.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/khaleej-times.png",
+      "type": "existing-website",
+      "bytes": 4096,
+      "width": 256,
+      "height": 74,
+      "archiveFile": "research/original-images/khaleej-times.png"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/land-department.png",
+      "type": "existing-website",
+      "bytes": 64801,
+      "width": 2000,
+      "height": 1405,
+      "archiveFile": "research/original-images/land-department.png"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/loc/1.jpg",
+      "type": "existing-website",
+      "bytes": 850227,
+      "width": 3000,
+      "height": 4000,
+      "archiveFile": "research/original-images/loc/1.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/loc/4.jpg",
+      "type": "existing-website",
+      "bytes": 1735394,
+      "width": 4800,
+      "height": 3200,
+      "archiveFile": "research/original-images/loc/4.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/loc/7.jpg",
+      "type": "existing-website",
+      "bytes": 5659845,
+      "width": 8192,
+      "height": 5464,
+      "archiveFile": "research/original-images/loc/7.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/mobileapp.png",
+      "type": "existing-website",
+      "bytes": 110944,
+      "width": 643,
+      "height": 647,
+      "archiveFile": "research/original-images/mobileapp.png"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/new/1.jpg",
+      "type": "existing-website",
+      "bytes": 2270621,
+      "width": 5412,
+      "height": 3608,
+      "archiveFile": "research/original-images/new/1.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/new/123.jpg",
+      "type": "existing-website",
+      "bytes": 1166352,
+      "width": 4048,
+      "height": 3032,
+      "archiveFile": "research/original-images/new/123.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/new/1234.jpg",
+      "type": "existing-website",
+      "bytes": 2391548,
+      "width": 5166,
+      "height": 3712,
+      "archiveFile": "research/original-images/new/1234.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/new/12345.jpg",
+      "type": "existing-website",
+      "bytes": 4300808,
+      "width": 7680,
+      "height": 4320,
+      "archiveFile": "research/original-images/new/12345.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/new/13.jpg",
+      "type": "existing-website",
+      "bytes": 3485434,
+      "width": 6000,
+      "height": 4000,
+      "archiveFile": "research/original-images/new/13.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/new/14.jpg",
+      "type": "existing-website",
+      "bytes": 3776815,
+      "width": 6441,
+      "height": 4296,
+      "archiveFile": "research/original-images/new/14.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/new/15.jpg",
+      "type": "existing-website",
+      "bytes": 680561,
+      "width": 3840,
+      "height": 2160,
+      "archiveFile": "research/original-images/new/15.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/new/222.jpg",
+      "type": "existing-website",
+      "bytes": 2219401,
+      "width": 3629,
+      "height": 4722,
+      "archiveFile": "research/original-images/new/222.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/new/234.jpg",
+      "type": "existing-website",
+      "bytes": 2183825,
+      "width": 4156,
+      "height": 2771,
+      "archiveFile": "research/original-images/new/234.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/new/2345.jpg",
+      "type": "existing-website",
+      "bytes": 2636460,
+      "width": 4000,
+      "height": 6000,
+      "archiveFile": "research/original-images/new/2345.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/new/33.jpg",
+      "type": "existing-website",
+      "bytes": 2228761,
+      "width": 3648,
+      "height": 2737,
+      "archiveFile": "research/original-images/new/33.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/new/5.jpg",
+      "type": "existing-website",
+      "bytes": 763520,
+      "width": 3696,
+      "height": 2448,
+      "archiveFile": "research/original-images/new/5.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/new/666.jpg",
+      "type": "existing-website",
+      "bytes": 3227002,
+      "width": 5760,
+      "height": 3840,
+      "archiveFile": "research/original-images/new/666.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/new/777.jpg",
+      "type": "existing-website",
+      "bytes": 2141227,
+      "width": 5411,
+      "height": 3607,
+      "archiveFile": "research/original-images/new/777.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/new/com.jpg",
+      "type": "existing-website",
+      "bytes": 1290558,
+      "width": 2962,
+      "height": 3950,
+      "archiveFile": "research/original-images/new/com.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/new/logo.svg",
+      "type": "existing-website",
+      "bytes": 210507,
+      "archiveFile": "research/original-images/new/logo.svg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/new/pre.jpg",
+      "type": "existing-website",
+      "bytes": 2478981,
+      "width": 4672,
+      "height": 3836,
+      "archiveFile": "research/original-images/new/pre.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/new/vill.jpg",
+      "type": "existing-website",
+      "bytes": 1361258,
+      "width": 3800,
+      "height": 2252,
+      "archiveFile": "research/original-images/new/vill.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/official-vendor.png",
+      "type": "existing-website",
+      "bytes": 44617,
+      "width": 336,
+      "height": 327,
+      "archiveFile": "research/original-images/official-vendor.png"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/post.jpg",
+      "type": "existing-website",
+      "bytes": 95155,
+      "width": 896,
+      "height": 504,
+      "archiveFile": "research/original-images/post.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/siemens.png",
+      "type": "existing-website",
+      "bytes": 2253,
+      "width": 300,
+      "height": 168,
+      "archiveFile": "research/original-images/siemens.png"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/snagging.jpg",
+      "type": "existing-website",
+      "bytes": 1229549,
+      "width": 3584,
+      "height": 2016,
+      "archiveFile": "research/original-images/snagging.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/themedows.jpg",
+      "type": "existing-website",
+      "bytes": 3802967,
+      "width": 2880,
+      "height": 3840,
+      "archiveFile": "research/original-images/themedows.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/thesprings.jpg",
+      "type": "existing-website",
+      "bytes": 3962873,
+      "width": 2880,
+      "height": 3840,
+      "archiveFile": "research/original-images/thesprings.jpg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/villa1.jpeg",
+      "type": "existing-website",
+      "bytes": 1950010,
+      "width": 3584,
+      "height": 2016,
+      "archiveFile": "research/original-images/villa1.jpeg"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/yahoo-news.webp",
+      "type": "existing-website",
+      "bytes": 32326,
+      "width": 1600,
+      "height": 260,
+      "archiveFile": "research/original-images/yahoo-news.webp"
+    },
+    {
+      "source": "https://haloinspection.ae/lovable-uploads/fav2.png",
+      "type": "existing-website",
+      "bytes": 18914,
+      "width": 566,
+      "height": 435,
+      "archiveFile": "research/original-images/fav2.png"
+    },
+    {
+      "file": "/images/inspection/ai-powered-detection.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property_inspection_dubai_r2/ai-powered-detection.jpg",
+      "type": "optimized",
+      "width": 1024,
+      "height": 768,
+      "bytes": 33986,
+      "suggestedUsage": "Original Halo inspector, testing equipment, report or property photography"
+    },
+    {
+      "file": "/images/inspection/comprehensive-review.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property_inspection_dubai_r2/comprehensive-review.jpg",
+      "type": "optimized",
+      "width": 1024,
+      "height": 768,
+      "bytes": 36414,
+      "suggestedUsage": "Original Halo inspector, testing equipment, report or property photography"
+    },
+    {
+      "file": "/images/inspection/detailed-assesment-1.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property_inspection_dubai_r2/detailed assesment-1.jpg",
+      "type": "optimized",
+      "width": 1024,
+      "height": 768,
+      "bytes": 45350,
+      "suggestedUsage": "Original Halo inspector, testing equipment, report or property photography"
+    },
+    {
+      "file": "/images/inspection/expert-analysis.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property_inspection_dubai_r2/expert-analysis.jpg",
+      "type": "optimized",
+      "width": 1024,
+      "height": 768,
+      "bytes": 71524,
+      "suggestedUsage": "Original Halo inspector, testing equipment, report or property photography"
+    },
+    {
+      "file": "/images/inspection/living-and-dining-08.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property_inspection_dubai_r2/living_and_dining_08.webp",
+      "type": "optimized",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 132208,
+      "suggestedUsage": "Original Halo inspector, testing equipment, report or property photography"
+    },
+    {
+      "file": "/images/inspection/local-insights-1.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property_inspection_dubai_r2/local-insights-1.jpg",
+      "type": "optimized",
+      "width": 1024,
+      "height": 768,
+      "bytes": 26862,
+      "suggestedUsage": "Original Halo inspector, testing equipment, report or property photography"
+    },
+    {
+      "file": "/images/inspection/local-insights.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property_inspection_dubai_r2/local-insights.jpg",
+      "type": "optimized",
+      "width": 1024,
+      "height": 768,
+      "bytes": 26862,
+      "suggestedUsage": "Original Halo inspector, testing equipment, report or property photography"
+    },
+    {
+      "file": "/images/inspection/professional-inspection-1.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property_inspection_dubai_r2/professional-inspection-1.jpg",
+      "type": "optimized",
+      "width": 1024,
+      "height": 768,
+      "bytes": 37908,
+      "suggestedUsage": "Original Halo inspector, testing equipment, report or property photography"
+    },
+    {
+      "file": "/images/inspection/quality-inspection.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property_inspection_dubai_r2/quality-inspection.jpg",
+      "type": "optimized",
+      "width": 1024,
+      "height": 768,
+      "bytes": 42780,
+      "suggestedUsage": "Original Halo inspector, testing equipment, report or property photography"
+    },
+    {
+      "file": "/images/inspection/same-day-reports.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property_inspection_dubai_r2/same-day-reports.jpg",
+      "type": "optimized",
+      "width": 1024,
+      "height": 768,
+      "bytes": 18108,
+      "suggestedUsage": "Original Halo inspector, testing equipment, report or property photography"
+    },
+    {
+      "file": "/images/inspection/technical-testing.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property_inspection_dubai_r2/technical-testing.jpg",
+      "type": "optimized",
+      "width": 1024,
+      "height": 768,
+      "bytes": 37126,
+      "suggestedUsage": "Original Halo inspector, testing equipment, report or property photography"
+    },
+    {
+      "file": "/images/defects/1.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking-clean/1.jpg",
+      "type": "optimized",
+      "width": 824,
+      "height": 380,
+      "bytes": 15070,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/defects/11.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking-clean/11.jpg",
+      "type": "optimized",
+      "width": 824,
+      "height": 380,
+      "bytes": 39714,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/defects/12.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking-clean/12.jpg",
+      "type": "optimized",
+      "width": 824,
+      "height": 380,
+      "bytes": 18766,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/defects/13.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking-clean/13.jpg",
+      "type": "optimized",
+      "width": 824,
+      "height": 380,
+      "bytes": 11814,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/defects/14.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking-clean/14.jpg",
+      "type": "optimized",
+      "width": 824,
+      "height": 380,
+      "bytes": 44700,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/defects/15.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking-clean/15.jpg",
+      "type": "optimized",
+      "width": 824,
+      "height": 380,
+      "bytes": 44194,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/defects/16.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking-clean/16.jpg",
+      "type": "optimized",
+      "width": 824,
+      "height": 380,
+      "bytes": 28486,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/defects/17.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking-clean/17.jpg",
+      "type": "optimized",
+      "width": 824,
+      "height": 380,
+      "bytes": 16260,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/defects/19.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking-clean/19.jpg",
+      "type": "optimized",
+      "width": 824,
+      "height": 380,
+      "bytes": 22052,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/defects/2.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking-clean/2.jpg",
+      "type": "optimized",
+      "width": 824,
+      "height": 380,
+      "bytes": 40536,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/defects/20.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking-clean/20.jpg",
+      "type": "optimized",
+      "width": 824,
+      "height": 380,
+      "bytes": 43494,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/defects/21.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking-clean/21.jpg",
+      "type": "optimized",
+      "width": 824,
+      "height": 380,
+      "bytes": 16750,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/defects/22.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking-clean/22.jpg",
+      "type": "optimized",
+      "width": 824,
+      "height": 380,
+      "bytes": 31692,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/defects/23.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking-clean/23.jpg",
+      "type": "optimized",
+      "width": 824,
+      "height": 380,
+      "bytes": 38264,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/defects/3.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking-clean/3.jpg",
+      "type": "optimized",
+      "width": 824,
+      "height": 380,
+      "bytes": 35838,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/defects/5.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking-clean/5.jpg",
+      "type": "optimized",
+      "width": 824,
+      "height": 380,
+      "bytes": 34944,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/defects/6.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking-clean/6.jpg",
+      "type": "optimized",
+      "width": 824,
+      "height": 380,
+      "bytes": 41876,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/defects/7.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking-clean/7.jpg",
+      "type": "optimized",
+      "width": 824,
+      "height": 380,
+      "bytes": 25872,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/defects/8.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking-clean/8.jpg",
+      "type": "optimized",
+      "width": 824,
+      "height": 380,
+      "bytes": 16580,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/defects/9.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking-clean/9.jpg",
+      "type": "optimized",
+      "width": 824,
+      "height": 380,
+      "bytes": 8964,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/reports/1.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking/1.jpg",
+      "type": "optimized",
+      "width": 900,
+      "height": 900,
+      "bytes": 33254,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/reports/11.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking/11.jpg",
+      "type": "optimized",
+      "width": 900,
+      "height": 900,
+      "bytes": 69828,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/reports/12.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking/12.jpg",
+      "type": "optimized",
+      "width": 900,
+      "height": 900,
+      "bytes": 38430,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/reports/13.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking/13.jpg",
+      "type": "optimized",
+      "width": 900,
+      "height": 900,
+      "bytes": 34346,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/reports/14.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking/14.jpg",
+      "type": "optimized",
+      "width": 900,
+      "height": 900,
+      "bytes": 54154,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/reports/15.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking/15.jpg",
+      "type": "optimized",
+      "width": 900,
+      "height": 900,
+      "bytes": 66330,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/reports/16.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking/16.jpg",
+      "type": "optimized",
+      "width": 900,
+      "height": 900,
+      "bytes": 52452,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/reports/17.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking/17.jpg",
+      "type": "optimized",
+      "width": 900,
+      "height": 900,
+      "bytes": 36432,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/reports/19.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking/19.jpg",
+      "type": "optimized",
+      "width": 900,
+      "height": 900,
+      "bytes": 36536,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/reports/2.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking/2.jpg",
+      "type": "optimized",
+      "width": 900,
+      "height": 900,
+      "bytes": 63394,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/reports/20.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking/20.jpg",
+      "type": "optimized",
+      "width": 900,
+      "height": 900,
+      "bytes": 55768,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/reports/21.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking/21.jpg",
+      "type": "optimized",
+      "width": 900,
+      "height": 900,
+      "bytes": 35762,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/reports/22.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking/22.jpg",
+      "type": "optimized",
+      "width": 900,
+      "height": 900,
+      "bytes": 58158,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/reports/23.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking/23.jpg",
+      "type": "optimized",
+      "width": 900,
+      "height": 900,
+      "bytes": 49724,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/reports/3.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking/3.jpg",
+      "type": "optimized",
+      "width": 900,
+      "height": 900,
+      "bytes": 59962,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/reports/5.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking/5.jpg",
+      "type": "optimized",
+      "width": 900,
+      "height": 900,
+      "bytes": 50294,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/reports/6.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking/6.jpg",
+      "type": "optimized",
+      "width": 900,
+      "height": 900,
+      "bytes": 73186,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/reports/7.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking/7.jpg",
+      "type": "optimized",
+      "width": 900,
+      "height": 900,
+      "bytes": 49870,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/reports/8.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking/8.jpg",
+      "type": "optimized",
+      "width": 900,
+      "height": 900,
+      "bytes": 32864,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/reports/9.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property-inspection/lurking/9.jpg",
+      "type": "optimized",
+      "width": 900,
+      "height": 900,
+      "bytes": 28386,
+      "suggestedUsage": "Original inspection finding evidence"
+    },
+    {
+      "file": "/images/existing/2017903.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/2017903.jpg",
+      "type": "optimized",
+      "width": 850,
+      "height": 1024,
+      "bytes": 18062,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/4773fe4d-96b3-4da8-8c50-c27933bcdec6.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/4773fe4d-96b3-4da8-8c50-c27933bcdec6.png",
+      "type": "optimized",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 361872,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/73501d53-53f4-4873-9627-94b528a1e899.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/73501d53-53f4-4873-9627-94b528a1e899.png",
+      "type": "optimized",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 273250,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/ArabianRanches.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/ArabianRanches.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 2133,
+      "bytes": 559992,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/Downtown.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/Downtown.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 900,
+      "bytes": 201522,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/EPITOME-Logo.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/EPITOME-Logo.png",
+      "type": "optimized",
+      "width": 1600,
+      "height": 917,
+      "bytes": 95534,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/Emaar-Properties-Logo.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/Emaar-Properties-Logo.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 899,
+      "bytes": 19218,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/Emirates-logo.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/Emirates-logo.png",
+      "type": "optimized",
+      "width": 1600,
+      "height": 1109,
+      "bytes": 96570,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/Fujairah.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/Fujairah.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 2133,
+      "bytes": 518224,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/Handover-Inspection-2.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/Handover-Inspection-2.webp",
+      "type": "optimized",
+      "width": 1600,
+      "height": 1066,
+      "bytes": 45746,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/IMG7815.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/IMG7815.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 1200,
+      "bytes": 79348,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/IMG7857.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/IMG7857.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 1200,
+      "bytes": 105568,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/IMG_7793.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/IMG_7793.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 1200,
+      "bytes": 66122,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/IMG_7870.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/IMG_7870.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 2133,
+      "bytes": 158282,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/Jumeirah.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/Jumeirah.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 900,
+      "bytes": 244046,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/LocalInsights.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/LocalInsights.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 1200,
+      "bytes": 53026,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/One-And-Only.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/One-And-Only.jpg",
+      "type": "optimized",
+      "width": 700,
+      "height": 380,
+      "bytes": 15702,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/TECOM.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/TECOM.png",
+      "type": "optimized",
+      "width": 1592,
+      "height": 526,
+      "bytes": 14460,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/UmmAlQuwain.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/UmmAlQuwain.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 2133,
+      "bytes": 359570,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/altayer-logo-final.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/altayer-logo-final.png",
+      "type": "optimized",
+      "width": 260,
+      "height": 160,
+      "bytes": 4002,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/apartment.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/apartment.jpg",
+      "type": "optimized",
+      "width": 1024,
+      "height": 640,
+      "bytes": 28544,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/business-insider.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/business-insider.png",
+      "type": "optimized",
+      "width": 1600,
+      "height": 643,
+      "bytes": 24904,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/cf98ad46-9909-4795-9170-37623cbe14e1.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/cf98ad46-9909-4795-9170-37623cbe14e1.png",
+      "type": "optimized",
+      "width": 1600,
+      "height": 612,
+      "bytes": 52038,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/commercial1.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/commercial1.jpeg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 900,
+      "bytes": 178500,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/cpi.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/cpi.png",
+      "type": "optimized",
+      "width": 432,
+      "height": 442,
+      "bytes": 21914,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/developer.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/developer.jpeg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 900,
+      "bytes": 206522,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/dlpinspections.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/dlpinspections.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 900,
+      "bytes": 91100,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/download-1.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/download-1.png",
+      "type": "optimized",
+      "width": 225,
+      "height": 225,
+      "bytes": 2326,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/download-10.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/download-10.png",
+      "type": "optimized",
+      "width": 240,
+      "height": 210,
+      "bytes": 6808,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/download-12.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/download-12.png",
+      "type": "optimized",
+      "width": 313,
+      "height": 161,
+      "bytes": 4274,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/download.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/download.png",
+      "type": "optimized",
+      "width": 294,
+      "height": 171,
+      "bytes": 2076,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/ee845adc-63b1-4b81-a979-78e7b866ea07.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/ee845adc-63b1-4b81-a979-78e7b866ea07.png",
+      "type": "optimized",
+      "width": 1280,
+      "height": 1920,
+      "bytes": 407052,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/emirateshills.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/emirateshills.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 2133,
+      "bytes": 573144,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/energy.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/energy.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 900,
+      "bytes": 247312,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/expert.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/expert.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 2133,
+      "bytes": 275356,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/govt-of-dubai.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/govt-of-dubai.png",
+      "type": "optimized",
+      "width": 600,
+      "height": 600,
+      "bytes": 29916,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/gulf-news.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/gulf-news.webp",
+      "type": "optimized",
+      "width": 256,
+      "height": 49,
+      "bytes": 3828,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/gulf-today.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/gulf-today.webp",
+      "type": "optimized",
+      "width": 1600,
+      "height": 404,
+      "bytes": 15976,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/hotel1.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/hotel1.jpeg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 900,
+      "bytes": 184832,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/images.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/images.png",
+      "type": "optimized",
+      "width": 225,
+      "height": 225,
+      "bytes": 1696,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/iskcon.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/iskcon.png",
+      "type": "optimized",
+      "width": 243,
+      "height": 208,
+      "bytes": 7346,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/jbr.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/jbr.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 2133,
+      "bytes": 423174,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/khaleej-times.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/khaleej-times.png",
+      "type": "optimized",
+      "width": 256,
+      "height": 74,
+      "bytes": 4102,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/land-department.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/land-department.png",
+      "type": "optimized",
+      "width": 1600,
+      "height": 1124,
+      "bytes": 96276,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/loc/1.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/loc/1.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 2133,
+      "bytes": 246120,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/loc/4.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/loc/4.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 217564,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/loc/7.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/loc/7.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 458218,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/mobileapp.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/mobileapp.png",
+      "type": "optimized",
+      "width": 643,
+      "height": 647,
+      "bytes": 16974,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/new/1.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/new/1.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 271494,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/new/123.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/new/123.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 1198,
+      "bytes": 213330,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/new/1234.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/new/1234.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 1150,
+      "bytes": 353056,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/new/12345.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/new/12345.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 900,
+      "bytes": 266202,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/new/13.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/new/13.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 266552,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/new/14.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/new/14.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 380854,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/new/15.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/new/15.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 900,
+      "bytes": 159040,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/new/222.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/new/222.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 2082,
+      "bytes": 356058,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/new/234.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/new/234.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 466096,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/new/2345.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/new/2345.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 2400,
+      "bytes": 352240,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/new/33.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/new/33.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 1200,
+      "bytes": 350114,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/new/5.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/new/5.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 1060,
+      "bytes": 169380,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/new/666.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/new/666.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 369084,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/new/777.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/new/777.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 125540,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/new/com.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/new/com.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 2134,
+      "bytes": 424872,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/new/pre.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/new/pre.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 1314,
+      "bytes": 244506,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/new/vill.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/new/vill.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 948,
+      "bytes": 338330,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/official-vendor.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/official-vendor.png",
+      "type": "optimized",
+      "width": 336,
+      "height": 327,
+      "bytes": 20914,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/post.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/post.jpg",
+      "type": "optimized",
+      "width": 896,
+      "height": 504,
+      "bytes": 78160,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/siemens.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/siemens.png",
+      "type": "optimized",
+      "width": 300,
+      "height": 168,
+      "bytes": 2986,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/snagging.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/snagging.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 900,
+      "bytes": 72816,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/themedows.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/themedows.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 2133,
+      "bytes": 531710,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/thesprings.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/thesprings.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 2133,
+      "bytes": 552650,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/villa1.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/villa1.jpeg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 900,
+      "bytes": 182118,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/yahoo-news.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/yahoo-news.webp",
+      "type": "optimized",
+      "width": 1600,
+      "height": 260,
+      "bytes": 29762,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/existing/fav2.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/fav2.png",
+      "type": "optimized",
+      "width": 566,
+      "height": 435,
+      "bytes": 7222,
+      "suggestedUsage": "Image retained from original Halo website"
+    },
+    {
+      "file": "/images/hero-property.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property_inspection_dubai_r2/living_and_dining_08.webp",
+      "type": "optimized",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 132208,
+      "suggestedUsage": "Main homepage hero: bright double-height contemporary living room"
+    },
+    {
+      "file": "/images/inspector.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property_inspection_dubai_r2/quality-inspection.jpg",
+      "type": "optimized",
+      "width": 1024,
+      "height": 768,
+      "bytes": 42780,
+      "suggestedUsage": "Halo inspector using thermal camera at AC unit"
+    },
+    {
+      "file": "/images/inspection-detail.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property_inspection_dubai_r2/professional-inspection-1.jpg",
+      "type": "optimized",
+      "width": 1024,
+      "height": 768,
+      "bytes": 37908,
+      "suggestedUsage": "Halo inspector testing plumbing below sink"
+    },
+    {
+      "file": "/images/thermal.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property_inspection_dubai_r2/ai-powered-detection.jpg",
+      "type": "optimized",
+      "width": 1024,
+      "height": 768,
+      "bytes": 33986,
+      "suggestedUsage": "HVAC testing equipment at ceiling vent"
+    },
+    {
+      "file": "/images/villa.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/villa1.jpeg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 900,
+      "bytes": 182118,
+      "suggestedUsage": "Villa inspection service card"
+    },
+    {
+      "file": "/images/apartment.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/dlpinspections.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 900,
+      "bytes": 91100,
+      "suggestedUsage": "Apartment interior overlooking Dubai skyline"
+    },
+    {
+      "file": "/images/dubai.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/73501d53-53f4-4873-9627-94b528a1e899.png",
+      "type": "optimized",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 273250,
+      "suggestedUsage": "Original site Dubai skyline hero"
+    },
+    {
+      "file": "/images/inspection-report.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property_inspection_dubai_r2/same-day-reports.jpg",
+      "type": "optimized",
+      "width": 1024,
+      "height": 768,
+      "bytes": 18108,
+      "suggestedUsage": "Original Halo report cover on tablet"
+    },
+    {
+      "file": "/images/inspector-detail.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/property_inspection_dubai_r2/detailed assesment-1.jpg",
+      "type": "optimized",
+      "width": 1024,
+      "height": 768,
+      "bytes": 45350,
+      "suggestedUsage": "Halo inspector testing wall finish"
+    },
+    {
+      "file": "/images/govt-of-dubai.png",
+      "source": "https://haloinspection.ae/lovable-uploads/govt-of-dubai.png",
+      "type": "existing-website-copy"
+    },
+    {
+      "file": "/images/land-department.png",
+      "source": "https://haloinspection.ae/lovable-uploads/land-department.png",
+      "type": "existing-website-copy"
+    },
+    {
+      "file": "/images/cpi.png",
+      "source": "https://haloinspection.ae/lovable-uploads/cpi.png",
+      "type": "existing-website-copy"
+    },
+    {
+      "file": "/images/official-vendor.png",
+      "source": "https://haloinspection.ae/lovable-uploads/official-vendor.png",
+      "type": "existing-website-copy"
+    },
+    {
+      "file": "/images/gulf-news.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/gulf-news.webp",
+      "type": "existing-website-copy"
+    },
+    {
+      "file": "/images/gulf-today.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/gulf-today.webp",
+      "type": "existing-website-copy"
+    },
+    {
+      "file": "/images/khaleej-times.png",
+      "source": "https://haloinspection.ae/lovable-uploads/khaleej-times.png",
+      "type": "existing-website-copy"
+    },
+    {
+      "file": "/images/business-insider.png",
+      "source": "https://haloinspection.ae/lovable-uploads/business-insider.png",
+      "type": "existing-website-copy"
+    },
+    {
+      "file": "/images/yahoo-news.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/yahoo-news.webp",
+      "type": "existing-website-copy"
+    },
+    {
+      "file": "/images/Emaar-Properties-Logo.jpg",
+      "source": "https://haloinspection.ae/lovable-uploads/Emaar-Properties-Logo.jpg",
+      "type": "existing-website-copy"
+    },
+    {
+      "file": "/images/download.png",
+      "source": "https://haloinspection.ae/lovable-uploads/download.png",
+      "type": "existing-website-copy"
+    },
+    {
+      "file": "/images/download-10.png",
+      "source": "https://haloinspection.ae/lovable-uploads/download-10.png",
+      "type": "existing-website-copy"
+    },
+    {
+      "file": "/images/TECOM.png",
+      "source": "https://haloinspection.ae/lovable-uploads/TECOM.png",
+      "type": "existing-website-copy"
+    },
+    {
+      "file": "/images/logo.svg",
+      "source": "https://haloinspection.ae/lovable-uploads/new/logo.svg",
+      "type": "existing-website-copy",
+      "suggestedUsage": "Original transparent logo; dark mark, gold halo"
+    },
+    {
+      "file": "/images/logo.png",
+      "source": "https://haloinspection.ae/lovable-uploads/new/logo.svg",
+      "type": "extracted-embedded-raster",
+      "width": 1600,
+      "height": 612
+    },
+    {
+      "file": "/images/logo.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/new/logo.svg",
+      "type": "optimized-embedded-raster",
+      "width": 640,
+      "height": 245
+    },
+    {
+      "archiveFile": "research/original-images/IMG_7835.JPG",
+      "source": "https://haloinspection.ae/lovable-uploads/IMG_7835.JPG",
+      "type": "existing-website",
+      "bytes": 3482547,
+      "width": 5712,
+      "height": 4284
+    },
+    {
+      "archiveFile": "research/original-images/aipowered.JPG",
+      "source": "https://haloinspection.ae/lovable-uploads/aipowered.JPG",
+      "type": "existing-website",
+      "bytes": 1737286,
+      "width": 4032,
+      "height": 3024
+    },
+    {
+      "archiveFile": "research/original-images/1.jpg",
+      "source": "https://haloinspection.ae/lovable-uploads/1.jpg",
+      "type": "existing-website",
+      "bytes": 100169,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "archiveFile": "research/original-images/11.jpg",
+      "source": "https://haloinspection.ae/lovable-uploads/11.jpg",
+      "type": "existing-website",
+      "bytes": 145737,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "archiveFile": "research/original-images/12.jpg",
+      "source": "https://haloinspection.ae/lovable-uploads/12.jpg",
+      "type": "existing-website",
+      "bytes": 103800,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "archiveFile": "research/original-images/13.jpg",
+      "source": "https://haloinspection.ae/lovable-uploads/13.jpg",
+      "type": "existing-website",
+      "bytes": 95116,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "archiveFile": "research/original-images/14.jpg",
+      "source": "https://haloinspection.ae/lovable-uploads/14.jpg",
+      "type": "existing-website",
+      "bytes": 119132,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "archiveFile": "research/original-images/15.jpg",
+      "source": "https://haloinspection.ae/lovable-uploads/15.jpg",
+      "type": "existing-website",
+      "bytes": 139201,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "archiveFile": "research/original-images/16.jpg",
+      "source": "https://haloinspection.ae/lovable-uploads/16.jpg",
+      "type": "existing-website",
+      "bytes": 122874,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "archiveFile": "research/original-images/17.jpg",
+      "source": "https://haloinspection.ae/lovable-uploads/17.jpg",
+      "type": "existing-website",
+      "bytes": 97426,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "archiveFile": "research/original-images/19.jpg",
+      "source": "https://haloinspection.ae/lovable-uploads/19.jpg",
+      "type": "existing-website",
+      "bytes": 91878,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "archiveFile": "research/original-images/2.jpg",
+      "source": "https://haloinspection.ae/lovable-uploads/2.jpg",
+      "type": "existing-website",
+      "bytes": 137603,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "archiveFile": "research/original-images/20.jpg",
+      "source": "https://haloinspection.ae/lovable-uploads/20.jpg",
+      "type": "existing-website",
+      "bytes": 120534,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "archiveFile": "research/original-images/21.jpg",
+      "source": "https://haloinspection.ae/lovable-uploads/21.jpg",
+      "type": "existing-website",
+      "bytes": 99782,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "archiveFile": "research/original-images/22.jpg",
+      "source": "https://haloinspection.ae/lovable-uploads/22.jpg",
+      "type": "existing-website",
+      "bytes": 124064,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "archiveFile": "research/original-images/23.jpg",
+      "source": "https://haloinspection.ae/lovable-uploads/23.jpg",
+      "type": "existing-website",
+      "bytes": 116167,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "archiveFile": "research/original-images/3.jpg",
+      "source": "https://haloinspection.ae/lovable-uploads/3.jpg",
+      "type": "existing-website",
+      "bytes": 134170,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "archiveFile": "research/original-images/5.jpg",
+      "source": "https://haloinspection.ae/lovable-uploads/5.jpg",
+      "type": "existing-website",
+      "bytes": 116545,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "archiveFile": "research/original-images/6.jpg",
+      "source": "https://haloinspection.ae/lovable-uploads/6.jpg",
+      "type": "existing-website",
+      "bytes": 144157,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "archiveFile": "research/original-images/7.jpg",
+      "source": "https://haloinspection.ae/lovable-uploads/7.jpg",
+      "type": "existing-website",
+      "bytes": 116672,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "archiveFile": "research/original-images/8.jpg",
+      "source": "https://haloinspection.ae/lovable-uploads/8.jpg",
+      "type": "existing-website",
+      "bytes": 92260,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "archiveFile": "research/original-images/9.jpg",
+      "source": "https://haloinspection.ae/lovable-uploads/9.jpg",
+      "type": "existing-website",
+      "bytes": 87458,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "archiveFile": "research/original-images/Digital-Anemometer.JPG",
+      "source": "https://haloinspection.ae/lovable-uploads/Digital-Anemometer.JPG",
+      "type": "existing-website",
+      "bytes": 2885135,
+      "width": 5712,
+      "height": 4284
+    },
+    {
+      "archiveFile": "research/original-images/Hammer.jpg",
+      "source": "https://haloinspection.ae/lovable-uploads/Hammer.jpg",
+      "type": "existing-website",
+      "bytes": 4036,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "archiveFile": "research/original-images/Handheld-TDS-Tester.jpg",
+      "source": "https://haloinspection.ae/lovable-uploads/Handheld-TDS-Tester.jpg",
+      "type": "existing-website",
+      "bytes": 1976901,
+      "width": 4284,
+      "height": 5712
+    },
+    {
+      "archiveFile": "research/original-images/IMG_7709.jpg",
+      "source": "https://haloinspection.ae/lovable-uploads/IMG_7709.jpg",
+      "type": "existing-website",
+      "bytes": 2286116,
+      "width": 4032,
+      "height": 2268
+    },
+    {
+      "archiveFile": "research/original-images/Mini-Temperature-And-Humidity-Meter.jpg",
+      "source": "https://haloinspection.ae/lovable-uploads/Mini-Temperature-And-Humidity-Meter.jpg",
+      "type": "existing-website",
+      "bytes": 1267678,
+      "width": 4032,
+      "height": 3024
+    },
+    {
+      "archiveFile": "research/original-images/Moisture-Meter.jpg",
+      "source": "https://haloinspection.ae/lovable-uploads/Moisture-Meter.jpg",
+      "type": "existing-website",
+      "bytes": 1542894,
+      "width": 3024,
+      "height": 4032
+    },
+    {
+      "archiveFile": "research/original-images/Voltage-Pen.png",
+      "source": "https://haloinspection.ae/lovable-uploads/Voltage-Pen.png",
+      "type": "existing-website",
+      "bytes": 15444,
+      "width": 768,
+      "height": 768
+    },
+    {
+      "archiveFile": "research/original-images/endoscope-inspection-camera.jpg",
+      "source": "https://haloinspection.ae/lovable-uploads/endoscope-inspection-camera.jpg",
+      "type": "existing-website",
+      "bytes": 2070490,
+      "width": 5712,
+      "height": 4284
+    },
+    {
+      "archiveFile": "research/original-images/mobile-app.png",
+      "source": "https://haloinspection.ae/lovable-uploads/mobile-app.png",
+      "type": "existing-website",
+      "bytes": 156298,
+      "width": 856,
+      "height": 597
+    },
+    {
+      "archiveFile": "research/original-images/torch1.png",
+      "source": "https://haloinspection.ae/lovable-uploads/torch1.png",
+      "type": "existing-website",
+      "bytes": 46401,
+      "width": 333,
+      "height": 267
+    },
+    {
+      "file": "/images/existing/IMG_7835.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/IMG_7835.JPG",
+      "type": "optimized",
+      "width": 1600,
+      "height": 2133,
+      "bytes": 114856,
+      "suggestedUsage": ""
+    },
+    {
+      "file": "/images/existing/aipowered.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/aipowered.JPG",
+      "type": "optimized",
+      "width": 1600,
+      "height": 2133,
+      "bytes": 164154,
+      "suggestedUsage": ""
+    },
+    {
+      "file": "/images/existing/1.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/1.jpg",
+      "type": "optimized",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 43554,
+      "suggestedUsage": ""
+    },
+    {
+      "file": "/images/existing/11.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/11.jpg",
+      "type": "optimized",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 91968,
+      "suggestedUsage": ""
+    },
+    {
+      "file": "/images/existing/12.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/12.jpg",
+      "type": "optimized",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 50806,
+      "suggestedUsage": ""
+    },
+    {
+      "file": "/images/existing/13.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/13.jpg",
+      "type": "optimized",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 44290,
+      "suggestedUsage": ""
+    },
+    {
+      "file": "/images/existing/14.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/14.jpg",
+      "type": "optimized",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 78150,
+      "suggestedUsage": ""
+    },
+    {
+      "file": "/images/existing/15.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/15.jpg",
+      "type": "optimized",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 93370,
+      "suggestedUsage": ""
+    },
+    {
+      "file": "/images/existing/16.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/16.jpg",
+      "type": "optimized",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 68128,
+      "suggestedUsage": ""
+    },
+    {
+      "file": "/images/existing/17.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/17.jpg",
+      "type": "optimized",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 47954,
+      "suggestedUsage": ""
+    },
+    {
+      "file": "/images/existing/19.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/19.jpg",
+      "type": "optimized",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 45776,
+      "suggestedUsage": ""
+    },
+    {
+      "file": "/images/existing/2.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/2.jpg",
+      "type": "optimized",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 77752,
+      "suggestedUsage": ""
+    },
+    {
+      "file": "/images/existing/20.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/20.jpg",
+      "type": "optimized",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 73770,
+      "suggestedUsage": ""
+    },
+    {
+      "file": "/images/existing/21.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/21.jpg",
+      "type": "optimized",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 47364,
+      "suggestedUsage": ""
+    },
+    {
+      "file": "/images/existing/22.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/22.jpg",
+      "type": "optimized",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 74662,
+      "suggestedUsage": ""
+    },
+    {
+      "file": "/images/existing/23.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/23.jpg",
+      "type": "optimized",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 67012,
+      "suggestedUsage": ""
+    },
+    {
+      "file": "/images/existing/3.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/3.jpg",
+      "type": "optimized",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 77400,
+      "suggestedUsage": ""
+    },
+    {
+      "file": "/images/existing/5.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/5.jpg",
+      "type": "optimized",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 65670,
+      "suggestedUsage": ""
+    },
+    {
+      "file": "/images/existing/6.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/6.jpg",
+      "type": "optimized",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 91368,
+      "suggestedUsage": ""
+    },
+    {
+      "file": "/images/existing/7.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/7.jpg",
+      "type": "optimized",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 65172,
+      "suggestedUsage": ""
+    },
+    {
+      "file": "/images/existing/8.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/8.jpg",
+      "type": "optimized",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 42214,
+      "suggestedUsage": ""
+    },
+    {
+      "file": "/images/existing/9.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/9.jpg",
+      "type": "optimized",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 36738,
+      "suggestedUsage": ""
+    },
+    {
+      "file": "/images/existing/Digital-Anemometer.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/Digital-Anemometer.JPG",
+      "type": "optimized",
+      "width": 1600,
+      "height": 1200,
+      "bytes": 81098,
+      "suggestedUsage": ""
+    },
+    {
+      "file": "/images/existing/Hammer.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/Hammer.jpg",
+      "type": "optimized",
+      "width": 300,
+      "height": 300,
+      "bytes": 4740,
+      "suggestedUsage": ""
+    },
+    {
+      "file": "/images/existing/Handheld-TDS-Tester.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/Handheld-TDS-Tester.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 2133,
+      "bytes": 73350,
+      "suggestedUsage": ""
+    },
+    {
+      "file": "/images/existing/IMG_7709.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/IMG_7709.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 900,
+      "bytes": 214466,
+      "suggestedUsage": ""
+    },
+    {
+      "file": "/images/existing/Mini-Temperature-And-Humidity-Meter.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/Mini-Temperature-And-Humidity-Meter.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 1200,
+      "bytes": 59472,
+      "suggestedUsage": ""
+    },
+    {
+      "file": "/images/existing/Moisture-Meter.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/Moisture-Meter.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 2133,
+      "bytes": 179700,
+      "suggestedUsage": ""
+    },
+    {
+      "file": "/images/existing/Voltage-Pen.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/Voltage-Pen.png",
+      "type": "optimized",
+      "width": 768,
+      "height": 768,
+      "bytes": 9010,
+      "suggestedUsage": ""
+    },
+    {
+      "file": "/images/existing/endoscope-inspection-camera.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/endoscope-inspection-camera.jpg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 1200,
+      "bytes": 59748,
+      "suggestedUsage": ""
+    },
+    {
+      "file": "/images/existing/mobile-app.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/mobile-app.png",
+      "type": "optimized",
+      "width": 856,
+      "height": 597,
+      "bytes": 18500,
+      "suggestedUsage": ""
+    },
+    {
+      "file": "/images/existing/torch1.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/torch1.png",
+      "type": "optimized",
+      "width": 333,
+      "height": 267,
+      "bytes": 5448,
+      "suggestedUsage": ""
+    },
+    {
+      "archiveFile": "research/original-images/unsplash/photo-1454165804606-c3d57bc86b40.jpg",
+      "source": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1920&q=80",
+      "type": "existing-website",
+      "bytes": 341385,
+      "width": 1920,
+      "height": 1281
+    },
+    {
+      "archiveFile": "research/original-images/unsplash/photo-1487958449943-2429e8be8625.jpg",
+      "source": "https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=1920&q=80",
+      "type": "existing-website",
+      "bytes": 297529,
+      "width": 1920,
+      "height": 1280
+    },
+    {
+      "archiveFile": "research/original-images/unsplash/photo-1496307653780-42ee777d4833.jpg",
+      "source": "https://images.unsplash.com/photo-1496307653780-42ee777d4833?auto=format&fit=crop&w=1920&q=80",
+      "type": "existing-website",
+      "bytes": 188837,
+      "width": 1920,
+      "height": 1280
+    },
+    {
+      "archiveFile": "research/original-images/unsplash/photo-1512453979798-5ea266f8880c.jpg",
+      "source": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1920&q=80",
+      "type": "existing-website",
+      "bytes": 448557,
+      "width": 1920,
+      "height": 1280
+    },
+    {
+      "archiveFile": "research/original-images/unsplash/photo-1512632578888-169bbbc64f33.jpg",
+      "source": "https://images.unsplash.com/photo-1512632578888-169bbbc64f33?auto=format&fit=crop&w=1920&q=80",
+      "type": "existing-website",
+      "bytes": 290417,
+      "width": 1920,
+      "height": 1280
+    },
+    {
+      "archiveFile": "research/original-images/unsplash/photo-1518005020951-eccb494ad742.jpg",
+      "source": "https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=1920&q=80",
+      "type": "existing-website",
+      "bytes": 561732,
+      "width": 1920,
+      "height": 2450
+    },
+    {
+      "archiveFile": "research/original-images/unsplash/photo-1546412414-e1885259563a.jpg",
+      "source": "https://images.unsplash.com/photo-1546412414-e1885259563a?auto=format&fit=crop&w=1920&q=80",
+      "type": "existing-website",
+      "bytes": 628207,
+      "width": 1920,
+      "height": 2880
+    },
+    {
+      "archiveFile": "research/original-images/unsplash/photo-1606046604972-77cc76aee944.jpg",
+      "source": "https://images.unsplash.com/photo-1606046604972-77cc76aee944?auto=format&fit=crop&w=1920&q=80",
+      "type": "existing-website",
+      "bytes": 1838399,
+      "width": 1920,
+      "height": 2560
+    },
+    {
+      "file": "/images/existing/unsplash/photo-1454165804606-c3d57bc86b40.webp",
+      "source": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1920&q=80",
+      "type": "optimized",
+      "width": 1600,
+      "height": 1068,
+      "bytes": 97540,
+      "suggestedUsage": "Photo retained from original Halo location page"
+    },
+    {
+      "file": "/images/existing/unsplash/photo-1487958449943-2429e8be8625.webp",
+      "source": "https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=1920&q=80",
+      "type": "optimized",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 120340,
+      "suggestedUsage": "Photo retained from original Halo location page"
+    },
+    {
+      "file": "/images/existing/unsplash/photo-1496307653780-42ee777d4833.webp",
+      "source": "https://images.unsplash.com/photo-1496307653780-42ee777d4833?auto=format&fit=crop&w=1920&q=80",
+      "type": "optimized",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 69872,
+      "suggestedUsage": "Photo retained from original Halo location page"
+    },
+    {
+      "file": "/images/existing/unsplash/photo-1512453979798-5ea266f8880c.webp",
+      "source": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1920&q=80",
+      "type": "optimized",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 209010,
+      "suggestedUsage": "Photo retained from original Halo location page"
+    },
+    {
+      "file": "/images/existing/unsplash/photo-1512632578888-169bbbc64f33.webp",
+      "source": "https://images.unsplash.com/photo-1512632578888-169bbbc64f33?auto=format&fit=crop&w=1920&q=80",
+      "type": "optimized",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 102218,
+      "suggestedUsage": "Photo retained from original Halo location page"
+    },
+    {
+      "file": "/images/existing/unsplash/photo-1518005020951-eccb494ad742.webp",
+      "source": "https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=1920&q=80",
+      "type": "optimized",
+      "width": 1600,
+      "height": 2042,
+      "bytes": 182566,
+      "suggestedUsage": "Photo retained from original Halo location page"
+    },
+    {
+      "file": "/images/existing/unsplash/photo-1546412414-e1885259563a.webp",
+      "source": "https://images.unsplash.com/photo-1546412414-e1885259563a?auto=format&fit=crop&w=1920&q=80",
+      "type": "optimized",
+      "width": 1600,
+      "height": 2400,
+      "bytes": 184776,
+      "suggestedUsage": "Photo retained from original Halo location page"
+    },
+    {
+      "file": "/images/existing/unsplash/photo-1606046604972-77cc76aee944.webp",
+      "source": "https://images.unsplash.com/photo-1606046604972-77cc76aee944?auto=format&fit=crop&w=1920&q=80",
+      "type": "optimized",
+      "width": 1600,
+      "height": 2133,
+      "bytes": 1113034,
+      "suggestedUsage": "Photo retained from original Halo location page"
+    },
+    {
+      "file": "/images/commercial.webp",
+      "source": "https://haloinspection.ae/lovable-uploads/commercial1.jpeg",
+      "type": "optimized",
+      "width": 1600,
+      "height": 900,
+      "bytes": 178500,
+      "suggestedUsage": "Commercial property inspection service card"
+    }
+  ],
+  "fonts": [
+    {
+      "file": "/fonts/manrope-latin.woff2",
+      "family": "Manrope",
+      "weight": "200 800",
+      "source": "https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggexSvfedN4.woff2"
+    },
+    {
+      "file": "/fonts/urbanist-latin.woff2",
+      "family": "Urbanist",
+      "weight": "100 900",
+      "source": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS1miXK2.woff2"
+    }
+  ]
+}

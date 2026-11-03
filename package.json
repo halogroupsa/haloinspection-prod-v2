@@ -1,0 +1,38 @@
+{
+  "name": "halo-inspection",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1",
+    "build": "next build",
+    "typecheck": "next typegen && tsc --noEmit",
+    "verify": "node scripts/verify-export.mjs",
+    "preview": "node scripts/serve.mjs",
+    "assets:images": "node scripts/optimize-images.mjs",
+    "start": "wrangler pages dev out",
+    "pages:preview": "wrangler pages dev out",
+    "test:sync": "node --test scripts/test-sync-to-prod.mjs",
+    "verify:deployment": "node scripts/verify-deployment.mjs",
+    "verify:export": "node scripts/verify-export.mjs",
+    "check": "npm run typecheck && npm run build && npm run verify:export && npm run verify:redirects && npm run verify:deployment",
+    "pages:deploy": "node scripts/deploy-pages.mjs",
+    "redirects:pages": "node scripts/generate-page-redirects.mjs",
+    "verify:redirects": "node scripts/verify-redirects.mjs"
+  },
+  "dependencies": {
+    "next": "16.4.4",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "sharp": "^0.35.5",
+    "typescript": "^5.9.3",
+    "wrangler": "4.156.2"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

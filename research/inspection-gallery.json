@@ -1,0 +1,145 @@
+{
+  "source": "User-provided Halo original inspection photos; labels read from existing photo annotations",
+  "findings": [
+    {
+      "id": 1,
+      "category": "Electrical",
+      "finding": "Switch not straight or aligned",
+      "photo": "/images/defects/1.webp",
+      "annotatedReportPhoto": "/images/reports/1.webp"
+    },
+    {
+      "id": 2,
+      "category": "Electrical",
+      "finding": "Unsafe wiring",
+      "photo": "/images/defects/2.webp",
+      "annotatedReportPhoto": "/images/reports/2.webp"
+    },
+    {
+      "id": 3,
+      "category": "Electrical",
+      "finding": "Unsafe switch or exposed wiring",
+      "photo": "/images/defects/3.webp",
+      "annotatedReportPhoto": "/images/reports/3.webp"
+    },
+    {
+      "id": 5,
+      "category": "Ceiling",
+      "finding": "Poor finishing above ceiling",
+      "photo": "/images/defects/5.webp",
+      "annotatedReportPhoto": "/images/reports/5.webp"
+    },
+    {
+      "id": 6,
+      "category": "Ceiling",
+      "finding": "Damaged ducting",
+      "photo": "/images/defects/6.webp",
+      "annotatedReportPhoto": "/images/reports/6.webp"
+    },
+    {
+      "id": 7,
+      "category": "Ceiling",
+      "finding": "Temporary repairs",
+      "photo": "/images/defects/7.webp",
+      "annotatedReportPhoto": "/images/reports/7.webp"
+    },
+    {
+      "id": 8,
+      "category": "Plumbing",
+      "finding": "Poor water flow rate",
+      "photo": "/images/defects/8.webp",
+      "annotatedReportPhoto": "/images/reports/8.webp"
+    },
+    {
+      "id": 9,
+      "category": "Doors and walls",
+      "finding": "Poor door-frame finishing",
+      "photo": "/images/defects/9.webp",
+      "annotatedReportPhoto": "/images/reports/9.webp"
+    },
+    {
+      "id": 11,
+      "category": "HVAC",
+      "finding": "Damaged insulation",
+      "photo": "/images/defects/11.webp",
+      "annotatedReportPhoto": "/images/reports/11.webp"
+    },
+    {
+      "id": 12,
+      "category": "Windows",
+      "finding": "Heat ingress at window frames",
+      "photo": "/images/defects/12.webp",
+      "annotatedReportPhoto": "/images/reports/12.webp"
+    },
+    {
+      "id": 13,
+      "category": "HVAC",
+      "finding": "Noisy HVAC system",
+      "photo": "/images/defects/13.webp",
+      "annotatedReportPhoto": "/images/reports/13.webp"
+    },
+    {
+      "id": 14,
+      "category": "Walls",
+      "finding": "Poor finishing",
+      "photo": "/images/defects/14.webp",
+      "annotatedReportPhoto": "/images/reports/14.webp"
+    },
+    {
+      "id": 15,
+      "category": "Ventilation",
+      "finding": "Poor extraction workmanship",
+      "photo": "/images/defects/15.webp",
+      "annotatedReportPhoto": "/images/reports/15.webp"
+    },
+    {
+      "id": 16,
+      "category": "Plumbing",
+      "finding": "Leaking water heater",
+      "photo": "/images/defects/16.webp",
+      "annotatedReportPhoto": "/images/reports/16.webp"
+    },
+    {
+      "id": 17,
+      "category": "Plumbing",
+      "finding": "Poor workmanship",
+      "photo": "/images/defects/17.webp",
+      "annotatedReportPhoto": "/images/reports/17.webp"
+    },
+    {
+      "id": 19,
+      "category": "Walls",
+      "finding": "High moisture level",
+      "photo": "/images/defects/19.webp",
+      "annotatedReportPhoto": "/images/reports/19.webp"
+    },
+    {
+      "id": 20,
+      "category": "Ventilation",
+      "finding": "Dirty ventilation duct",
+      "photo": "/images/defects/20.webp",
+      "annotatedReportPhoto": "/images/reports/20.webp"
+    },
+    {
+      "id": 21,
+      "category": "Tiling",
+      "finding": "Poor finishing or damage",
+      "photo": "/images/defects/21.webp",
+      "annotatedReportPhoto": "/images/reports/21.webp"
+    },
+    {
+      "id": 22,
+      "category": "Plumbing",
+      "finding": "Damaged pipework",
+      "photo": "/images/defects/22.webp",
+      "annotatedReportPhoto": "/images/reports/22.webp"
+    },
+    {
+      "id": 23,
+      "category": "Doors",
+      "finding": "Damaged woodwork",
+      "photo": "/images/defects/23.webp",
+      "annotatedReportPhoto": "/images/reports/23.webp"
+    }
+  ]
+}

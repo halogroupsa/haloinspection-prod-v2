@@ -1,0 +1,683 @@
+.walkthrough {
+  min-width: 0;
+  position: relative;
+  align-self: center;
+  isolation: isolate;
+}
+
+.topline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-inline: 14px 5px;
+}
+
+.topline > span {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: var(--forest);
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 1.1px;
+}
+
+.statusDot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--green);
+  box-shadow: 0 0 0 4px var(--mint);
+}
+
+.playControl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-width: 64px;
+  min-height: 44px;
+  padding: 8px;
+  font-size: 10px;
+  color: var(--forest);
+  border-radius: 8px;
+}
+
+.playControl:hover {
+  background: var(--mint);
+}
+
+.playControl:disabled {
+  color: var(--muted);
+  cursor: default;
+}
+
+.scene {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  max-width: 520px;
+  overflow: hidden;
+  margin: -5px auto 0;
+  background: radial-gradient(ellipse at 53% 64%, #e7ede380, transparent 66%);
+}
+
+.property {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.route {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.route path {
+  fill: none;
+  stroke: var(--forest);
+  stroke-width: 1;
+  stroke-dasharray: 3 5;
+  vector-effect: non-scaling-stroke;
+}
+
+.walkthrough[data-step="report"] .route {
+  opacity: 0.65;
+}
+
+.scanner {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  transform: translate(var(--scan-x), var(--scan-y));
+  transition:
+    transform 0.85s cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 0.35s;
+  pointer-events: none;
+}
+
+.scanZone {
+  position: absolute;
+  left: -72px;
+  top: -56px;
+  width: 144px;
+  height: 112px;
+  border-radius: 50%;
+  border: 1px solid #28634b50;
+  background: #a0c19a14;
+  box-shadow: 0 0 0 12px #eff5ea38;
+  overflow: hidden;
+}
+
+.scanSweep {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    #e5ffd400 25%,
+    #efffddbb 50%,
+    #e5ffd400 75%,
+    transparent 100%
+  );
+  transform: translateX(-120%);
+  animation: scanSweep 2.8s ease-in-out infinite;
+}
+
+.crosshair {
+  position: absolute;
+  inset: 26px 42px;
+  border: 1px solid #fcfdfb99;
+  border-radius: 13px;
+  box-shadow: 0 0 15px #173f3515;
+}
+
+.walkthrough[data-step="report"] .scanner {
+  opacity: 0;
+}
+
+.marker {
+  position: absolute;
+  z-index: 2;
+  width: 44px;
+  height: 44px;
+  margin: -22px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+}
+
+.markerCore {
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 10px;
+  font-weight: 700;
+  background: var(--paper);
+  color: var(--forest);
+  border: 2px solid var(--forest);
+  box-shadow:
+    0 0 0 4px #fcfdfb5e,
+    0 3px 8px #173f3525;
+  transition:
+    background 0.25s,
+    color 0.25s,
+    transform 0.25s;
+}
+
+.marker:hover .markerCore,
+.marker[data-active="true"] .markerCore,
+.marker[data-complete="true"] .markerCore {
+  background: var(--forest);
+  color: white;
+}
+
+.marker[data-active="true"] .markerCore {
+  transform: scale(1.08);
+  box-shadow:
+    0 0 0 5px #fcfdfb80,
+    0 0 0 9px #28634b26;
+}
+
+.markerCore svg {
+  width: 15px;
+  height: 15px;
+}
+
+.markerLabel {
+  position: absolute;
+  bottom: 43px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-size: 9px;
+  font-weight: 600;
+  padding: 5px 10px;
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  background: #fcfdfbf5;
+  box-shadow: 0 3px 10px #173f3510;
+}
+
+.reportReady {
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 17px;
+  white-space: nowrap;
+  border-radius: 9px;
+  border: 1px solid var(--line);
+  color: var(--forest);
+  background: #fcfdfbf5;
+  box-shadow: 0 8px 28px #173f3520;
+  animation: reportIn 0.5s both;
+}
+
+.reportReady svg {
+  width: 28px;
+  height: 28px;
+}
+
+.reportReady span {
+  font-size: 10px;
+  line-height: 1.6;
+}
+
+.reportReady strong {
+  font-size: 12px;
+}
+
+.evidence {
+  position: relative;
+  margin: -1px 6px 0;
+  min-height: 143px;
+  background: #ffffffcf;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  box-shadow: 0 7px 25px #173f3508;
+}
+
+.finding,
+.report {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  min-height: 141px;
+  padding: 15px 16px;
+  animation: evidenceIn 0.45s both;
+}
+
+.findingCopy {
+  flex: 1;
+  min-width: 0;
+  padding-top: 3px;
+}
+
+.kicker {
+  display: block;
+  font-size: 7px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: var(--muted);
+}
+
+.findingCopy > strong,
+.reportHeading > strong {
+  display: block;
+  font-family: var(--display);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.3px;
+  margin-top: 7px;
+}
+
+.findingCopy > p,
+.reportHeading > p {
+  font-size: 10px;
+  line-height: 1.7;
+  margin-top: 8px;
+  max-width: 285px;
+}
+
+.findingPhoto {
+  width: 126px;
+  flex-shrink: 0;
+  border-radius: 7px;
+  overflow: hidden;
+  background: var(--pale);
+}
+
+.findingPhoto > img {
+  width: 100%;
+  height: 63px;
+  object-fit: cover;
+}
+
+.findingPhoto figcaption {
+  padding: 6px 9px 7px;
+  color: var(--forest);
+  font-size: 9px;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.findingPhoto figcaption > span {
+  display: block;
+  font-size: 5px;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+
+.reportHeading {
+  width: 44%;
+  padding-top: 4px;
+}
+
+.reportFindings {
+  flex: 1;
+  display: grid;
+  gap: 6px;
+}
+
+.reportFindings > div {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 8px;
+  color: var(--forest);
+  line-height: 1.4;
+}
+
+.reportFindings img {
+  width: 31px;
+  height: 31px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.reportFindings svg {
+  margin-left: auto;
+  width: 12px;
+  height: 12px;
+  color: var(--green);
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  padding: 5px;
+  margin: 13px 6px 0;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  gap: 3px;
+}
+
+.steps button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-height: 44px;
+  overflow: hidden;
+  border-radius: 7px;
+  font-size: 9px;
+  font-weight: 600;
+  padding: 8px 4px;
+  transition:
+    background 0.2s,
+    color 0.2s;
+}
+
+.steps button:hover {
+  background: var(--mint);
+}
+
+.steps button[data-selected="true"] {
+  background: var(--forest);
+  color: white;
+}
+
+.steps svg {
+  width: 17px;
+  height: 17px;
+}
+
+.progress {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  transform-origin: left;
+  background: #c5d8a5;
+  animation: stepProgress var(--step-duration) linear forwards;
+}
+
+.caption {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 5px 14px;
+  padding: 12px 8px 0;
+  font-size: 7px;
+  color: var(--muted);
+}
+
+.caption a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 28px;
+  font-size: 8px;
+  font-weight: 600;
+  color: var(--forest);
+}
+
+.caption svg {
+  width: 12px;
+  height: 12px;
+}
+
+.walkthrough[data-animating="false"] .scanSweep,
+.walkthrough[data-animating="false"] .progress {
+  animation-play-state: paused;
+}
+
+@keyframes scanSweep {
+  0%,
+  12% {
+    transform: translateX(-120%);
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  80%,
+  100% {
+    transform: translateX(120%);
+    opacity: 0;
+  }
+}
+
+@keyframes evidenceIn {
+  from {
+    opacity: 0;
+    transform: translateY(7px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes reportIn {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 7px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
+@keyframes stepProgress {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@media (max-width: 1000px) {
+  .topline {
+    padding-inline: 6px 0;
+  }
+  .topline > span {
+    font-size: 6px;
+    letter-spacing: 0.7px;
+    gap: 7px;
+  }
+  .finding,
+  .report {
+    padding: 13px;
+    gap: 11px;
+  }
+  .findingPhoto {
+    width: 100px;
+  }
+  .findingCopy > strong,
+  .reportHeading > strong {
+    font-size: 17px;
+  }
+  .findingCopy > p,
+  .reportHeading > p {
+    font-size: 9px;
+  }
+  .steps button {
+    gap: 5px;
+    font-size: 8px;
+  }
+  .steps svg {
+    width: 14px;
+    height: 14px;
+  }
+  .caption {
+    font-size: 6px;
+  }
+}
+
+@media (max-width: 850px) and (min-width: 701px) {
+  .evidence {
+    min-height: 146px;
+  }
+  .finding,
+  .report {
+    min-height: 144px;
+  }
+  .steps button {
+    flex-direction: column;
+    gap: 4px;
+  }
+  .report {
+    gap: 10px;
+  }
+  .reportHeading {
+    width: 42%;
+  }
+  .reportFindings > div {
+    font-size: 7px;
+  }
+  .reportFindings img {
+    width: 25px;
+    height: 25px;
+  }
+  .findingPhoto {
+    width: 90px;
+  }
+}
+
+@media (max-width: 700px) {
+  .topline {
+    padding-inline: 8px 0;
+  }
+  .topline > span {
+    font-size: 7px;
+    letter-spacing: 0.75px;
+  }
+  .scene {
+    margin-top: -6px;
+  }
+  .evidence {
+    margin-inline: 0;
+  }
+  .finding,
+  .report {
+    min-height: 141px;
+    padding: 15px;
+  }
+  .findingPhoto {
+    width: 108px;
+  }
+  .findingCopy > strong,
+  .reportHeading > strong {
+    font-size: 19px;
+  }
+  .findingCopy > p,
+  .reportHeading > p {
+    font-size: 10px;
+  }
+  .steps {
+    margin-inline: 0;
+  }
+  .steps button {
+    flex-direction: column;
+    gap: 5px;
+    min-height: 58px;
+    font-size: 9px;
+  }
+  .steps svg {
+    width: 18px;
+    height: 18px;
+  }
+  .caption {
+    padding-inline: 0;
+    font-size: 6px;
+  }
+  .caption a {
+    font-size: 7px;
+  }
+  .scanZone {
+    left: -56px;
+    top: -42px;
+    width: 112px;
+    height: 84px;
+  }
+  .crosshair {
+    inset: 20px 30px;
+  }
+  .reportReady {
+    padding: 10px 13px;
+    bottom: 22%;
+  }
+}
+
+@media (max-width: 370px) {
+  .topline > span {
+    font-size: 6px;
+    letter-spacing: 0.5px;
+  }
+  .finding,
+  .report {
+    padding: 13px;
+    gap: 10px;
+    min-height: 155px;
+  }
+  .evidence {
+    min-height: 157px;
+  }
+  .findingPhoto {
+    width: 86px;
+    align-self: center;
+  }
+  .findingCopy > strong,
+  .reportHeading > strong {
+    font-size: 17px;
+  }
+  .findingCopy > p,
+  .reportHeading > p {
+    font-size: 9px;
+  }
+  .reportHeading {
+    width: 43%;
+  }
+  .reportFindings > div {
+    font-size: 7px;
+    gap: 5px;
+  }
+  .reportFindings img {
+    width: 25px;
+    height: 25px;
+  }
+  .steps button {
+    font-size: 8px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .walkthrough *,
+  .walkthrough *::before,
+  .walkthrough *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+  .scanSweep,
+  .progress {
+    display: none;
+  }
+}
+
+.walkthrough[data-reduced-motion="true"] *,
+.walkthrough[data-reduced-motion="true"] *::before,
+.walkthrough[data-reduced-motion="true"] *::after {
+  animation: none !important;
+  transition: none !important;
+}

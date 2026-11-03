@@ -1,0 +1,15 @@
+{
+  "/services/residential/dlpinspection": "/services/residential/dlp-inspection",
+  "/services/dlp-inspection": "/services/residential/dlp-inspection",
+  "/services/post-renovation": "/services/residential/post-renovation",
+  "/services/pre-move-in": "/services/residential/pre-move-in",
+  "/services/snagging-defect": "/services/residential/snagging-defect",
+  "/services/energy-efficiency": "/services/residential/energy-efficiency",
+  "/services/commercial-maintenance": "/services/commercial/maintenance",
+  "/Contact": "/contact",
+  "/services/residential/apartment-inspection": "/services/apartment",
+  "/services/residential/villa-inspection": "/services/villa",
+  "/services/residential/secondary-inspection": "/services/secondary-inspection",
+  "/services/commercial/hotel-inspection": "/services/hotel",
+  "/services/commercial/developer-services": "/services/developer"
+}

@@ -1,0 +1,23 @@
+{
+  "generator": "Built-in image_gen",
+  "purpose": "Regenerated illustrative inspection photographs, based on the existing inspector images and exact uniform reference. Not new evidence of completed jobs.",
+  "references": [
+    "research/generated-images/uniform/reference/inspector.webp",
+    "research/generated-images/uniform/reference/inspector-detail.webp",
+    "research/generated-images/uniform/reference/logo.webp"
+  ],
+  "assets": [
+    {
+      "key": "inspector",
+      "output": "public/images/inspector.webp",
+      "prompt": "Use case: identity-preserve photographic regeneration. Create a new sharper, highly realistic editorial photograph based on these reference photos. Image 1 is the thermal-inspection scene and inspector identity reference. Image 2 is the EXACT UNIFORM reference: reproduce the same black short-sleeved cotton pique polo, collar, fit, light cream/grey-gold back lettering, small sleeve branding, and black work gloves. Image 3 is a supporting Halo logo shape reference only; on the polo retain the light print colour and placement from Image 2. The uniform is a strict invariant, not a suggestion. Preserve the man's short black fade haircut, medium brown skin, build and rear three-quarter appearance. Photograph him standing on the floor of an ordinary modern apartment, holding a practical compact thermal camera correctly toward an accessible wall-mounted air conditioner. Camera display shows realistic modest orange/purple thermal pixels, without readable fabricated numbers. Wide 4:3 landscape rear three-quarter framing, enough of his back visible for the complete uniform print, inspector and instrument action central enough for website crops. Back printing exactly three stacked lines HALO / PROPERTY / INSPECTION, matching logo spacing and small decorative brand detail in reference, followed below by exactly the tagline \"WE UNCOVER THE UNSEEN\". Small white sleeve markings match reference; do not invent any other uniform patches. Real pale-grey painted wall, white AC unit, simple room, natural cool neutral morning daylight, no staged pose, no clutter, visible fabric weave and natural skin. No CGI look, oversmoothing, teal-orange grading, dramatic effects, Burj Khalifa, skyline, watermark or text outside the uniform. Do not put him in another shirt colour.",
+      "original": "research/generated-images/uniform/inspector.png"
+    },
+    {
+      "key": "inspector-detail",
+      "output": "public/images/inspector-detail.webp",
+      "prompt": "Use case: identity-preserve photographic regeneration. Image 1 is the wall-finish inspection scene and inspector identity reference. Image 2 is additional reference for the SAME EXACT UNIFORM, and Image 3 supports the Halo logo shape only. Recreate a much clearer realistic documentary photograph of this same inspector checking wall paint and plaster using a small torch held in his black-gloved right hand. Keep the man recognizable from the rear: same short black fade haircut, medium brown skin and build. Uniform is mandatory and unchanged: black short-sleeved cotton pique polo with the same collar and sleeves, exact light cream/grey-gold stacked HALO / PROPERTY / INSPECTION logo centered high on back, same small sleeve branding, the tagline \"WE UNCOVER THE UNSEEN\" below it in the same placement and proportions, black work gloves and dark trousers. Match the print design, colour and shirt fit from the photographs; do not invent another uniform or logo. Frame wider than the reference so the full back print and the torch inspection action are clearly visible and kept within the central 75 percent. Landscape 4:3. Side-rear environmental medium photograph of him directing the torch nearly parallel to a real textured plaster wall, its light raking across a subtle raised finish imperfection. Warm ordinary indoor ceiling lighting, warm grey/off-white wall, unoccupied townhouse hallway, clean empty side background replacing the cluttered shelves, believable natural fabric wrinkles, accurate hands and lighting, professional candid moment. No duplicated limbs, plastic skin, theatrical beam, illustration, CGI, same cool grading as the thermal photo, Burj Khalifa, skyline, watermark or caption text. Preserve this EXACT uniform.",
+      "original": "research/generated-images/uniform/inspector-detail.png"
+    }
+  ]
+}

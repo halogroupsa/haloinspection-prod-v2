@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-13",
+  "sourceComponent": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/src/components/sections/PropertyInspectionToolsShowcase.tsx",
+  "assets": [
+    {
+      "file": "/images/tools/digital-anemometer.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/haloinspection/tools/digital-anemometer.webp",
+      "width": 1000,
+      "height": 750,
+      "bytes": 32176
+    },
+    {
+      "file": "/images/tools/endoscope-inspection-camera.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/haloinspection/tools/endoscope-inspection-camera.webp",
+      "width": 1000,
+      "height": 750,
+      "bytes": 23762
+    },
+    {
+      "file": "/images/tools/hammer.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/haloinspection/tools/hammer.webp",
+      "width": 300,
+      "height": 300,
+      "bytes": 4642
+    },
+    {
+      "file": "/images/tools/handheld-tds-tester.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/haloinspection/tools/handheld-tds-tester.webp",
+      "width": 900,
+      "height": 1200,
+      "bytes": 28680
+    },
+    {
+      "file": "/images/tools/mini-temperature-humidity-meter.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/haloinspection/tools/mini-temperature-humidity-meter.webp",
+      "width": 1000,
+      "height": 750,
+      "bytes": 21662
+    },
+    {
+      "file": "/images/tools/mobile-application.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/haloinspection/tools/mobile-application.webp",
+      "width": 900,
+      "height": 628,
+      "bytes": 15882
+    },
+    {
+      "file": "/images/tools/moisture-meter.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/haloinspection/tools/moisture-meter.webp",
+      "width": 900,
+      "height": 1200,
+      "bytes": 59198
+    },
+    {
+      "file": "/images/tools/socket-tester.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/haloinspection/tools/socket-tester.webp",
+      "width": 1100,
+      "height": 619,
+      "bytes": 72162
+    },
+    {
+      "file": "/images/tools/torch.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/haloinspection/tools/torch.webp",
+      "width": 333,
+      "height": 267,
+      "bytes": 5470
+    },
+    {
+      "file": "/images/tools/voltage-pen.webp",
+      "source": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/halo-ae-next/public/images/haloinspection/tools/voltage-pen.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 9292
+    }
+  ]
+}

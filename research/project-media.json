@@ -1,0 +1,563 @@
+{
+  "source_root": "/Volumes/MacLexarSsd/Lexar_Documents/DesignsFrontier/halo_ae/property-inspection-resources",
+  "selection_notes": "Favor composed wide views and sharp inspection activity. Exclude near duplicates, clutter and motion blur. Raw photo sets remain with their named projects; DH139 is kept separate from D16 because no explicit project mapping was supplied. Mudon photo and portrait footage match the landscape visit date and interiors; both reels are presented on one project page.",
+  "images": {
+    "palm-jumeirah": [
+      {
+        "asset": "images/projects/palm-jumeirah/cover.webp",
+        "kind": "frame",
+        "time_seconds": 1.5966712,
+        "source": "raw/inspection-palm-jumeirah-16 X 9/16 X 9/DJI_20250818_114238_855_video.MP4",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "asset": "images/projects/palm-jumeirah/gallery-1.webp",
+        "kind": "frame",
+        "time_seconds": 1.4393380000000002,
+        "source": "raw/inspection-palm-jumeirah-16 X 9/16 X 9/DJI_20250818_112647_303_video.MP4",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "asset": "images/projects/palm-jumeirah/gallery-2.webp",
+        "kind": "frame",
+        "time_seconds": 1.9333331999999999,
+        "source": "raw/inspection-palm-jumeirah-16 X 9/16 X 9/DJI_20250818_113312_494_video.MP4",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "asset": "images/projects/palm-jumeirah/gallery-3.webp",
+        "kind": "frame",
+        "time_seconds": 1.6420044000000003,
+        "source": "raw/inspection-palm-jumeirah-16 X 9/16 X 9/DJI_20250818_110803_735_video.MP4",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "asset": "images/projects/palm-jumeirah/gallery-4.webp",
+        "kind": "frame",
+        "time_seconds": 1.959338,
+        "source": "raw/inspection-palm-jumeirah-16 X 9/16 X 9/DJI_20250818_111438_599_video.MP4",
+        "width": 1600,
+        "height": 900
+      }
+    ],
+    "jumeirah-new": [
+      {
+        "asset": "images/projects/jumeirah-new/cover.webp",
+        "kind": "frame",
+        "time_seconds": 1.4060044,
+        "source": "raw/inspection-jumerirah-new/New/DJI_20250818_122628_465_video.MP4",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "asset": "images/projects/jumeirah-new/gallery-1.webp",
+        "kind": "frame",
+        "time_seconds": 1.5266668,
+        "source": "raw/inspection-jumerirah-new/New/DJI_20250818_121725_208_video.MP4",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "asset": "images/projects/jumeirah-new/gallery-2.webp",
+        "kind": "frame",
+        "time_seconds": 2.1660044,
+        "source": "raw/inspection-jumerirah-new/New/DJI_20250818_121137_647_video.MP4",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "asset": "images/projects/jumeirah-new/gallery-3.webp",
+        "kind": "frame",
+        "time_seconds": 2.8026668000000003,
+        "source": "raw/inspection-jumerirah-new/New/DJI_20250818_120244_455_video.MP4",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "asset": "images/projects/jumeirah-new/gallery-4.webp",
+        "kind": "frame",
+        "time_seconds": 2.9413332000000003,
+        "source": "raw/inspection-jumerirah-new/New/DJI_20250818_123537_385_video.MP4",
+        "width": 1600,
+        "height": 900
+      }
+    ],
+    "mbr": [
+      {
+        "asset": "images/projects/mbr/cover.webp",
+        "kind": "frame",
+        "time_seconds": 4,
+        "source": "raw/inspection-MBR/MBR/DJI_20250203_091013_818_video.MP4",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "asset": "images/projects/mbr/gallery-1.webp",
+        "kind": "frame",
+        "time_seconds": 2.2686712,
+        "source": "raw/inspection-MBR/MBR/DJI_20250203_122529_168_video.MP4",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "asset": "images/projects/mbr/gallery-2.webp",
+        "kind": "frame",
+        "time_seconds": 1.7480000000000002,
+        "source": "raw/inspection-MBR/MBR/DJI_20250203_102224_927_video.MP4",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "asset": "images/projects/mbr/gallery-3.webp",
+        "kind": "frame",
+        "time_seconds": 1.7066668,
+        "source": "raw/inspection-MBR/MBR/DJI_20250203_130749_509_video.MP4",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "asset": "images/projects/mbr/gallery-4.webp",
+        "kind": "frame",
+        "time_seconds": 2.2813332,
+        "source": "raw/inspection-MBR/MBR/DJI_20250203_122946_225_video.MP4",
+        "width": 1600,
+        "height": 900
+      }
+    ],
+    "d16": [
+      {
+        "asset": "images/projects/d16/cover.webp",
+        "kind": "frame",
+        "time_seconds": 4,
+        "source": "raw/inspection-D16 x 9/16 x 9/DJI_20250405_114906_894_video.MP4",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "asset": "images/projects/d16/gallery-1.webp",
+        "kind": "frame",
+        "time_seconds": 2.7226668000000003,
+        "source": "raw/inspection-D16 x 9/16 x 9/DJI_20250405_125814_295_video.MP4",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "asset": "images/projects/d16/gallery-2.webp",
+        "kind": "frame",
+        "time_seconds": 4,
+        "source": "raw/inspection-D16 x 9/16 x 9/DJI_20250405_115926_396_video.MP4",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "asset": "images/projects/d16/gallery-3.webp",
+        "kind": "frame",
+        "time_seconds": 1.9480000000000002,
+        "source": "raw/inspection-D16 x 9/16 x 9/DJI_20250405_123011_953_video.MP4",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "asset": "images/projects/d16/gallery-4.webp",
+        "kind": "frame",
+        "time_seconds": 1.7873332000000002,
+        "source": "raw/inspection-D16 x 9/16 x 9/DJI_20250405_124759_030_video.MP4",
+        "width": 1600,
+        "height": 900
+      }
+    ],
+    "nad-al-sheba-191": [
+      {
+        "asset": "images/projects/nad-al-sheba-191/cover.webp",
+        "kind": "frame",
+        "time_seconds": 1.615338,
+        "source": "raw/inspection-nad-al-sheba-191-16 X 9/16 X 9/DJI_20251223_110023_315_video.MP4",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "asset": "images/projects/nad-al-sheba-191/gallery-1.webp",
+        "kind": "frame",
+        "time_seconds": 4,
+        "source": "raw/inspection-nad-al-sheba-191-16 X 9/16 X 9/DJI_20251223_100603_478_video.MP4",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "asset": "images/projects/nad-al-sheba-191/gallery-2.webp",
+        "kind": "frame",
+        "time_seconds": 2.0406712,
+        "source": "raw/inspection-nad-al-sheba-191-16 X 9/16 X 9/DJI_20251223_104325_535_video.MP4",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "asset": "images/projects/nad-al-sheba-191/gallery-3.webp",
+        "kind": "frame",
+        "time_seconds": 4,
+        "source": "raw/inspection-nad-al-sheba-191-16 X 9/16 X 9/DJI_20251223_104849_087_video.MP4",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "asset": "images/projects/nad-al-sheba-191/gallery-4.webp",
+        "kind": "frame",
+        "time_seconds": 2.2,
+        "source": "raw/inspection-nad-al-sheba-191-16 X 9/16 X 9/DJI_20251223_102929_875_video.MP4",
+        "width": 1600,
+        "height": 900
+      }
+    ],
+    "nas-gardens-186": [
+      {
+        "asset": "images/projects/nas-gardens-186/cover.webp",
+        "kind": "frame",
+        "time_seconds": 3.4240000000000004,
+        "source": "raw/inspection-nas-gardens-186-16 X 9/16 X 9/DJI_20260119_143130_022_video.MP4",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "asset": "images/projects/nas-gardens-186/gallery-1.webp",
+        "kind": "frame",
+        "time_seconds": 1.9126712000000001,
+        "source": "raw/inspection-nas-gardens-186-16 X 9/16 X 9/DJI_20260119_142811_321_video.MP4",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "asset": "images/projects/nas-gardens-186/gallery-2.webp",
+        "kind": "frame",
+        "time_seconds": 2.1906668000000002,
+        "source": "raw/inspection-nas-gardens-186-16 X 9/16 X 9/DJI_20260119_142526_447_video.MP4",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "asset": "images/projects/nas-gardens-186/gallery-3.webp",
+        "kind": "frame",
+        "time_seconds": 2.8426668,
+        "source": "raw/inspection-nas-gardens-186-16 X 9/16 X 9/DJI_20260119_143740_212_video.MP4",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "asset": "images/projects/nas-gardens-186/gallery-4.webp",
+        "kind": "frame",
+        "time_seconds": 1.6013332,
+        "source": "raw/inspection-nas-gardens-186-16 X 9/16 X 9/DJI_20260119_143600_620_video.MP4",
+        "width": 1600,
+        "height": 900
+      }
+    ],
+    "nas-gardens-188": [
+      {
+        "asset": "images/projects/nas-gardens-188/cover.webp",
+        "kind": "frame",
+        "time_seconds": 1.3780044,
+        "source": "raw/inspection-nas-gardens-188-16 X 9/16 X 9/DJI_20260116_100841_429_video.MP4",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "asset": "images/projects/nas-gardens-188/gallery-1.webp",
+        "kind": "frame",
+        "time_seconds": 1.332,
+        "source": "raw/inspection-nas-gardens-188-16 X 9/16 X 9/DJI_20260116_103752_613_video.MP4",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "asset": "images/projects/nas-gardens-188/gallery-2.webp",
+        "kind": "frame",
+        "time_seconds": 1.9393380000000002,
+        "source": "raw/inspection-nas-gardens-188-16 X 9/16 X 9/DJI_20260116_121959_930_video.MP4",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "asset": "images/projects/nas-gardens-188/gallery-3.webp",
+        "kind": "frame",
+        "time_seconds": 2.4933332000000004,
+        "source": "raw/inspection-nas-gardens-188-16 X 9/16 X 9/DJI_20260116_122627_061_video.MP4",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "asset": "images/projects/nas-gardens-188/gallery-4.webp",
+        "kind": "frame",
+        "time_seconds": 4,
+        "source": "raw/inspection-nas-gardens-188-16 X 9/16 X 9/DJI_20260116_102407_322_video.MP4",
+        "width": 1600,
+        "height": 900
+      }
+    ],
+    "nad-al-sheba-april": [
+      {
+        "asset": "images/projects/nad-al-sheba-april/cover.webp",
+        "kind": "frame",
+        "time_seconds": 1.774,
+        "source": "raw/inspection-ned-al-sheda-16 X 9/16 X 9/DJI_20250410_091743_800_video.MP4",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "asset": "images/projects/nad-al-sheba-april/gallery-1.webp",
+        "kind": "photo",
+        "source": "raw/inspection-nad-al-sheba/IMAGES/DJI_20250410_091035_272.JPG",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "asset": "images/projects/nad-al-sheba-april/gallery-2.webp",
+        "kind": "photo",
+        "source": "raw/inspection-nad-al-sheba/IMAGES/DJI_20250410_092559_174.JPG",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "asset": "images/projects/nad-al-sheba-april/gallery-3.webp",
+        "kind": "photo",
+        "source": "raw/inspection-nad-al-sheba/IMAGES/DJI_20250410_101351_877.JPG",
+        "width": 1350,
+        "height": 1800
+      },
+      {
+        "asset": "images/projects/nad-al-sheba-april/gallery-4.webp",
+        "kind": "photo",
+        "source": "raw/inspection-nad-al-sheba/IMAGES/DJI_20250410_101526_309.JPG",
+        "width": 1350,
+        "height": 1800
+      }
+    ],
+    "mudon": [
+      {
+        "asset": "images/projects/mudon/cover.webp",
+        "kind": "frame",
+        "time_seconds": 1.8,
+        "source": "raw/mudon-16 X 9/16 X 9/DJI_20250708_094114_423_video.MP4",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "asset": "images/projects/mudon/gallery-1.webp",
+        "kind": "photo",
+        "source": "raw/inspection-mudon-images/IMAGES/DJI_20250708_094705_783.JPG",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "asset": "images/projects/mudon/gallery-2.webp",
+        "kind": "photo",
+        "source": "raw/inspection-mudon-images/IMAGES/DJI_20250708_104039_143.JPG",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "asset": "images/projects/mudon/gallery-3.webp",
+        "kind": "photo",
+        "source": "raw/inspection-mudon-images/IMAGES/DJI_20250708_105155_094.JPG",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "asset": "images/projects/mudon/gallery-4.webp",
+        "kind": "frame",
+        "time_seconds": 3.2933332,
+        "source": "raw/mudon-16 X 9/16 X 9/DJI_20250708_113256_508_video.MP4",
+        "width": 1600,
+        "height": 900
+      }
+    ],
+    "dh139": [
+      {
+        "asset": "images/projects/dh139/cover.webp",
+        "kind": "photo",
+        "source": "raw/inspection-dh139/IMAGES/DJI_20250405_120055_961.JPG",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "asset": "images/projects/dh139/gallery-1.webp",
+        "kind": "photo",
+        "source": "raw/inspection-dh139/IMAGES/DJI_20250405_111402_933.JPG",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "asset": "images/projects/dh139/gallery-2.webp",
+        "kind": "photo",
+        "source": "raw/inspection-dh139/IMAGES/DJI_20250405_115953_831.JPG",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "asset": "images/projects/dh139/gallery-3.webp",
+        "kind": "photo",
+        "source": "raw/inspection-dh139/IMAGES/DJI_20250405_111529_201.JPG",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "asset": "images/projects/dh139/gallery-4.webp",
+        "kind": "photo",
+        "source": "raw/inspection-dh139/IMAGES/DJI_20250405_120206_593.JPG",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "asset": "images/projects/dh139/gallery-5.webp",
+        "kind": "photo",
+        "source": "raw/inspection-dh139/IMAGES/DJI_20250405_120751_808.JPG",
+        "width": 1800,
+        "height": 1350
+      }
+    ]
+  },
+  "videos": [
+    {
+      "asset": "videos/projects/d16.mp4",
+      "source": "exports/project-pages/d16/video.mp4",
+      "duration_seconds": 30,
+      "resolution": [
+        1280,
+        720
+      ],
+      "mobile_asset": "videos/projects/d16-540.mp4",
+      "mobile_resolution": [
+        960,
+        540
+      ]
+    },
+    {
+      "asset": "videos/projects/mbr.mp4",
+      "source": "exports/project-pages/mbr/video.mp4",
+      "duration_seconds": 30,
+      "resolution": [
+        1280,
+        720
+      ],
+      "mobile_asset": "videos/projects/mbr-540.mp4",
+      "mobile_resolution": [
+        960,
+        540
+      ]
+    },
+    {
+      "asset": "videos/projects/jumeirah-new.mp4",
+      "source": "exports/project-pages/jumeirah-new/video.mp4",
+      "duration_seconds": 30,
+      "resolution": [
+        1280,
+        720
+      ],
+      "mobile_asset": "videos/projects/jumeirah-new-540.mp4",
+      "mobile_resolution": [
+        960,
+        540
+      ]
+    },
+    {
+      "asset": "videos/projects/mudon-portrait.mp4",
+      "source": "exports/project-pages/mudon-portrait/video.mp4",
+      "duration_seconds": 30,
+      "resolution": [
+        1280,
+        720
+      ],
+      "mobile_asset": "videos/projects/mudon-portrait-540.mp4",
+      "mobile_resolution": [
+        960,
+        540
+      ]
+    },
+    {
+      "asset": "videos/projects/nad-al-sheba-191.mp4",
+      "source": "exports/project-pages/nad-al-sheba-191/video.mp4",
+      "duration_seconds": 30,
+      "resolution": [
+        1280,
+        720
+      ],
+      "mobile_asset": "videos/projects/nad-al-sheba-191-540.mp4",
+      "mobile_resolution": [
+        960,
+        540
+      ]
+    },
+    {
+      "asset": "videos/projects/nas-gardens-186.mp4",
+      "source": "exports/project-pages/nas-gardens-186/video.mp4",
+      "duration_seconds": 30,
+      "resolution": [
+        1280,
+        720
+      ],
+      "mobile_asset": "videos/projects/nas-gardens-186-540.mp4",
+      "mobile_resolution": [
+        960,
+        540
+      ]
+    },
+    {
+      "asset": "videos/projects/nas-gardens-188.mp4",
+      "source": "exports/project-pages/nas-gardens-188/video.mp4",
+      "duration_seconds": 30,
+      "resolution": [
+        1280,
+        720
+      ],
+      "mobile_asset": "videos/projects/nas-gardens-188-540.mp4",
+      "mobile_resolution": [
+        960,
+        540
+      ]
+    },
+    {
+      "asset": "videos/projects/nad-al-sheba-april.mp4",
+      "source": "exports/project-pages/nad-al-sheba-april/video.mp4",
+      "duration_seconds": 30,
+      "resolution": [
+        1280,
+        720
+      ],
+      "mobile_asset": "videos/projects/nad-al-sheba-april-540.mp4",
+      "mobile_resolution": [
+        960,
+        540
+      ]
+    },
+    {
+      "asset": "videos/projects/palm-jumeirah.mp4",
+      "source": "exports/project-pages/palm-jumeirah/video.mp4",
+      "duration_seconds": 30,
+      "resolution": [
+        1280,
+        720
+      ],
+      "mobile_asset": "videos/projects/palm-jumeirah-540.mp4",
+      "mobile_resolution": [
+        960,
+        540
+      ]
+    },
+    {
+      "asset": "videos/projects/mudon.mp4",
+      "source": "exports/project-pages/mudon/video.mp4",
+      "duration_seconds": 30,
+      "resolution": [
+        1280,
+        720
+      ],
+      "mobile_asset": "videos/projects/mudon-540.mp4",
+      "mobile_resolution": [
+        960,
+        540
+      ]
+    }
+  ]
+}
