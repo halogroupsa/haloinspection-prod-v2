@@ -384,6 +384,7 @@ export function Footer() {
                 href: "/company/certifications",
               },
               { name: "Questions & answers", href: "/faq" },
+              { name: "Blog", href: "/blog" },
               { name: "Contact", href: "/contact" },
               { name: "Get a quote", href: "/quote" },
               { name: "For developers", href: "/partnerships/developers" },

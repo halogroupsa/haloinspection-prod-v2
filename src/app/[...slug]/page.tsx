@@ -1,4 +1,7 @@
 import { notFound } from "next/navigation";
+import { BlogArchivePage, BlogPostPage } from "@/components/blog-pages";
+import { blogPosts } from "@/lib/blog-posts";
+import { archivePageFromPath } from "@/lib/archive-pagination";
 import { allPaths, services, locations } from "@/lib/content";
 import { metadataFor } from "@/lib/seo";
 import {
@@ -39,6 +42,10 @@ export default async function ContentPage({
 }) {
   const { slug } = await params;
   const path = `/${slug.join("/")}`;
+  const post = blogPosts.find((entry) => `/blog/${entry.slug}` === path);
+  if (post) return <BlogPostPage post={post} />;
+  const archivePage = archivePageFromPath(path, blogPosts.length);
+  if (archivePage) return <BlogArchivePage page={archivePage} />;
   const project = projects.find((p) => `/projects/${p.slug}` === path);
   if (project) return <ProjectPage project={project} />;
   const service = services.find((s) => `/${s.slug}` === path);

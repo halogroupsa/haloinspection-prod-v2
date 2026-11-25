@@ -1,13 +1,16 @@
 import type { Metadata } from "next";
 import { BUSINESS, SITE_URL, pageInfo, services, type FAQ } from "./content";
 import { projects } from "./projects";
+import { blogPosts } from "./blog-posts";
 
 export function metadataFor(path: string): Metadata {
   const { title, description } = pageInfo(path);
   const url = `${SITE_URL}${path === "/" ? "/" : path}`;
   const service = services.find((s) => `/${s.slug}` === path);
   const project = path === "/projects" ? projects[0] : projects.find((p) => `/projects/${p.slug}` === path);
-  const image = project ? project.images[0].src : service ? `/images/${service.image}.webp` : "/images/dubai.webp";
+  const post = blogPosts.find(({ slug }) => `/blog/${slug}` === path);
+  const imageName = post?.image ?? service?.image ?? "dubai";
+  const image = project?.images[0].src ?? `/images/${imageName}.webp`;
   return {
     title,
     description,
@@ -18,12 +21,12 @@ export function metadataFor(path: string): Metadata {
       url,
       siteName: BUSINESS.name,
       locale: "en_AE",
-      type: "website",
+      ...(post ? { type: "article" as const, publishedTime: post.publishedAt } : { type: "website" as const }),
       images: [
         {
           url: `${SITE_URL}${image}`,
-          ...(project ? {} : { width: service ? 1536 : 1600, height: service ? 1024 : 1067 }),
-          alt: project?.images[0].alt || service?.imageAlt || "Halo Property Inspection in Dubai and the UAE",
+          ...(project || post ? {} : { width: service ? 1536 : 1600, height: service ? 1024 : 1067 }),
+          alt: project?.images[0].alt || post?.imageAlt || service?.imageAlt || "Halo Property Inspection in Dubai and the UAE",
         },
       ],
     },

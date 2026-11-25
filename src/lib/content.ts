@@ -1,4 +1,6 @@
 import { projects, projectPaths } from "./projects";
+import { blogArchive, blogPosts } from "./blog-posts";
+import { archivePages, archivePageFromPath, archivePath } from "./archive-pagination";
 import legacyRedirectMap from "./legacy-redirects.json";
 
 export { SITE_URL } from "./deployment";
@@ -1180,6 +1182,9 @@ export const mainPages = [
   "/inspection-tools",
 ];
 export const allPaths = [
+  archivePath(),
+  ...archivePages(blogPosts.length).map(archivePath),
+  ...blogPosts.map(({ slug }) => `/blog/${slug}`),
   ...projectPaths,
   ...mainPages,
   ...services.map((s) => `/${s.slug}`),
@@ -1189,6 +1194,14 @@ export const allPaths = [
 export const legacyRedirects: Record<string, string> = legacyRedirectMap;
 
 export function pageInfo(path: string): { title: string; description: string } {
+  const archivePage = archivePageFromPath(path, blogPosts.length);
+  if (archivePage === 1) return blogArchive;
+  if (archivePage) return {
+    title: `${blogArchive.title} | Page ${archivePage}`,
+    description: `Page ${archivePage} of Halo Property Inspection’s guides for Dubai property buyers and owners.`,
+  };
+  const post = blogPosts.find(({ slug }) => `/blog/${slug}` === path);
+  if (post) return { title: post.title, description: post.description };
   const project = projects.find((p) => `/projects/${p.slug}` === path);
   if (project) return {
     title: `${project.title} | ${project.category.replace(/\b[a-z]/g, (c) => c.toUpperCase())} Project | Halo`,

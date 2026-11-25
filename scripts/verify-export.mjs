@@ -7,7 +7,7 @@ nextEnv.loadEnvConfig(process.cwd(), false);
 const origin = new URL(process.env.NEXT_PUBLIC_SITE_URL?.trim() || "https://haloinspection.ae").origin;
 const production = origin === "https://haloinspection.ae" && process.env.NEXT_PUBLIC_NOINDEX !== "true" && process.env.NEXT_PUBLIC_ALLOW_INDEXING !== "false";
 
-// Independent inventory of the original URLs and the added equipment page.
+// Independent inventory of the public routes.
 const expected = [
   "/",
   "/services",
@@ -15,6 +15,8 @@ const expected = [
   "/contact",
   "/about",
   "/faq",
+  "/blog",
+  "/blog/villa-viewing-checklist-dubai",
   "/privacy-policy",
   "/terms-of-service",
   "/services/pre-purchase",
@@ -74,7 +76,7 @@ const sitemap = await readFile(resolve(root, "sitemap.xml"), "utf8");
 const sitemapURLs = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map(
   (m) => m[1],
 );
-assert.equal(expected.length, 61);
+assert.equal(expected.length, 63);
 assert.equal(sitemapURLs.length, production ? expected.length : 0);
 for (const path of expected) {
   const html = await readFile(
