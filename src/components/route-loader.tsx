@@ -4,17 +4,19 @@ import { useEffect, useRef } from "react";
 import { usePathname } from "next/navigation";
 import { Img } from "./image";
 
-/** Long enough to read as a deliberate beat rather than a flicker. */
-const MIN_VISIBLE = 520;
+/** Fast navigations finish before the cover is needed. */
+const SHOW_AFTER = 150;
+/** Once up, the cover stays long enough to finish fading in, so a navigation
+    landing just after SHOW_AFTER reads as a beat rather than a flicker. */
+const MIN_VISIBLE = 320;
 /** A navigation that never lands (offline, a failed chunk) must not trap the page. */
 const GIVE_UP = 8000;
 
 const trim = (path: string) => path.replace(/\/+$/, "") || "/";
 
 /**
- * A brief branded cover between pages. It goes up the moment an internal link
- * is followed (or history moves), and comes down once the new route has
- * rendered — so the scroll reset and the swap of content happen out of sight.
+ * A branded cover for slower page switches. If the new route renders before
+ * the delay ends, it never appears.
  *
  * Next's own route announcer already tells assistive technology the page
  * changed, so this stays decorative. Reduced motion skips it entirely: a
@@ -23,8 +25,9 @@ const trim = (path: string) => path.replace(/\/+$/, "") || "/";
 export function RouteLoader() {
   const pathname = usePathname();
   const cover = useRef<HTMLDivElement>(null);
-  const shownAt = useRef(0);
+  const showTimer = useRef<number | undefined>(undefined);
   const hideTimer = useRef<number | undefined>(undefined);
+  const shownAt = useRef(0);
   const giveUpTimer = useRef<number | undefined>(undefined);
   const renderedPath = useRef(pathname);
 
@@ -33,18 +36,28 @@ export function RouteLoader() {
     if (!el || document.documentElement.dataset.motionMode === "reduced") return;
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
     window.clearTimeout(hideTimer.current);
+    hideTimer.current = undefined;
     window.clearTimeout(giveUpTimer.current);
-    if (el.dataset.state !== "active") shownAt.current = performance.now();
-    el.dataset.state = "active";
     giveUpTimer.current = window.setTimeout(hide, GIVE_UP);
+    // Already up, or already counting down: a second trigger must not push it back.
+    if (el.dataset.state === "active" || showTimer.current !== undefined) return;
+    showTimer.current = window.setTimeout(() => {
+      showTimer.current = undefined;
+      shownAt.current = performance.now();
+      el.dataset.state = "active";
+    }, SHOW_AFTER);
   }
 
   function hide() {
-    const el = cover.current;
-    if (!el) return;
+    window.clearTimeout(showTimer.current);
+    showTimer.current = undefined;
     window.clearTimeout(giveUpTimer.current);
+    const el = cover.current;
+    if (!el || el.dataset.state !== "active") return;
     const wait = Math.max(0, MIN_VISIBLE - (performance.now() - shownAt.current));
+    window.clearTimeout(hideTimer.current);
     hideTimer.current = window.setTimeout(() => {
+      hideTimer.current = undefined;
       el.dataset.state = "idle";
     }, wait);
   }
@@ -78,10 +91,15 @@ export function RouteLoader() {
     }
     function onPageShow(event: PageTransitionEvent) {
       // Restored from the back/forward cache with the cover still up.
-      if (event.persisted && cover.current) cover.current.dataset.state = "idle";
+      if (!event.persisted) return;
+      window.clearTimeout(showTimer.current);
+      window.clearTimeout(hideTimer.current);
+      window.clearTimeout(giveUpTimer.current);
+      showTimer.current = hideTimer.current = undefined;
+      if (cover.current) cover.current.dataset.state = "idle";
     }
 
-    // Capture, so the cover is up before next/link starts the transition.
+    // Start timing before next/link starts the transition.
     document.addEventListener("click", onClick, true);
     window.addEventListener("popstate", onHistory);
     window.addEventListener("pageshow", onPageShow);
@@ -89,6 +107,7 @@ export function RouteLoader() {
       document.removeEventListener("click", onClick, true);
       window.removeEventListener("popstate", onHistory);
       window.removeEventListener("pageshow", onPageShow);
+      window.clearTimeout(showTimer.current);
       window.clearTimeout(hideTimer.current);
       window.clearTimeout(giveUpTimer.current);
     };

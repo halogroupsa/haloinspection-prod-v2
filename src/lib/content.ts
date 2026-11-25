@@ -15,6 +15,10 @@ export const BUSINESS = {
   facebook: "https://www.facebook.com/profile.php?id=61556260847766",
 };
 
+export function propertyQuoteHref(slug: string) {
+  return `/quote?service=${encodeURIComponent(slug)}#inspection-enquiry`;
+}
+
 export type FAQ = { question: string; answer: string };
 export type Service = {
   slug: string;
@@ -23,6 +27,7 @@ export type Service = {
   category: "Residential" | "Commercial";
   eyebrow: string;
   headline: string;
+  seoTitle?: string;
   description: string;
   image: string;
   imageAlt: string;
@@ -31,6 +36,11 @@ export type Service = {
   checks: { title: string; text: string }[];
   ideal: string[];
   faqs: FAQ[];
+  propertyDetails?: {
+    access: string[];
+    exclusions: string;
+    examples: { image: string; alt: string; caption: string }[];
+  };
 };
 
 const homeChecks = [
@@ -209,22 +219,56 @@ export const services: Service[] = [
     name: "Apartment inspection",
     shortName: "Apartments",
     category: "Residential",
-    eyebrow: "SMALL DETAILS. BIG DIFFERENCE.",
-    headline: "Every room. Every accessible detail.",
+    eyebrow: "HANDOVER SNAGGING & RESALE INSPECTIONS",
+    headline: "Apartment snagging & inspection in Dubai",
+    seoTitle: "Apartment Snagging & Inspection in Dubai | Halo",
     description:
-      "Apartment snagging and inspections in Dubai and the UAE. Checks for AC, plumbing, electrical fittings, balconies, finishes and joinery.",
+      "Book an apartment inspection in Dubai or across the UAE. See what Halo checks in your unit and private balcony, how to arrange access and what your photo report includes.",
     image: "apartment",
     imageAlt: "Property inspector measuring airflow at an apartment air conditioning grille",
     intro:
-      "From a studio to a penthouse, we check the details that make everyday apartment living work.",
+      "From studios to penthouses, we check accessible rooms, fittings and services before handover, purchase or move-in. You get a photographic report to share with your developer or seller.",
     paragraphs: [
-      "Apartment inspections focus on the condition inside your unit and accessible private areas. We check finishes, fitted kitchens, bathrooms, door and window operation, air conditioning, electrical fittings and balcony details.",
-      "Shared building systems and concealed services may fall outside the individual unit's scope. We explain access limitations so you know what the inspection establishes and what may need building-management input.",
+      "For a new-build handover, the inspection records visible snags you can raise with the developer. For a resale apartment, it documents the unit’s condition and issues you may want to discuss with the seller before purchase.",
+    ],
+    checks: [
+      { title: "Living areas & bedrooms", text: "Walls, ceilings, paint, flooring, grout and skirting for visible damage, gaps and uneven finishes." },
+      { title: "Kitchen & fitted storage", text: "Worktops, cabinet doors, drawers and fitted wardrobes for finish, alignment and operation. We check the kitchen sink and accessible connections where water is available." },
+      { title: "Bathrooms & plumbing", text: "Taps, toilets, showers, drainage, seals and visible leaks. We look for signs of moisture around accessible fittings and finishes." },
+      { title: "AC & ventilation", text: "Accessible grilles, controls and airflow where the unit’s cooling and ventilation are operational." },
+      { title: "Electrical fittings", text: "Accessible lights, switches and sockets where power is available, plus visible observations of the unit’s distribution board where accessible." },
+      { title: "Doors, windows & private balconies", text: "Door and window operation, glass, seals and locks. On accessible private balconies, we check visible finishes, thresholds, drainage and railings." },
     ],
     ideal: [
       "Studio and apartment handovers",
       "Resale apartment buyers",
       "Landlords and tenants preparing to move",
+    ],
+    propertyDetails: {
+      access: [
+        "Confirm the tower name, unit access and inspection window with the developer, owner or building management. Ask whether security needs visitor registration or inspector details in advance.",
+        "Arrange access to all rooms, private balconies and relevant service panels. If the unit is occupied, coordinate entry with the occupant.",
+        "Confirm that electricity, water and cooling are operational. Tell Halo about any disconnected utilities or limits on access before the visit.",
+      ],
+      exclusions: "The standard scope covers the agreed, accessible parts of your unit and private areas. Shared corridors, lifts, building plant and common roofs are outside the unit inspection. Concealed pipework and wiring, unsafe areas and destructive testing are excluded. The report records any limits on what could be checked.",
+      examples: [
+        { image: "/images/reports/8.webp", alt: "Inspection photo of weak water flow from a basin tap", caption: "Weak water flow at a basin tap" },
+        { image: "/images/reports/9.webp", alt: "Inspection photo of a gap in the finish beside a door frame", caption: "Unfinished gap beside a door frame" },
+      ],
+    },
+    faqs: [
+      {
+        question: "When should I book apartment snagging?",
+        answer: "Enquire as soon as you have a handover date or access window. Allow time for the visit, report and developer follow-up before you accept handover, where your schedule permits.",
+      },
+      {
+        question: "What if the apartment has no water, power or cooling?",
+        answer: "Accessible finishes can still be inspected. Functional checks that need the unavailable service will be limited. Tell Halo which utilities are off so we can agree the scope before you book.",
+      },
+      {
+        question: "Can I arrange an inspection from overseas?",
+        answer: "Contact Halo with the building details, the proposed inspection window and the person who can arrange access. We’ll discuss the developer’s or building’s requirements and send you the report digitally.",
+      },
     ],
   }),
   service({
@@ -232,22 +276,56 @@ export const services: Service[] = [
     name: "Villa inspection",
     shortName: "Villas",
     category: "Residential",
-    eyebrow: "MORE SPACE. THE SAME PRECISION.",
-    headline: "Confidence in every corner of your villa.",
+    eyebrow: "HANDOVER SNAGGING & RESALE INSPECTIONS",
+    headline: "Villa snagging & inspection in Dubai",
+    seoTitle: "Villa Snagging & Inspection in Dubai | Halo",
     description:
-      "Villa inspections and snagging in Dubai and the UAE. Assess interiors, accessible exterior areas, AC, plumbing, electrical fittings and workmanship.",
+      "Book a villa or townhouse inspection in Dubai or across the UAE. See what Halo checks indoors and out, what access to arrange and what your photo report includes.",
     image: "inspection/villa",
     imageAlt: "Inspector checking an exterior wall and terrace drainage at a villa",
     intro:
-      "A villa brings more systems, more surfaces and more places for defects to hide.",
+      "We inspect villas and townhouses room by room, with agreed checks for accessible exterior areas. Get a photographic record of defects before handover, purchase or move-in.",
     paragraphs: [
-      "We adapt the inspection to your villa's layout, accessible external areas and installed systems. Alongside room-by-room interior checks, the agreed scope can include terraces, gardens, boundary features and visible external drainage.",
-      "Larger properties may need additional inspection time. Pools, specialist equipment and inaccessible roofs should be discussed at quotation stage so the scope and any specialist requirements are clear.",
+      "For a new villa, use the snag list to raise unfinished work and defects with your developer. For an established villa, use the report to discuss visible repair needs with the seller or plan maintenance. Tell us about separate structures and outdoor areas when you request the quote.",
+    ],
+    checks: [
+      { title: "Interiors & staircases", text: "Walls, ceilings, floor tiles, paint, skirting and accessible stairs and handrails. We look for visible cracks, damage and unfinished work." },
+      { title: "Kitchens, bathrooms & utility rooms", text: "Cabinetry, worktops, fittings, water flow and drainage. We look for visible leaks and moisture around accessible plumbing and wet areas." },
+      { title: "AC & ventilation", text: "Accessible controls, outlets and equipment. Where systems are operational, we check airflow and look for visible signs of condensation or drainage issues." },
+      { title: "Electrical fittings", text: "Accessible lights, switches and sockets where power is available, plus visible observations at accessible distribution boards." },
+      { title: "Doors, windows & joinery", text: "Alignment, operation, locks, seals and glazing on accessible internal and external doors and windows, plus fitted cabinetry." },
+      { title: "Terraces, exterior & drainage", text: "Where agreed and safe to access, we check terrace finishes, visible exterior defects and surface drainage. Gardens, driveways and boundary features can be included in the agreed scope." },
     ],
     ideal: [
       "New-build villa owners",
       "Buyers of established villas",
       "Families planning maintenance or renovation",
+    ],
+    propertyDetails: {
+      access: [
+        "Arrange entry with the developer, seller or occupant. Share any community gate or security requirements and the available inspection window.",
+        "Arrange keys or access for each floor and any agreed exterior or service areas. Flag roofs, locked rooms, annexes and areas that may be unsafe to reach.",
+        "Confirm that electricity, water and air conditioning are operational. Share any known leaks or other concerns you want the inspector to consider.",
+      ],
+      exclusions: "The inspection is non-invasive and covers agreed areas that are safe and accessible. Concealed wiring, buried pipework and unsafe or inaccessible roofs are excluded. Ask Halo to confirm separately whether accessible roofs, pools or specialist equipment can be included, or whether they need a specialist visit.",
+      examples: [
+        { image: "/images/reports/21.webp", alt: "Inspection photo of chipped tiles and a damaged grout joint", caption: "Tile edge damage and incomplete grout" },
+        { image: "/images/reports/16.webp", alt: "Inspection photo showing signs of a leak around a water-heater fitting", caption: "Leak at a water-heater connection" },
+      ],
+    },
+    faqs: [
+      {
+        question: "Can Halo inspect a townhouse as well as a detached villa?",
+        answer: "Yes. Share the built-up area, number of floors and any outside or service areas you want checked so we can plan the visit and agree the scope.",
+      },
+      {
+        question: "How long does a villa inspection take?",
+        answer: "Time on site depends on the size, number of floors, available access and agreed external areas. Halo will confirm the inspection window and report turnaround with your quote.",
+      },
+      {
+        question: "Can Halo recheck repairs after the developer finishes?",
+        answer: "Yes. Ask for a separate re-inspection quote to check the original reported items after the developer or contractor completes the repairs.",
+      },
     ],
   }),
   service({
@@ -981,7 +1059,7 @@ export const generalFAQs: FAQ[] = [
   {
     question: "When will I receive my report?",
     answer:
-      "Halo aims to provide the digital inspection report within 24 hours. Confirm the turnaround for your specific property when booking, particularly for large properties, multiple units or specialist scopes.",
+      "Halo confirms the report turnaround for your property before you book. Share any handover or purchase deadline when requesting your quote.",
   },
   {
     question: "Do you inspect properties outside Dubai?",
@@ -1119,7 +1197,7 @@ export function pageInfo(path: string): { title: string; description: string } {
   const s = services.find((s) => `/${s.slug}` === path);
   if (s)
     return {
-      title: `${s.name} in Dubai & UAE | Halo`,
+      title: s.seoTitle ?? `${s.name} in Dubai & UAE | Halo`,
       description: s.description,
     };
   const l = locations.find((l) => `/locations/${l.slug}` === path);

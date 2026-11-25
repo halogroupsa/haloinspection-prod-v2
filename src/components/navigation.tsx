@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef } from "react";
-import { BUSINESS } from "@/lib/content";
+import { BUSINESS, propertyQuoteHref } from "@/lib/content";
 import { Icon } from "./icon";
 import { Img } from "./image";
 
@@ -74,6 +74,14 @@ const isCurrentLink = (path: string, href: string, overview: boolean) =>
 
 const isCurrentGroup = (path: string, group: (typeof groups)[number]) =>
   group.sections.some((s) => within(path, s));
+
+function quoteHrefForPath(path: string) {
+  if (path === "/quote") return "#inspection-enquiry";
+  if (path === "/services/villa" || path === "/services/apartment") {
+    return propertyQuoteHref(path.slice(1));
+  }
+  return "/quote";
+}
 
 export function Header() {
   const path = (usePathname() || "/").replace(/(.)\/+$/, "$1");
@@ -198,7 +206,7 @@ export function Header() {
           </nav>
           <Link
             className="button button-dark nav-cta"
-            href={path === "/quote" ? "#inspection-enquiry" : "/quote"}
+            href={quoteHrefForPath(path)}
           >
             Get a quote
             <Icon name="arrow" />
@@ -275,7 +283,7 @@ export function Header() {
           </Link>
           <Link
             className="button button-dark"
-            href="/quote"
+            href={quoteHrefForPath(path)}
             onClick={() => dialog.current?.close()}
           >
             Get your inspection quote
@@ -292,14 +300,14 @@ export function Header() {
 }
 
 export function MobileBar() {
-  const path = usePathname();
+  const path = (usePathname() || "/").replace(/(.)\/+$/, "$1");
   return (
     <div className="mobile-action-bar">
       <a href={BUSINESS.phoneLink}>
         <Icon name="phone" />
         Call us
       </a>
-      <Link href={path === "/quote" ? "#inspection-enquiry" : "/quote"}>
+      <Link href={quoteHrefForPath(path)}>
         Get a quote
         <Icon name="arrow" />
       </Link>

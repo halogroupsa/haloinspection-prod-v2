@@ -64,6 +64,7 @@
       "key": "villa",
       "slug": "services/villa",
       "image": "inspection/villa",
+      "quality": 72,
       "alt": "Inspector checking an exterior wall and terrace drainage at a villa",
       "scene": "An Arab female property inspector aged 40 in a practical tan work shirt and dark trousers crouching to examine the junction between an exterior villa wall and terrace drain, pointing a small torch into the drain. Realistic two-storey contemporary UAE villa, textured white stucco, sandy paving, green garden plants, slight dust and weathering. Hard but plausible early morning outdoor sunlight with crisp shadows, wide exterior editorial photo, no landmark skyline.",
       "prompt": "Use case: identity-preserve photographic regeneration. Image 1: original service photograph; Images 2 and 3: Halo uniform references. Preserve the distinct property, inspection task, practical tools, natural lighting, color temperature and framing. Show an Indian male inspector. Every working inspector wears the reference black short-sleeved Halo polo with cream/light-gold HALO PROPERTY INSPECTION mark and WE UNCOVER THE UNSEEN slogan on the visible back, small sleeve mark, dark trousers and black gloves. Keep clients in ordinary clothes. No iconic skyline, Burj Khalifa, watermark, artificial stock grading or invented text. Scene: Inspector checking an exterior wall and terrace drainage at a villa.",

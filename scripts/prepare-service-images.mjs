@@ -11,6 +11,6 @@ for (const asset of assets) {
   const destination = path.join(root, "public/images", `${asset.image}.webp`);
   await fs.mkdir(path.dirname(destination), { recursive: true });
   await sharp(source).resize({ width: 1536, withoutEnlargement: true })
-    .webp({ quality: 84, effort: 6, smartSubsample: true }).toFile(destination);
+    .webp({ quality: asset.quality ?? 84, effort: 6, smartSubsample: true }).toFile(destination);
   console.log(`${asset.key}: ${Math.round((await fs.stat(destination)).size / 1024)} KB`);
 }

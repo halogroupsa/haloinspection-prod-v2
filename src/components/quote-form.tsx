@@ -1,9 +1,10 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useLayoutEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { BUSINESS, services, locations } from "@/lib/content";
 import { Icon } from "./icon";
+import { QUOTE_PREFILL_ATTR } from "@/lib/quote-prefill";
 
 export function QuoteForm() {
   const [step, setStep] = useState(1);
@@ -18,11 +19,11 @@ export function QuoteForm() {
   const [date, setDate] = useState("");
   const [consent, setConsent] = useState(false);
   const [error, setError] = useState("");
-  const [prepared, setPrepared] = useState(false);
   const heading = useRef<HTMLHeadingElement>(null);
-  useEffect(() => {
+  useLayoutEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const requested = params.get("service");
+    const loc = params.get("location");
     const found = services.find(
       (s) => s.slug === requested || s.name === requested,
     );
@@ -31,24 +32,25 @@ export function QuoteForm() {
       if (found.category === "Commercial") setType("Commercial");
       else if (found.slug === "services/villa") setType("Villa / townhouse");
     }
-    const loc = params.get("location");
     if (loc) setLocation(loc);
+    // State set in a layout effect re-renders before paint, so the fields
+    // reappear already holding the requested values.
+    document.documentElement.removeAttribute(QUOTE_PREFILL_ATTR);
   }, []);
-  const message = `Hello Halo, I would like a property inspection quote.\n\nName: ${name}\nPhone: ${phone}${email ? `\nEmail: ${email}` : ""}\nProperty: ${type}\nInspection: ${service}\nSize: ${area} sq ft\nLocation: ${location}${date ? `\nPreferred date: ${date}` : ""}${notes ? `\nNotes: ${notes}` : ""}\n\nPlease confirm the scope, fee and availability.`;
+  const message = `Hello Halo, I would like a property inspection quote.\n\nName: ${name}\nPhone: ${phone}${email ? `\nEmail: ${email}` : ""}\nProperty: ${type}\nInspection: ${service}${area ? `\nSize: ${area} sq ft` : ""}\nLocation: ${location}${date ? `\nPreferred date: ${date}` : ""}${notes ? `\nNotes: ${notes}` : ""}\n\nPlease confirm the scope, fee, report turnaround and availability.`;
+  function goToStep(nextStep: number) {
+    setError("");
+    setStep(nextStep);
+    requestAnimationFrame(() => heading.current?.focus());
+  }
   function next() {
-    if (!area || !Number.isFinite(Number(area)) || Number(area) <= 0) {
-      setError("Enter your approximate property size in square feet.");
-      return;
-    }
     if (!location.trim()) {
       setError(
         "Enter the community or emirate where your property is located.",
       );
       return;
     }
-    setError("");
-    setStep(2);
-    requestAnimationFrame(() => heading.current?.focus());
+    goToStep(2);
   }
   function prepare() {
     if (!name.trim()) {
@@ -69,10 +71,7 @@ export function QuoteForm() {
       );
       return;
     }
-    setError("");
-    setPrepared(true);
-    setStep(3);
-    requestAnimationFrame(() => heading.current?.focus());
+    goToStep(3);
   }
   return (
     <div className="quote-form-card" id="inspection-enquiry">
@@ -113,12 +112,12 @@ export function QuoteForm() {
           {step === 1
             ? "A few details help us give you the right scope and quote."
             : step === 2
-              ? "We’ll use these details only to handle your inspection enquiry."
-              : "Choose WhatsApp or email to send these details to Halo."}
+              ? "Review your details before sending them to Halo."
+              : "Open WhatsApp or your email app, then send the message to Halo."}
         </p>
         {step === 1 ? (
           <>
-            <fieldset className="property-type">
+            <fieldset className="property-type" data-prefill-field>
               <legend>Property type</legend>
               {["Apartment", "Villa / townhouse", "Commercial"].map((t) => (
                 <label key={t} className={type === t ? "selected" : ""}>
@@ -134,7 +133,7 @@ export function QuoteForm() {
                 </label>
               ))}
             </fieldset>
-            <label className="form-field">
+            <label className="form-field" data-prefill-field>
               Inspection service
               <select
                 value={service}
@@ -147,7 +146,7 @@ export function QuoteForm() {
             </label>
             <div className="form-row">
               <label className="form-field">
-                Approximate size (sq ft)
+                Approximate size (sq ft) <span>(optional)</span>
                 <input
                   type="number"
                   min="1"
@@ -159,7 +158,7 @@ export function QuoteForm() {
                   autoComplete="off"
                 />
               </label>
-              <label className="form-field">
+              <label className="form-field" data-prefill-field>
                 Community or emirate
                 <input
                   list="communities"
@@ -175,7 +174,7 @@ export function QuoteForm() {
               </label>
             </div>
             <label className="form-field">
-              Preferred date <span>(optional)</span>
+              Preferred inspection date <span>(optional)</span>
               <input
                 type="date"
                 value={date}
@@ -239,13 +238,14 @@ export function QuoteForm() {
             </label>
           </>
         ) : null}
-        {step === 3 && prepared ? (
+        {step === 3 ? (
           <>
             <dl className="request-summary">
               <div>
                 <dt>Property</dt>
                 <dd>
-                  {type} · {Number(area).toLocaleString("en")} sq ft
+                  {type}
+                  {area ? ` · ${Number(area).toLocaleString("en")} sq ft` : null}
                 </dd>
               </div>
               <div>
@@ -276,28 +276,24 @@ export function QuoteForm() {
               rel="noopener noreferrer"
             >
               <Icon name="whatsapp" />
-              Send via WhatsApp
+              Open WhatsApp
               <Icon name="arrow" />
             </a>
             <a
               href={`mailto:${BUSINESS.email}?subject=${encodeURIComponent(`Inspection quote — ${type}, ${location}`)}&body=${encodeURIComponent(message)}`}
               className="button button-outline full-width"
             >
-              Send via email
+              Open email
               <Icon name="mail" />
             </a>
             <p className="form-note">
-              Your details are prepared here. The request reaches Halo when you
-              send it in WhatsApp or your email app. Your booking is confirmed
-              separately by the team.
+              Halo will reply to confirm availability and booking details after
+              you send your request.
             </p>
             <button
               type="button"
               className="text-link"
-              onClick={() => {
-                setStep(2);
-                setPrepared(false);
-              }}
+              onClick={() => goToStep(2)}
             >
               Edit my details
             </button>
@@ -314,10 +310,7 @@ export function QuoteForm() {
               <button
                 type="button"
                 className="button button-outline"
-                onClick={() => {
-                  setStep(1);
-                  setError("");
-                }}
+                onClick={() => goToStep(1)}
               >
                 Back
               </button>

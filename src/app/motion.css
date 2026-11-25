@@ -524,8 +524,7 @@
   }
 }
 
-/* Page switch: a short branded cover. It rises fast and leaves slower, so the
-   new page is revealed rather than cut to. */
+/* The slower-navigation cover fades out as soon as the page is ready. */
 .route-loader {
   position: fixed;
   inset: 0;
@@ -537,8 +536,8 @@
   visibility: hidden;
   pointer-events: none;
   transition:
-    opacity 420ms var(--motion-ease),
-    visibility 0s linear 420ms;
+    opacity 120ms var(--motion-ease),
+    visibility 0s linear 120ms;
 }
 .route-loader[data-state="active"] {
   opacity: 1;
@@ -553,7 +552,7 @@
   justify-items: center;
   gap: 18px;
   transform: translateY(6px) scale(0.98);
-  transition: transform 420ms var(--motion-ease);
+  transition: transform 120ms var(--motion-ease);
 }
 .route-loader[data-state="active"] .route-loader-mark {
   transform: none;

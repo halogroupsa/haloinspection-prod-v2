@@ -2275,6 +2275,54 @@ summary::-webkit-details-marker {
 .scope-section {
   background: var(--pale);
 }
+.property-inspection-links a,
+.property-report p a {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+.property-access {
+  font-size: 14px;
+  line-height: 1.65;
+}
+.property-report {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  gap: clamp(28px, 6vw, 96px);
+}
+.property-report p {
+  margin-top: 16px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.property-report h3 {
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+.property-finding-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+.property-finding-grid figure {
+  margin: 0;
+}
+.property-finding-grid img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+.property-finding-grid figcaption {
+  margin-top: 8px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+@media (max-width: 767px) {
+  .property-report {
+    grid-template-columns: 1fr;
+  }
+}
 .checks-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -2750,6 +2798,17 @@ summary::-webkit-details-marker {
   gap: 90px;
   align-items: start;
   margin-top: 15px;
+}
+/* Set by quotePrefillScript, cleared by QuoteForm once the query is applied.
+   The animation reveals the fields anyway if hydration is slow or fails. */
+html[data-quote-prefill="pending"] [data-prefill-field] {
+  visibility: hidden;
+  animation: quote-prefill-fallback 0s linear 2.5s forwards;
+}
+@keyframes quote-prefill-fallback {
+  to {
+    visibility: visible;
+  }
 }
 .quote-intro {
   padding-top: 23px;

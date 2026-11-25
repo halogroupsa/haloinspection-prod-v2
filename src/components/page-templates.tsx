@@ -1,10 +1,12 @@
 import Link from "next/link";
+import { quotePrefillScript } from "@/lib/quote-prefill";
 import {
   BUSINESS,
   services,
   locations,
   partnerships,
   generalFAQs,
+  propertyQuoteHref,
   type Service,
   type Location,
 } from "@/lib/content";
@@ -38,6 +40,7 @@ export function PageHero({
   breadcrumbs,
   cta = "Get an inspection quote",
   href = "/quote",
+  showReviews = true,
 }: {
   eyebrow: string;
   title: string;
@@ -47,6 +50,7 @@ export function PageHero({
   breadcrumbs: { name: string; href?: string }[];
   cta?: string;
   href?: string;
+  showReviews?: boolean;
 }) {
   return (
     <section className="page-hero hero-band" id="hero">
@@ -78,7 +82,7 @@ export function PageHero({
                 </a>
               </div>
             ) : null}
-            {image ? (
+            {image && showReviews ? (
               <div className="page-hero-review">
                 <ReviewBadge />
               </div>
@@ -91,35 +95,58 @@ export function PageHero({
 }
 
 export function ServicePage({ service: s }: { service: Service }) {
+  const details = s.propertyDetails;
+  const quoteHref = details
+    ? propertyQuoteHref(s.slug)
+    : `/quote?service=${encodeURIComponent(s.slug)}`;
   return (
     <>
       <PageSchema path={`/${s.slug}`} name={s.name} service faqs={s.faqs} />
       <PageHero
         eyebrow={s.eyebrow}
         title={s.headline}
-        text={`${s.name} in Dubai and across the UAE. ${s.intro}`}
+        text={details ? s.intro : `${s.name} in Dubai and across the UAE. ${s.intro}`}
         image={s.image}
         imageAlt={s.imageAlt}
         breadcrumbs={[
           { name: "Services", href: "/services" },
           { name: s.name },
         ]}
-        href={`/quote?service=${encodeURIComponent(s.slug)}`}
+        cta={details ? `Get your ${s.name.toLowerCase()} quote` : undefined}
+        href={quoteHref}
+        showReviews={!details}
       />
-      <div className="container">
-        <TrustStrip compact />
-      </div>
+      {details ? null : (
+        <div className="container">
+          <TrustStrip compact />
+        </div>
+      )}
       <section className="section service-overview">
         <div className="container overview-layout">
           <div>
-            <Eyebrow>THE RIGHT INSPECTION FOR YOUR NEXT STEP</Eyebrow>
-            <h2>
-              {s.name},<br />
-              with a clearer picture.
-            </h2>
+            {details ? (
+              <h2>When to arrange an inspection</h2>
+            ) : (
+              <>
+                <Eyebrow>THE RIGHT INSPECTION FOR YOUR NEXT STEP</Eyebrow>
+                <h2>
+                  {s.name},<br />
+                  with a clearer picture.
+                </h2>
+              </>
+            )}
             {s.paragraphs.map((p) => (
               <p key={p}>{p}</p>
             ))}
+            {details ? (
+              <p className="property-inspection-links">
+                We serve Dubai and the UAE. Choose{" "}
+                <Link href="/services/handover">handover snagging</Link> for a
+                new build or a{" "}
+                <Link href="/services/pre-purchase">pre-purchase inspection</Link>{" "}
+                before buying a resale property.
+              </p>
+            ) : null}
           </div>
           <aside className="scope-aside">
             <Icon name={s.category === "Commercial" ? "building" : "home"} />
@@ -140,7 +167,7 @@ export function ServicePage({ service: s }: { service: Service }) {
             </p>
             <Link
               className="text-link"
-              href={`/quote?service=${encodeURIComponent(s.slug)}`}
+              href={quoteHref}
             >
               Tell us about your property
               <Icon name="arrow" />
@@ -152,8 +179,8 @@ export function ServicePage({ service: s }: { service: Service }) {
         <div className="container">
           <div className="section-heading">
             <div>
-              <Eyebrow>A SYSTEMATIC LOOK AT THE DETAILS</Eyebrow>
-              <h2>What gets our attention.</h2>
+              {details ? null : <Eyebrow>A SYSTEMATIC LOOK AT THE DETAILS</Eyebrow>}
+              <h2>{details ? "What we check" : "What gets our attention."}</h2>
             </div>
             <p>
               Checks depend on the agreed scope, safe access and available
@@ -179,13 +206,82 @@ export function ServicePage({ service: s }: { service: Service }) {
           </div>
         </div>
       </section>
-      <Process />
+      {details ? <PropertyInspectionDetails details={details} /> : <Process />}
       <FAQSection title="Before you book." items={s.faqs} />
       <RelatedServices exclude={s.slug} />
       <CTA
-        title="Make your next property decision with confidence."
-        href={`/quote?service=${encodeURIComponent(s.slug)}`}
+        title={details ? `Book your ${s.name.toLowerCase()}` : "Make your next property decision with confidence."}
+        text={details ? "Send your property location, approximate size if known and preferred date by WhatsApp or email. We’ll confirm the scope, price, report timing and available appointments before you book." : undefined}
+        href={quoteHref}
       />
+    </>
+  );
+}
+
+function PropertyInspectionDetails({
+  details,
+}: {
+  details: NonNullable<Service["propertyDetails"]>;
+}) {
+  return (
+    <>
+      <section className="section">
+        <div className="container overview-layout">
+          <div>
+            <h2>How to prepare for the visit</h2>
+            <ul className="check-list property-access">
+              {details.access.map((item) => (
+                <li key={item}>
+                  <Icon name="check" />
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+          <aside className="scope-aside">
+            <h3>What’s outside the scope</h3>
+            <p>{details.exclusions}</p>
+          </aside>
+        </div>
+      </section>
+      <section className="section scope-section" id="inspection-report">
+        <div className="container property-report">
+          <div>
+            <h2>What your inspection report includes</h2>
+            <p>
+              Your digital report lists the areas checked, defects found, their
+              locations, photographs and recommended next steps. It also records
+              access or utility restrictions so you know what could be tested.
+            </p>
+            <p>
+              Share the report with your developer, seller or contractor. If
+              repairs are completed, ask for a{" "}
+              <Link href="/services/secondary-inspection">re-inspection</Link>{" "}
+              of the original items.
+            </p>
+            <p>
+              Halo confirms your report turnaround when you book. Share your
+              handover or purchase deadline when requesting a quote.
+            </p>
+          </div>
+          <div>
+            <h3>Examples from Halo inspections</h3>
+            <div className="property-finding-grid">
+              {details.examples.map(({ image, alt, caption }) => (
+                <figure key={image}>
+                  <Img
+                    src={image}
+                    alt={alt}
+                    sizes="(max-width: 767px) 42vw, 280px"
+                    loading="lazy"
+                  />
+                  <figcaption>{caption}</figcaption>
+                </figure>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
@@ -397,21 +493,16 @@ export function QuotePage() {
         <Breadcrumbs items={[{ name: "Get a quote" }]} />
         <div className="quote-layout">
           <div className="quote-intro">
-            <Eyebrow>YOUR NEXT STEP STARTS HERE</Eyebrow>
-            <h1>
-              Less uncertainty.
-              <br />
-              More peace of mind.
-            </h1>
+            <h1>Request an inspection quote</h1>
             <p>
-              Tell us about your property. We’ll confirm the right inspection, a
-              clear fee and a convenient appointment.
+              Tell us about your property, then send your request by WhatsApp or
+              email. Halo will confirm the scope, fee, report timing and
+              appointment with you.
             </p>
             <div className="quote-benefits">
               {[
                 "A scope matched to your property",
                 "Clear pricing before you book",
-                "Certified, independent inspection team",
                 "A practical photographic report",
               ].map((i) => (
                 <div key={i}>
@@ -420,7 +511,6 @@ export function QuotePage() {
                 </div>
               ))}
             </div>
-            <ReviewBadge />
             <div className="quote-help">
               <Icon name="phone" />
               <div>
@@ -428,6 +518,10 @@ export function QuotePage() {
                 <a href={BUSINESS.phoneLink}>{BUSINESS.phone}</a>
               </div>
             </div>
+            <a className="text-link" href={BUSINESS.whatsapp}>
+              Message Halo on WhatsApp
+              <Icon name="whatsapp" />
+            </a>
             <a
               href="/downloads/inspection-preparation-checklist.txt"
               className="text-link"
@@ -437,6 +531,10 @@ export function QuotePage() {
               <Icon name="report" />
             </a>
           </div>
+          <script
+            suppressHydrationWarning
+            dangerouslySetInnerHTML={{ __html: quotePrefillScript }}
+          />
           <QuoteForm />
         </div>
       </section>

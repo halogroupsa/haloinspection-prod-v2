@@ -39,6 +39,24 @@ const SKIP = new Set(["existing", "legacy"]);
     credential badge) whose largest rendered size is a couple of hundred pixels. */
 const WIDTHS = [320, 480, 768, 1200, 1920];
 const QUALITY = 82;
+/* Optional per-image overrides from the service-image design brief: a
+   quality, and the lossless original to resize from, so a derivative is not a
+   second lossy pass over the already-compressed webp. The brief is optional:
+   without it every image falls back to the defaults. */
+const SERVICE_IMAGES = path.join(ROOT, "design/service-images/assets.json");
+const overrides = new Map();
+try {
+  const { assets } = JSON.parse(await fs.readFile(SERVICE_IMAGES, "utf8"));
+  for (const { image, quality, original } of assets) {
+    const resolved = original ? path.join(ROOT, original) : undefined;
+    const hasOriginal = resolved
+      ? await fs.access(resolved).then(() => true, () => false)
+      : false;
+    overrides.set(`${image}.webp`, { quality, original: hasOriginal ? resolved : undefined });
+  }
+} catch (error) {
+  if (error.code !== "ENOENT") console.warn(`Ignoring ${path.relative(ROOT, SERVICE_IMAGES)}: ${error.message}`);
+}
 /** How close to the source width a bucket may get before it is not worth writing. */
 const MIN_STEP = 0.9;
 
@@ -63,10 +81,12 @@ async function walk(dir = "") {
   return found;
 }
 
-async function isStale(source, derivative) {
+/** A derivative is stale when any input it was made from is newer than it. */
+async function isStale(inputs, derivative) {
   try {
-    const [s, d] = await Promise.all([fs.stat(source), fs.stat(derivative)]);
-    return s.mtimeMs > d.mtimeMs;
+    const d = await fs.stat(derivative);
+    const stats = await Promise.all(inputs.map((input) => fs.stat(input)));
+    return stats.some((s) => s.mtimeMs > d.mtimeMs);
   } catch {
     return true;
   }
@@ -80,17 +100,22 @@ async function derive(rel) {
   const source = path.join(IMAGES, rel);
   const base = rel.slice(0, -".webp".length);
   const { width, height } = await sharp(source).metadata();
+  const override = overrides.get(rel);
+  const quality = override?.quality ?? QUALITY;
+  const input = override?.original ?? source;
+  /* The brief holds the quality, so editing it must rebuild that image's ladder. */
+  const inputs = override?.quality === undefined ? [source, input] : [source, input, SERVICE_IMAGES];
 
   const widths = WIDTHS.filter((w) => w < width * MIN_STEP);
   for (const w of widths) {
     const out = path.join(IMAGES, `${base}-${w}.webp`);
-    if (!(await isStale(source, out))) {
+    if (!(await isStale(inputs, out))) {
       reused += 1;
       continue;
     }
-    await sharp(source, { limitInputPixels: false })
+    await sharp(input, { limitInputPixels: false })
       .resize({ width: w, withoutEnlargement: true })
-      .webp({ quality: QUALITY, alphaQuality: 100, effort: 6, smartSubsample: true })
+      .webp({ quality, alphaQuality: 100, effort: 6, smartSubsample: true })
       .toFile(out);
     written += 1;
   }
