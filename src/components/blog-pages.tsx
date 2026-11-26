@@ -45,7 +45,7 @@ export function BlogPostPage({ post }: { post: BlogPost }) {
         publisher: { "@id": `${SITE_URL}/#business` },
       }} />
       <PageHero
-        eyebrow="Pre-purchase guide"
+        eyebrow={post.eyebrow}
         title={post.title}
         text={post.description}
         image={post.image}
@@ -64,7 +64,7 @@ export function BlogPostPage({ post }: { post: BlogPost }) {
                 {paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
               </section>
             ))}
-            <p>See what a <Link href="/services/pre-purchase">pre-purchase property inspection</Link> can cover. For general context on visual inspection and access limits, read the <a href="https://www.nachi.org/sop.htm">InterNACHI standards of practice</a>.</p>
+            <p>See what Halo’s <Link href={post.serviceLink.href}>{post.serviceLink.label}</Link> can cover. For more context, read <a href={post.reference.href}>{post.reference.label}</a>.</p>
           </div>
         </div>
       </article>

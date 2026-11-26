@@ -17,6 +17,7 @@ const expected = [
   "/faq",
   "/blog",
   "/blog/villa-viewing-checklist-dubai",
+  "/blog/property-snagging-before-handover-dubai",
   "/privacy-policy",
   "/terms-of-service",
   "/services/pre-purchase",
@@ -76,7 +77,7 @@ const sitemap = await readFile(resolve(root, "sitemap.xml"), "utf8");
 const sitemapURLs = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map(
   (m) => m[1],
 );
-assert.equal(expected.length, 63);
+assert.equal(expected.length, 64);
 assert.equal(sitemapURLs.length, production ? expected.length : 0);
 for (const path of expected) {
   const html = await readFile(
