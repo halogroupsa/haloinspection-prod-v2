@@ -22,6 +22,12 @@ export const blogPosts = [
     },
     sections: [
       {
+        heading: "What can a handover inspection confirm?",
+        paragraphs: [
+          "A handover inspection gives you a dated record of visible defects and the items the inspector could operate on the day. It also tells you which checks were limited by access or unavailable utilities, so you know what to ask the developer to recheck.",
+        ]
+      },
+      {
         heading: "Book around the developer’s access window",
         paragraphs: [
           "When the handover email arrives, ask whether an independent inspector can attend, how much time the visit allows and who can open any service areas. Check whether water and power will be available and ask how the developer wants the snag list submitted. Book the visit once those details are clear.",
@@ -32,7 +38,8 @@ export const blogPosts = [
         heading: "What the inspector can record on the day",
         paragraphs: [
           "A typical snagging visit covers visible finishes and the operation of items the inspector can reach and use under the agreed scope. That can include tile damage, doors and windows that bind, joinery alignment and basic plumbing or cooling checks where conditions allow.",
-          "Ask for the name of the room, the exact location, the observation and a photo. If a guest bathroom tap is loose, “tap moves at the basin when operated” gives the team a clear action. Add the unit and room number before submitting the report."
+          "Here is how three findings could appear in a handover list. S01, entry: chipped floor tile beside the threshold, photo 01. S02, primary bedroom: wardrobe door rubs against the frame when opened, photo 02. S03, guest bathroom: mixer tap moves at its base during normal operation, photo 03.",
+          "Include the unit number, exact location, observation and a picture where it helps. Ask for each item’s reference to be carried through to the repair update and any follow-up visit."
         ]
       },
       {
