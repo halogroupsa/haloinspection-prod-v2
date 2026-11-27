@@ -5,6 +5,39 @@ export const blogArchive = {
 
 export const blogPosts = [
   {
+    slug: "inspect-a-vacant-apartment-before-buying-dubai",
+    title: "What to check before buying a Dubai apartment that has been empty for months",
+    description: "Plan a pre-purchase inspection for a vacant Dubai apartment. Confirm utility access, look for old moisture clues and record what needs a follow-up.",
+    publishedAt: "2026-11-27",
+    image: "inspection/residential-pre-purchase",
+    imageAlt: "Property inspector reviewing findings on a tablet with a buyer inside a home",
+    eyebrow: "Pre-purchase inspection",
+    serviceLink: { href: "/services/apartment", label: "apartment inspection in Dubai" },
+    reference: { href: "https://www.nachi.org/sop.htm", label: "InterNACHI’s home inspection standards of practice" },
+    sections: [
+      {
+        heading: "Ask which utilities will be working at the inspection",
+        paragraphs: [
+          "Before buying a vacant Dubai apartment, ask the seller or agent to confirm whether water, power and cooling will be available during the inspection. Give those details to the inspector before the appointment. You can still learn from a visual visit, and the report should show which items could be operated on the day.",
+          "Ask who can open the balcony, service cupboard or other relevant areas. If a system is shut down, arrange a safe check with the seller or building management. Share any known isolation or maintenance work with the inspector."
+        ]
+      },
+      {
+        heading: "Look for a history behind the tidy finish",
+        paragraphs: [
+          "Send the inspector anything the seller can share about past leaks, cooling repairs or recent repainting. A fresh patch below a window deserves a question, particularly if a cabinet beside it has a swollen edge. Give the inspector the location and any dated photos the seller has."
+        ]
+      },
+      {
+        heading: "Give every untested item a next step",
+        paragraphs: [
+          "Ask for a list of checks that could not be completed and what would make a recheck possible. For example, if water was unavailable, record the kitchen and bathroom checks that need a return visit after supply is restored.",
+          "Before deciding how to proceed with the purchase, review the gaps with your inspector and agree who will arrange access. A dated record of the observations and limits helps you compare the information you have with the checks still outstanding."
+        ]
+      }
+    ]
+  },
+  {
     slug: "property-snagging-before-handover-dubai",
     title: "What a handover inspection can confirm before taking the keys",
     description: "Prepare for property snagging in Dubai. Learn what a handover inspection can check, how to record defects and what to ask the developer to revisit.",
