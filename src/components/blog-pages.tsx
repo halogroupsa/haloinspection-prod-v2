@@ -65,6 +65,9 @@ export function BlogPostPage({ post }: { post: BlogPost }) {
               </section>
             ))}
             <p>See what Halo’s <Link href={post.serviceLink.href}>{post.serviceLink.label}</Link> can cover. For more context, read <a href={post.reference.href}>{post.reference.label}</a>.</p>
+            {"relatedLink" in post && (
+              <p>{post.relatedLink.intro} <a href={post.relatedLink.href}>{post.relatedLink.label}</a>.</p>
+            )}
           </div>
         </div>
       </article>

@@ -5,6 +5,60 @@ export const blogArchive = {
 
 export const blogPosts = [
   {
+    slug: "questions-to-ask-seller-before-apartment-inspection-dubai",
+    title: "What to ask a seller before booking an apartment inspection",
+    description: "Ask these six questions before booking a Dubai apartment inspection. Confirm access, utilities, alterations, documents and who manages shared areas.",
+    publishedAt: "2026-11-28",
+    image: "inspection/pre-purchase",
+    imageAlt: "Halo inspector looking at the frame of a glazed apartment door",
+    eyebrow: "Pre-purchase inspection",
+    serviceLink: { href: "/services/apartment", label: "apartment inspection in Dubai" },
+    reference: { href: "https://www.nachi.org/sop.htm", label: "InterNACHI’s home inspection standards of practice" },
+    relatedLink: {
+      intro: "If you are buying with a remodel in mind, give the inspection findings and alteration records to the",
+      href: "https://halo.ae/services/apartment-renovation-dubai",
+      label: "Halo Interiors apartment renovation team"
+    },
+    sections: [
+      {
+        heading: "Who can open the unit and its service areas?",
+        paragraphs: [
+          "Ask who will meet the inspector and which keys or permissions are needed for the balcony, utility cupboard and any accessible service area. If building management must attend, arrange that before fixing the time."
+        ]
+      },
+      {
+        heading: "Which utilities will be available?",
+        paragraphs: [
+          "Ask whether water, power and cooling will be available during the visit. If any system is isolated or inactive, tell the inspector before booking so they can explain what will need a follow-up."
+        ]
+      },
+      {
+        heading: "Has the apartment layout or equipment changed?",
+        paragraphs: [
+          "Ask about moved partitions, altered wet areas and replaced equipment. If the seller says the kitchen used to be elsewhere, request any drawings and completion records they have for the change."
+        ]
+      },
+      {
+        heading: "What problems have been repaired before?",
+        paragraphs: [
+          "Ask about leaks, recurring stains, cooling faults and call-outs. An old repair invoice or dated photo can be more useful than a freshly painted wall. Share where and when the issue appeared."
+        ]
+      },
+      {
+        heading: "Which documents can you send ahead?",
+        paragraphs: [
+          "Request the latest available floor plan, relevant work approvals, repair records and any equipment warranties. Give the inspector the paperwork that relates to the concerns you want checked."
+        ]
+      },
+      {
+        heading: "Which areas are managed by the building?",
+        paragraphs: [
+          "Ask who deals with the exterior façade, shared drainage or a riser outside the flat. Check which areas the inspector may enter and who can answer questions about places outside the agreed scope. Send the six answers with your booking enquiry."
+        ]
+      }
+    ]
+  },
+  {
     slug: "inspect-a-vacant-apartment-before-buying-dubai",
     title: "What to check before buying a Dubai apartment that has been empty for months",
     description: "Plan a pre-purchase inspection for a vacant Dubai apartment. Confirm utility access, look for old moisture clues and record what needs a follow-up.",
